@@ -11,7 +11,7 @@
       "llm",
       "synthetic"
     ],
-    "harm_terms": [
+    "core_terms": [
       "fraud",
       "scam",
       "phishing",
@@ -23,6 +23,15 @@
       "payment fraud",
       "financial crime",
       "voice cloning"
+    ],
+    "support_terms": [
+      "bank",
+      "payment",
+      "consumer",
+      "victim",
+      "loss",
+      "identity",
+      "deepfake"
     ],
     "uk_terms": [
       "uk",
@@ -41,7 +50,7 @@
     ]
   },
   "Deepfake NCII and intimate image abuse": {
-    "query": "(AI OR deepfake OR synthetic media OR generative AI OR nudify OR image generator) (NCII OR non-consensual intimate OR intimate image abuse OR image-based abuse OR deepfake pornography OR synthetic intimate image)",
+    "query": "(AI OR deepfake OR synthetic media OR generative AI OR nudify OR image generator) (non-consensual intimate OR intimate image abuse OR image-based abuse OR deepfake abuse OR explicit deepfake)",
     "ai_terms": [
       "ai",
       "deepfake",
@@ -51,15 +60,22 @@
       "nudify",
       "image generator"
     ],
-    "harm_terms": [
-      "ncii",
+    "core_terms": [
       "non-consensual intimate",
       "intimate image",
       "image-based abuse",
-      "deepfake pornography",
+      "deepfake abuse",
+      "explicit deepfake",
       "synthetic intimate",
-      "nudify",
-      "explicit deepfake"
+      "nudify"
+    ],
+    "support_terms": [
+      "victim",
+      "platform",
+      "removal",
+      "safeguard",
+      "online safety",
+      "harassment"
     ],
     "uk_terms": [
       "uk",
@@ -84,7 +100,7 @@
       "voice cloning",
       "deepfake"
     ],
-    "harm_terms": [
+    "core_terms": [
       "vawg",
       "violence against women",
       "stalking",
@@ -95,6 +111,14 @@
       "technology-facilitated abuse",
       "domestic abuse",
       "misogynistic abuse"
+    ],
+    "support_terms": [
+      "victim",
+      "survivor",
+      "abuse",
+      "online safety",
+      "platform",
+      "safeguarding"
     ],
     "uk_terms": [
       "uk",
@@ -109,7 +133,7 @@
     ]
   },
   "Child safety and exploitation risks": {
-    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR LoRA OR chatbot) (child safety OR child exploitation OR grooming OR IWF OR NSPCC OR child sexual abuse OR AI child abuse)",
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR LoRA OR chatbot) (child safety OR child exploitation OR grooming OR IWF OR NSPCC OR online child abuse)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
@@ -120,16 +144,22 @@
       "chatbot",
       "synthetic"
     ],
-    "harm_terms": [
+    "core_terms": [
       "child safety",
       "child exploitation",
       "grooming",
       "iwf",
       "nspcc",
-      "child abuse",
-      "child sexual abuse",
-      "child sexual exploitation",
-      "ai child abuse"
+      "online child abuse",
+      "child protection",
+      "safeguarding children"
+    ],
+    "support_terms": [
+      "platform",
+      "safeguard",
+      "online safety",
+      "victim",
+      "law enforcement"
     ],
     "uk_terms": [
       "uk",
@@ -145,7 +175,7 @@
     ]
   },
   "Terrorism, extremism and radicalisation": {
-    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR deepfake) (terrorism OR terrorist OR extremism OR extremist OR radicalisation OR radicalization OR propaganda OR recruitment OR attack planning)",
+    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR deepfake) (terrorism OR terrorist OR extremism OR extremist OR radicalisation OR radicalization OR terrorist propaganda OR extremist recruitment OR attack planning)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
@@ -155,17 +185,24 @@
       "deepfake",
       "synthetic"
     ],
-    "harm_terms": [
+    "core_terms": [
       "terrorism",
       "terrorist",
       "extremism",
       "extremist",
       "radicalisation",
       "radicalization",
-      "propaganda",
-      "recruitment",
+      "terrorist propaganda",
+      "extremist recruitment",
       "attack planning",
       "violent extremism"
+    ],
+    "support_terms": [
+      "propaganda",
+      "recruitment",
+      "manifesto",
+      "online radicalisation",
+      "violence"
     ],
     "uk_terms": [
       "uk",
@@ -190,7 +227,7 @@
       "ai agent",
       "chatbot"
     ],
-    "harm_terms": [
+    "core_terms": [
       "malware",
       "ransomware",
       "exploit",
@@ -203,6 +240,14 @@
       "vulnerability",
       "phishing kit",
       "crimeware"
+    ],
+    "support_terms": [
+      "hacker",
+      "threat actor",
+      "attack",
+      "abuse",
+      "model misuse",
+      "security"
     ],
     "uk_terms": [
       "uk",
@@ -225,7 +270,7 @@
       "voice cloning",
       "image generator"
     ],
-    "harm_terms": [
+    "core_terms": [
       "false evidence",
       "fake document",
       "fake identity",
@@ -236,6 +281,14 @@
       "misinformation",
       "impersonation",
       "liar's dividend"
+    ],
+    "support_terms": [
+      "court",
+      "evidence",
+      "document",
+      "verification",
+      "public trust",
+      "authenticity"
     ],
     "uk_terms": [
       "uk",
@@ -249,7 +302,7 @@
     ]
   },
   "AI agents and capability uplift watchlist": {
-    "query": "(AI agent OR agentic AI OR autonomous AI OR computer use agent OR AI browser) (cybercrime OR fraud OR scam OR misuse OR safety OR security OR vulnerability OR autonomous attack)",
+    "query": "(AI agent OR agentic AI OR autonomous AI OR computer use agent OR AI browser) (cybercrime OR fraud OR scam OR misuse OR safety OR security OR vulnerability OR autonomous attack OR prompt injection)",
     "ai_terms": [
       "ai agent",
       "agentic ai",
@@ -258,7 +311,7 @@
       "ai browser",
       "llm agent"
     ],
-    "harm_terms": [
+    "core_terms": [
       "cybercrime",
       "fraud",
       "scam",
@@ -269,6 +322,14 @@
       "autonomous attack",
       "prompt injection",
       "jailbreak"
+    ],
+    "support_terms": [
+      "agent",
+      "tool use",
+      "browser",
+      "computer use",
+      "automation",
+      "misuse"
     ],
     "uk_terms": [
       "uk",
@@ -282,4 +343,3 @@
     ]
   }
 }
-``
