@@ -1,14 +1,14 @@
 {
-  "RA09 – AI-enabled fraud, scams and financial crime": {
-    "query": "(AI OR artificial intelligence OR deepfake OR voice cloning OR chatbot OR LLM OR generative AI) (fraud OR scam OR phishing OR impersonation OR money laundering OR mule account OR romance scam OR synthetic identity)",
+  "Fraud, scams and financial crime": {
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR voice cloning OR chatbot OR LLM) (fraud OR scam OR phishing OR impersonation OR mule account OR romance scam OR synthetic identity OR payment fraud OR financial crime)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
+      "generative ai",
       "deepfake",
       "voice cloning",
       "chatbot",
       "llm",
-      "generative ai",
       "synthetic"
     ],
     "harm_terms": [
@@ -16,32 +16,40 @@
       "scam",
       "phishing",
       "impersonation",
-      "money laundering",
-      "mule",
+      "mule account",
+      "money mule",
       "romance scam",
-      "synthetic identity"
+      "synthetic identity",
+      "payment fraud",
+      "financial crime",
+      "voice cloning"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
+      "england",
+      "wales",
+      "scotland",
       "nca",
       "action fraud",
       "city of london police",
       "fca",
-      "home office",
       "hmrc",
-      "uk finance"
+      "uk finance",
+      "home office"
     ]
   },
-  "RA11a – Deepfake NCII and synthetic intimate image abuse": {
-    "query": "(AI OR deepfake OR synthetic media OR generative AI OR nudify) (NCII OR non-consensual intimate OR intimate image abuse OR image-based abuse OR deepfake pornography)",
+  "Deepfake NCII and intimate image abuse": {
+    "query": "(AI OR deepfake OR synthetic media OR generative AI OR nudify OR image generator) (NCII OR non-consensual intimate OR intimate image abuse OR image-based abuse OR deepfake pornography OR synthetic intimate image)",
     "ai_terms": [
       "ai",
       "deepfake",
       "synthetic",
+      "synthetic media",
       "generative ai",
-      "nudify"
+      "nudify",
+      "image generator"
     ],
     "harm_terms": [
       "ncii",
@@ -49,8 +57,9 @@
       "intimate image",
       "image-based abuse",
       "deepfake pornography",
+      "synthetic intimate",
       "nudify",
-      "synthetic intimate"
+      "explicit deepfake"
     ],
     "uk_terms": [
       "uk",
@@ -59,18 +68,21 @@
       "ofcom",
       "nspcc",
       "iwf",
-      "home office"
+      "police",
+      "home office",
+      "online safety"
     ]
   },
-  "RA11b – Other AI-enabled VAWG behaviours": {
-    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR voice cloning) (VAWG OR stalking OR harassment OR coercion OR sextortion OR grooming OR violence against women)",
+  "Other AI-enabled VAWG behaviours": {
+    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR voice cloning OR deepfake) (VAWG OR violence against women OR stalking OR harassment OR coercion OR sextortion OR digital abuse OR technology-facilitated abuse)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "chatbot",
       "llm",
       "generative ai",
-      "voice cloning"
+      "voice cloning",
+      "deepfake"
     ],
     "harm_terms": [
       "vawg",
@@ -79,9 +91,10 @@
       "harassment",
       "coercion",
       "sextortion",
-      "grooming",
+      "digital abuse",
+      "technology-facilitated abuse",
       "domestic abuse",
-      "digital abuse"
+      "misogynistic abuse"
     ],
     "uk_terms": [
       "uk",
@@ -91,18 +104,21 @@
       "nspcc",
       "refuge",
       "police",
-      "home office"
+      "home office",
+      "online safety"
     ]
   },
-  "RA11c – Child safety and exploitation risks": {
-    "query": "(AI OR artificial intelligence OR deepfake OR generative AI OR image generator OR LoRA) (child safety OR child exploitation OR grooming OR IWF OR NSPCC)",
+  "Child safety and exploitation risks": {
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR LoRA OR chatbot) (child safety OR child exploitation OR grooming OR IWF OR NSPCC OR child sexual abuse OR AI child abuse)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
-      "deepfake",
       "generative ai",
+      "deepfake",
       "image generator",
-      "lora"
+      "lora",
+      "chatbot",
+      "synthetic"
     ],
     "harm_terms": [
       "child safety",
@@ -111,7 +127,9 @@
       "iwf",
       "nspcc",
       "child abuse",
-      "child sexual abuse"
+      "child sexual abuse",
+      "child sexual exploitation",
+      "ai child abuse"
     ],
     "uk_terms": [
       "uk",
@@ -121,18 +139,21 @@
       "nspcc",
       "nca",
       "ofcom",
-      "home office"
+      "police",
+      "home office",
+      "online safety"
     ]
   },
-  "RA13 – Terrorism, extremism and radicalisation": {
-    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR deepfake) (terrorism OR extremist OR extremism OR radicalisation OR radicalization OR terrorist propaganda OR attack planning)",
+  "Terrorism, extremism and radicalisation": {
+    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR deepfake) (terrorism OR terrorist OR extremism OR extremist OR radicalisation OR radicalization OR propaganda OR recruitment OR attack planning)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "chatbot",
       "llm",
       "generative ai",
-      "deepfake"
+      "deepfake",
+      "synthetic"
     ],
     "harm_terms": [
       "terrorism",
@@ -142,7 +163,9 @@
       "radicalisation",
       "radicalization",
       "propaganda",
-      "attack planning"
+      "recruitment",
+      "attack planning",
+      "violent extremism"
     ],
     "uk_terms": [
       "uk",
@@ -151,17 +174,21 @@
       "contest",
       "prevent",
       "mi5",
-      "home office"
+      "police",
+      "home office",
+      "counter-terrorism"
     ]
   },
-  "RA14 – Cyber, illegal items and crime enablement": {
-    "query": "(AI OR artificial intelligence OR LLM OR generative AI OR agentic AI) (malware OR ransomware OR exploit OR jailbreak OR prompt injection OR weapons OR drugs OR dark web OR cybercrime)",
+  "Cyber, malware and illegal items": {
+    "query": "(AI OR artificial intelligence OR LLM OR generative AI OR agentic AI OR AI agent) (malware OR ransomware OR exploit OR jailbreak OR prompt injection OR weapons OR drugs OR dark web OR cybercrime OR vulnerability)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "llm",
       "generative ai",
-      "agentic ai"
+      "agentic ai",
+      "ai agent",
+      "chatbot"
     ],
     "harm_terms": [
       "malware",
@@ -173,7 +200,9 @@
       "drugs",
       "dark web",
       "cybercrime",
-      "vulnerability"
+      "vulnerability",
+      "phishing kit",
+      "crimeware"
     ],
     "uk_terms": [
       "uk",
@@ -181,28 +210,32 @@
       "british",
       "ncsc",
       "nca",
+      "police",
       "home office"
     ]
   },
-  "Cross-cutting – Realistic fakes, evidence and identity abuse": {
-    "query": "(AI OR deepfake OR synthetic media OR generative AI OR voice cloning) (false evidence OR fake document OR fake identity OR border OR immigration OR misinformation OR liar's dividend)",
+  "Realistic fakes, evidence and identity abuse": {
+    "query": "(AI OR deepfake OR synthetic media OR generative AI OR voice cloning OR image generator) (false evidence OR fake document OR fake identity OR identity abuse OR border OR immigration OR misinformation OR impersonation)",
     "ai_terms": [
       "ai",
       "deepfake",
       "synthetic",
+      "synthetic media",
       "generative ai",
-      "voice cloning"
+      "voice cloning",
+      "image generator"
     ],
     "harm_terms": [
       "false evidence",
       "fake document",
       "fake identity",
-      "identity document",
+      "identity abuse",
+      "identity fraud",
       "border",
       "immigration",
       "misinformation",
-      "liar's dividend",
-      "impersonation"
+      "impersonation",
+      "liar's dividend"
     ],
     "uk_terms": [
       "uk",
@@ -211,7 +244,42 @@
       "court",
       "cps",
       "police",
-      "home office"
+      "home office",
+      "ministry of justice"
+    ]
+  },
+  "AI agents and capability uplift watchlist": {
+    "query": "(AI agent OR agentic AI OR autonomous AI OR computer use agent OR AI browser) (cybercrime OR fraud OR scam OR misuse OR safety OR security OR vulnerability OR autonomous attack)",
+    "ai_terms": [
+      "ai agent",
+      "agentic ai",
+      "autonomous ai",
+      "computer use agent",
+      "ai browser",
+      "llm agent"
+    ],
+    "harm_terms": [
+      "cybercrime",
+      "fraud",
+      "scam",
+      "misuse",
+      "safety",
+      "security",
+      "vulnerability",
+      "autonomous attack",
+      "prompt injection",
+      "jailbreak"
+    ],
+    "uk_terms": [
+      "uk",
+      "britain",
+      "british",
+      "ncsc",
+      "aisi",
+      "dsit",
+      "home office",
+      "ofcom"
     ]
   }
 }
+``
