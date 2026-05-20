@@ -1,39 +1,109 @@
 [
   {
-    "name": "Google News RSS",
-    "type": "news_search",
-    "enabled": true
-  },
-  {
     "name": "NCSC News",
     "type": "rss",
     "url": "https://www.ncsc.gov.uk/api/1/services/v1/news-rss.xml",
     "enabled": true,
-    "tags": [
-      "official",
-      "cyber",
-      "uk"
-    ]
-  },
-  {
-    "name": "Ofcom news",
-    "type": "rss",
-    "url": "https://www.ofcom.org.uk/siteassets/resources/rss/ofcom.xml",
-    "enabled": false,
+    "source_type": "official_uk_cyber",
     "tags": [
       "official",
       "uk",
-      "online safety"
+      "cyber"
     ]
   },
   {
-    "name": "HN prompt injection",
+    "name": "NCSC All",
     "type": "rss",
-    "url": "https://hnrss.org/newest?q=prompt+injection+OR+jailbreak",
-    "enabled": false,
+    "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+    "enabled": true,
+    "source_type": "official_uk_cyber",
     "tags": [
-      "community",
-      "cyber"
+      "official",
+      "uk",
+      "cyber",
+      "guidance"
+    ]
+  },
+  {
+    "name": "BleepingComputer",
+    "type": "rss",
+    "url": "https://www.bleepingcomputer.com/feed/",
+    "enabled": true,
+    "source_type": "cyber_news",
+    "tags": [
+      "cyber",
+      "malware",
+      "fraud",
+      "security"
+    ]
+  },
+  {
+    "name": "The Record",
+    "type": "rss",
+    "url": "https://therecord.media/feed",
+    "enabled": true,
+    "source_type": "cyber_news",
+    "tags": [
+      "cyber",
+      "security",
+      "crime"
+    ]
+  },
+  {
+    "name": "The Hacker News",
+    "type": "rss",
+    "url": "https://feeds.feedburner.com/TheHackersNews",
+    "enabled": true,
+    "source_type": "cyber_news",
+    "tags": [
+      "cyber",
+      "security",
+      "vulnerability"
+    ]
+  },
+  {
+    "name": "MIT Technology Review AI",
+    "type": "rss",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "enabled": true,
+    "source_type": "ai_analysis",
+    "tags": [
+      "ai",
+      "research",
+      "society"
+    ]
+  },
+  {
+    "name": "Hacker News: AI agents / prompt injection",
+    "type": "rss",
+    "url": "https://hnrss.org/newest?q=AI+agent+OR+agentic+AI+OR+prompt+injection",
+    "enabled": true,
+    "source_type": "early_signal",
+    "tags": [
+      "ai_agents",
+      "prompt_injection"
+    ]
+  },
+  {
+    "name": "Hacker News: open models",
+    "type": "rss",
+    "url": "https://hnrss.org/newest?q=open+source+AI+OR+open-weight+OR+model+weights+OR+Hugging+Face",
+    "enabled": true,
+    "source_type": "early_signal",
+    "tags": [
+      "open_models",
+      "model_weights"
+    ]
+  },
+  {
+    "name": "Hacker News: Grok / xAI",
+    "type": "rss",
+    "url": "https://hnrss.org/newest?q=Grok+OR+xAI",
+    "enabled": true,
+    "source_type": "early_signal",
+    "tags": [
+      "grok",
+      "xai"
     ]
   }
 ]
