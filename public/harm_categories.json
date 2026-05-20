@@ -1,16 +1,31 @@
 {
-  "Fraud, scams and financial crime": {
-    "description": "Misuse of AI to increase the scale, realism or targeting of fraud and financial exploitation.",
-    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR voice cloning OR chatbot OR LLM) (fraud OR scam OR phishing OR impersonation OR mule account OR romance scam OR synthetic identity OR payment fraud OR financial crime)",
+  "RA09 – AI-enabled fraud, financial crime and exploitation": {
+    "risk_area": "RA09",
+    "family": "AI misuse / harms",
+    "description": "AI used to increase the scale, realism, targeting or automation of fraud, scams, financial crime and exploitation.",
+    "what_counts": [
+      "AI-enabled fraud, scams, phishing or impersonation",
+      "Voice cloning or synthetic media used for financial deception",
+      "AI-enabled money laundering, mule recruitment or synthetic identity fraud",
+      "Public, banking, payment, law-enforcement or regulatory responses"
+    ],
+    "what_does_not_count": [
+      "Generic business AI adoption with no crime or harm signal",
+      "General fintech automation with no fraud or exploitation relevance"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR voice cloning OR chatbot OR LLM OR synthetic media) (fraud OR scam OR phishing OR impersonation OR mule account OR money mule OR romance scam OR synthetic identity OR payment fraud OR financial crime OR money laundering)",
+    "semantic_profile": "AI-enabled fraud, scams, phishing, voice cloning, impersonation, synthetic identity, payment fraud, money laundering and financial exploitation.",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "generative ai",
+      "genai",
       "deepfake",
-      "voice cloning",
+      "synthetic media",
       "chatbot",
       "llm",
-      "synthetic"
+      "voice cloning",
+      "synthetic voice"
     ],
     "core_terms": [
       "fraud",
@@ -23,6 +38,7 @@
       "synthetic identity",
       "payment fraud",
       "financial crime",
+      "money laundering",
       "voice cloning"
     ],
     "support_terms": [
@@ -32,7 +48,9 @@
       "victim",
       "loss",
       "identity",
-      "deepfake"
+      "account takeover",
+      "social engineering",
+      "regulator"
     ],
     "uk_terms": [
       "uk",
@@ -41,158 +59,215 @@
       "england",
       "wales",
       "scotland",
+      "home office",
       "nca",
-      "action fraud",
-      "city of london police",
+      "police",
+      "ofcom",
+      "ncsc",
       "fca",
       "hmrc",
-      "uk finance",
-      "home office"
+      "cps",
+      "dsit",
+      "aisi"
+    ],
+    "policy_implications": [
+      "fraud prevention",
+      "public resilience",
+      "industry engagement",
+      "law enforcement readiness",
+      "regulatory response"
     ]
   },
-  "Deepfake NCII and intimate image abuse": {
-    "description": "Synthetic intimate image abuse, nudification tools and non-consensual intimate image harms.",
-    "query": "(AI OR deepfake OR synthetic media OR generative AI OR nudify OR image generator) (non-consensual intimate OR intimate image abuse OR image-based abuse OR deepfake abuse OR explicit deepfake)",
-    "ai_terms": [
-      "ai",
-      "deepfake",
-      "synthetic",
-      "synthetic media",
-      "generative ai",
-      "nudify",
-      "image generator"
+  "RA11 – Image-based abuse, VAWG and interpersonal harms": {
+    "risk_area": "RA11",
+    "family": "AI misuse / harms",
+    "description": "AI-enabled image-based abuse, stalking, harassment, coercive behaviour and wider technology-facilitated interpersonal harms.",
+    "what_counts": [
+      "AI-generated or AI-manipulated image-based abuse",
+      "AI-enabled stalking, harassment, coercion, extortion or impersonation in interpersonal abuse contexts",
+      "Platform, policing, victim support or regulatory responses"
     ],
-    "core_terms": [
-      "non-consensual intimate",
-      "intimate image",
-      "image-based abuse",
-      "deepfake abuse",
-      "explicit deepfake",
-      "synthetic intimate",
-      "nudify"
+    "what_does_not_count": [
+      "Generic deepfake entertainment stories with no victim, abuse, fraud, public safety or policy relevance",
+      "General online safety stories with no AI-enabled abuse signal"
     ],
-    "support_terms": [
-      "victim",
-      "platform",
-      "removal",
-      "safeguard",
-      "online safety",
-      "harassment"
-    ],
-    "uk_terms": [
-      "uk",
-      "britain",
-      "british",
-      "ofcom",
-      "nspcc",
-      "iwf",
-      "police",
-      "home office",
-      "online safety"
-    ]
-  },
-  "Other AI-enabled VAWG behaviours": {
-    "description": "AI-enabled stalking, harassment, coercive behaviour, sextortion and wider technology-facilitated abuse.",
-    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR voice cloning OR deepfake) (VAWG OR violence against women OR stalking OR harassment OR coercion OR sextortion OR digital abuse OR technology-facilitated abuse)",
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR synthetic media OR image generator OR voice cloning OR chatbot) (NCII OR image-based abuse OR intimate image abuse OR deepfake abuse OR VAWG OR stalking OR harassment OR coercive control OR technology-facilitated abuse OR digital abuse OR sextortion OR extortion)",
+    "semantic_profile": "AI-enabled image-based abuse, NCII, deepfake abuse, VAWG, stalking, harassment, coercive control, sextortion, extortion and technology-facilitated interpersonal abuse.",
     "ai_terms": [
       "ai",
       "artificial intelligence",
+      "generative ai",
+      "genai",
+      "deepfake",
+      "synthetic media",
       "chatbot",
       "llm",
-      "generative ai",
-      "voice cloning",
-      "deepfake"
+      "image generator",
+      "voice cloning"
     ],
     "core_terms": [
+      "ncii",
+      "image-based abuse",
+      "intimate image abuse",
+      "deepfake abuse",
       "vawg",
-      "violence against women",
       "stalking",
       "harassment",
-      "coercion",
-      "sextortion",
-      "digital abuse",
+      "coercive control",
       "technology-facilitated abuse",
-      "domestic abuse",
-      "misogynistic abuse"
+      "digital abuse",
+      "sextortion",
+      "extortion",
+      "impersonation"
     ],
     "support_terms": [
       "victim",
       "survivor",
-      "abuse",
-      "online safety",
       "platform",
-      "safeguarding"
+      "removal",
+      "online safety",
+      "safeguarding",
+      "reporting",
+      "support service"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
-      "ofcom",
-      "nspcc",
-      "refuge",
-      "police",
+      "england",
+      "wales",
+      "scotland",
       "home office",
-      "online safety"
-    ]
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi",
+      "refuge",
+      "victim support"
+    ],
+    "policy_implications": [
+      "VAWG policy",
+      "victim support",
+      "online safety",
+      "platform safety",
+      "law enforcement readiness"
+    ],
+    "sensitive": true,
+    "display_reason": "Image-based abuse / interpersonal harm signal"
   },
-  "Child safeguarding and online protection risks": {
-    "description": "Signals about child safeguarding, online protection, platform safety and AI-related safeguarding risks.",
-    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR chatbot) (child safety OR child safeguarding OR online child protection OR IWF OR NSPCC OR Ofcom online safety OR child protection technology)",
+  "RA11 – Child safeguarding and online protection risks": {
+    "risk_area": "RA11",
+    "family": "AI misuse / harms",
+    "description": "AI-related child safeguarding, online child protection, platform safety, detection, reporting and prevention signals using public/professional terminology.",
+    "what_counts": [
+      "AI-related child safeguarding and online child protection reporting",
+      "AI tools, platforms or model risks discussed by trusted safeguarding, regulator or law-enforcement sources",
+      "Detection, prevention, reporting, takedown or support responses"
+    ],
+    "what_does_not_count": [
+      "General education technology stories with no safeguarding or online protection signal",
+      "Generic parenting or online-safety stories with no AI signal"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR chatbot OR synthetic media) (child safety OR child safeguarding OR online child protection OR IWF OR NSPCC OR Ofcom online safety OR Thorn OR child protection technology OR safeguarding technology OR CSAM)",
+    "semantic_profile": "AI-related child safeguarding, online child protection, CSAM reporting, platform safety, detection, reporting, prevention, takedown and law-enforcement safeguarding signals.",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "generative ai",
+      "genai",
       "deepfake",
-      "image generator",
+      "synthetic media",
       "chatbot",
-      "synthetic"
+      "llm",
+      "image generator"
     ],
     "core_terms": [
       "child safety",
       "child safeguarding",
       "online child protection",
       "child protection technology",
+      "safeguarding technology",
       "iwf",
       "nspcc",
-      "ofcom online safety"
+      "ofcom online safety",
+      "thorn",
+      "csam",
+      "online safety"
     ],
     "support_terms": [
       "safeguarding",
-      "online safety",
       "platform",
       "law enforcement",
       "protection",
       "reporting",
       "detection",
-      "prevention"
+      "prevention",
+      "takedown",
+      "moderation",
+      "victim support"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
+      "england",
+      "wales",
+      "scotland",
+      "home office",
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi",
       "iwf",
       "nspcc",
-      "nca",
-      "ofcom",
-      "police",
-      "home office",
-      "online safety"
+      "thorn"
     ],
-    "sensitive_key": "child_safeguarding",
+    "policy_implications": [
+      "safeguarding",
+      "platform safety",
+      "law enforcement readiness",
+      "online safety",
+      "public resilience"
+    ],
     "sensitive": true,
-    "display_reason": "Child safeguarding signal"
+    "display_reason": "Child safeguarding signal",
+    "sensitive_key": "child_safeguarding"
   },
-  "Terrorism, extremism and radicalisation": {
-    "description": "AI-enabled extremist propaganda, radicalisation, recruitment, synthetic media or attack-planning capability.",
-    "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR deepfake) (terrorism OR terrorist OR extremism OR extremist OR radicalisation OR radicalization OR terrorist propaganda OR extremist recruitment OR attack planning)",
+  "RA13 – Terrorism, extremism and radicalisation": {
+    "risk_area": "RA13",
+    "family": "AI misuse / harms",
+    "description": "AI-enabled terrorism, extremist propaganda, radicalisation, recruitment, synthetic media and attack-planning capability signals.",
+    "what_counts": [
+      "AI-enabled extremist propaganda, recruitment or radicalisation",
+      "Synthetic media, chatbots or model misuse connected to terrorism or violent extremism",
+      "Counter-terrorism, platform, law-enforcement or prevention responses"
+    ],
+    "what_does_not_count": [
+      "Generic political content or misinformation with no terrorism/extremism signal",
+      "General AI safety stories with no public safety or national security relevance"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR chatbot OR LLM OR deepfake OR synthetic media) (terrorism OR terrorist OR extremism OR extremist OR radicalisation OR radicalization OR terrorist propaganda OR extremist recruitment OR attack planning OR violent extremism)",
+    "semantic_profile": "AI-enabled terrorism, terrorist propaganda, extremist recruitment, radicalisation, synthetic media, violent extremism and attack planning capability.",
     "ai_terms": [
       "ai",
       "artificial intelligence",
+      "generative ai",
+      "genai",
+      "deepfake",
+      "synthetic media",
       "chatbot",
       "llm",
-      "generative ai",
-      "deepfake",
-      "synthetic"
+      "ai agent"
     ],
     "core_terms": [
       "terrorism",
@@ -211,44 +286,156 @@
       "recruitment",
       "manifesto",
       "online radicalisation",
-      "violence"
+      "public safety",
+      "counter-terrorism",
+      "platform",
+      "moderation"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
+      "england",
+      "wales",
+      "scotland",
+      "home office",
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi",
       "contest",
       "prevent",
       "mi5",
-      "police",
-      "home office",
       "counter-terrorism"
+    ],
+    "policy_implications": [
+      "counter-terrorism",
+      "national security",
+      "platform safety",
+      "public safety",
+      "operational readiness"
     ]
   },
-  "Cyber, malware and illegal items": {
-    "description": "AI-enabled cyber misuse, malware, exploit development, prompt injection, and facilitation of illegal items.",
-    "query": "(AI OR artificial intelligence OR LLM OR generative AI OR agentic AI OR AI agent) (malware OR ransomware OR exploit OR jailbreak OR prompt injection OR weapons OR drugs OR dark web OR cybercrime OR vulnerability)",
+  "RA14 – Illegal item creation, acquisition and criminal capability uplift": {
+    "risk_area": "RA14",
+    "family": "AI misuse / harms",
+    "description": "AI-enabled facilitation of illegal item creation/acquisition, illicit markets and criminal capability uplift.",
+    "what_counts": [
+      "AI tools or models facilitating illegal item creation or acquisition",
+      "AI-enabled illicit supply chains or marketplace facilitation",
+      "Policy, enforcement, platform or regulatory responses"
+    ],
+    "what_does_not_count": [
+      "General manufacturing, chemistry, 3D printing or logistics with no illicit or public safety signal",
+      "Generic AI capability stories with no crime or harm connection"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR LLM OR chatbot OR AI agent) (illegal items OR weapons OR firearms OR drugs OR counterfeit goods OR dark web OR crimeware OR illicit marketplace OR 3D printing crime)",
+    "semantic_profile": "AI-enabled illegal item creation or acquisition, illicit markets, weapons, drugs, counterfeit goods, dark web facilitation and capability uplift.",
     "ai_terms": [
       "ai",
       "artificial intelligence",
-      "llm",
       "generative ai",
-      "agentic ai",
+      "genai",
+      "deepfake",
+      "synthetic media",
+      "chatbot",
+      "llm",
       "ai agent",
-      "chatbot"
+      "agentic ai"
+    ],
+    "core_terms": [
+      "illegal items",
+      "weapons",
+      "firearms",
+      "drugs",
+      "counterfeit goods",
+      "dark web",
+      "crimeware",
+      "illicit marketplace",
+      "3d printing crime"
+    ],
+    "support_terms": [
+      "supply chain",
+      "marketplace",
+      "law enforcement",
+      "platform",
+      "border",
+      "customs",
+      "trafficking",
+      "acquisition",
+      "manufacturing"
+    ],
+    "uk_terms": [
+      "uk",
+      "britain",
+      "british",
+      "england",
+      "wales",
+      "scotland",
+      "home office",
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi",
+      "border force"
+    ],
+    "policy_implications": [
+      "illegal item control",
+      "border security",
+      "platform safety",
+      "law enforcement readiness",
+      "regulatory response"
+    ]
+  },
+  "Cybercrime, malware and model abuse": {
+    "risk_area": "Cross-cutting / cyber",
+    "family": "AI misuse / harms",
+    "description": "AI-enabled cybercrime, malware, ransomware, exploit development, phishing kits, jailbreaking, prompt injection and model/system abuse.",
+    "what_counts": [
+      "AI-enabled cybercrime or automation of cyber offending",
+      "AI assistance in malware, ransomware, phishing, exploit development or vulnerability discovery",
+      "Prompt injection, jailbreaking, model tampering or misuse affecting safety/security"
+    ],
+    "what_does_not_count": [
+      "Generic enterprise cyber product marketing with no AI-enabled threat signal",
+      "Routine software vulnerability stories with no AI or model misuse connection"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR LLM OR chatbot OR AI agent OR agentic AI) (malware OR ransomware OR phishing kit OR exploit OR vulnerability OR cybercrime OR jailbreak OR prompt injection OR model tampering OR data poisoning OR crimeware)",
+    "semantic_profile": "AI-enabled cybercrime, malware, ransomware, phishing kits, exploits, vulnerabilities, prompt injection, jailbreaking, model tampering, data poisoning and crimeware.",
+    "ai_terms": [
+      "ai",
+      "artificial intelligence",
+      "generative ai",
+      "genai",
+      "deepfake",
+      "synthetic media",
+      "chatbot",
+      "llm",
+      "ai agent",
+      "agentic ai",
+      "model"
     ],
     "core_terms": [
       "malware",
       "ransomware",
+      "phishing kit",
       "exploit",
+      "vulnerability",
+      "cybercrime",
       "jailbreak",
       "prompt injection",
-      "weapons",
-      "drugs",
-      "dark web",
-      "cybercrime",
-      "vulnerability",
-      "phishing kit",
+      "model tampering",
+      "data poisoning",
       "crimeware"
     ],
     "support_terms": [
@@ -257,29 +444,64 @@
       "attack",
       "abuse",
       "model misuse",
-      "security"
+      "security",
+      "safeguard",
+      "red team",
+      "testing"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
-      "ncsc",
+      "england",
+      "wales",
+      "scotland",
+      "home office",
       "nca",
       "police",
-      "home office"
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi"
+    ],
+    "policy_implications": [
+      "cyber policy",
+      "testing and safeguards",
+      "standards",
+      "operational readiness",
+      "regulatory response"
     ]
   },
-  "Realistic fakes, evidence and identity abuse": {
-    "description": "AI-generated realistic fakes affecting identity, public trust, evidential integrity, borders or justice processes.",
-    "query": "(AI OR deepfake OR synthetic media OR generative AI OR voice cloning OR image generator) (false evidence OR fake document OR fake identity OR identity abuse OR border OR immigration OR misinformation OR impersonation)",
+  "Realistic fakes, evidence, identity and public trust": {
+    "risk_area": "Cross-cutting / identity and evidence integrity",
+    "family": "AI misuse / harms",
+    "description": "AI-generated realistic fakes affecting identity, public trust, evidential integrity, borders, immigration, courts and justice processes.",
+    "what_counts": [
+      "AI-generated or AI-manipulated realistic fakes used in identity, evidence, immigration or justice contexts",
+      "Synthetic media affecting public trust, official processes or criminal justice outcomes",
+      "Detection, provenance, watermarking, verification or forensic response signals"
+    ],
+    "what_does_not_count": [
+      "Generic image/video generation with no identity, evidence, fraud, public trust or policy relevance",
+      "Creative AI stories with no harm, safety or institutional integrity signal"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR synthetic media OR voice cloning OR image generator OR video generator) (false evidence OR fake document OR fake identity OR identity abuse OR identity fraud OR border OR immigration OR court evidence OR misinformation OR impersonation OR provenance OR watermarking OR content authenticity)",
+    "semantic_profile": "AI-generated realistic fakes, false evidence, fake documents, identity abuse, border and immigration risks, court evidence integrity, misinformation, impersonation, provenance and content authenticity.",
     "ai_terms": [
       "ai",
-      "deepfake",
-      "synthetic",
-      "synthetic media",
+      "artificial intelligence",
       "generative ai",
-      "voice cloning",
-      "image generator"
+      "genai",
+      "deepfake",
+      "synthetic media",
+      "chatbot",
+      "llm",
+      "image generator",
+      "video generator",
+      "voice cloning"
     ],
     "core_terms": [
       "false evidence",
@@ -289,9 +511,12 @@
       "identity fraud",
       "border",
       "immigration",
+      "court evidence",
       "misinformation",
       "impersonation",
-      "liar's dividend"
+      "provenance",
+      "watermarking",
+      "content authenticity"
     ],
     "support_terms": [
       "court",
@@ -299,70 +524,220 @@
       "document",
       "verification",
       "public trust",
-      "authenticity"
+      "authenticity",
+      "forensics",
+      "detection",
+      "official process"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
-      "court",
-      "cps",
-      "police",
+      "england",
+      "wales",
+      "scotland",
       "home office",
-      "ministry of justice"
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi",
+      "ministry of justice",
+      "border force"
+    ],
+    "policy_implications": [
+      "criminal justice",
+      "identity assurance",
+      "border security",
+      "public trust",
+      "detection and provenance"
     ]
   },
-  "AI agents and capability uplift watchlist": {
-    "description": "Emerging agentic systems or capability uplift signals that may change offender workflows or defensive requirements.",
-    "query": "(AI agent OR agentic AI OR autonomous AI OR computer use agent OR AI browser) (cybercrime OR fraud OR scam OR misuse OR safety OR security OR vulnerability OR autonomous attack OR prompt injection)",
+  "Open-source and open-weight model risk": {
+    "risk_area": "Cross-cutting / open-source and supply chain",
+    "family": "Capability watch",
+    "description": "Risks and mitigations relating to open-source/open-weight model release, hosting, downstream modification, offline use and supply-chain control points.",
+    "what_counts": [
+      "Open-source or open-weight model release, hosting, distribution or downstream modification",
+      "Evidence about offline use, fine-tuning, abliterated models, safeguard removal or model hosting controls",
+      "Supply-chain, regulatory, platform or international policy responses"
+    ],
+    "what_does_not_count": [
+      "General open-source software stories with no AI model or harm relevance",
+      "Generic AI openness debates with no risk, safeguard or policy signal"
+    ],
+    "query": "(AI OR artificial intelligence OR generative AI OR LLM OR model weights OR open-weight OR open source model OR open-source model OR Hugging Face OR local model) (misuse OR harm OR safety OR safeguards OR fine-tuning OR jailbreak OR abliterated OR model hosting OR model release OR downstream modification OR offline use)",
+    "semantic_profile": "Open-source AI, open-weight models, model weights, local models, hosting platforms, downstream modification, fine-tuning, abliterated models, safeguard removal, offline use and supply-chain risk.",
+    "ai_terms": [
+      "ai",
+      "artificial intelligence",
+      "generative ai",
+      "genai",
+      "deepfake",
+      "synthetic media",
+      "chatbot",
+      "llm",
+      "model weights",
+      "open-weight",
+      "open source model",
+      "open-source model",
+      "hugging face",
+      "local model"
+    ],
+    "core_terms": [
+      "misuse",
+      "harm",
+      "safety",
+      "safeguards",
+      "fine-tuning",
+      "jailbreak",
+      "abliterated",
+      "model hosting",
+      "model release",
+      "downstream modification",
+      "offline use",
+      "open-weight",
+      "model weights"
+    ],
+    "support_terms": [
+      "supply chain",
+      "platform",
+      "hosting",
+      "release",
+      "licence",
+      "developer",
+      "safety testing",
+      "red teaming",
+      "monitoring",
+      "takedown"
+    ],
+    "uk_terms": [
+      "uk",
+      "britain",
+      "british",
+      "england",
+      "wales",
+      "scotland",
+      "home office",
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi"
+    ],
+    "policy_implications": [
+      "open-source policy",
+      "supply-chain control",
+      "testing and safeguards",
+      "industry engagement",
+      "international alignment"
+    ]
+  },
+  "AI agents and autonomous capability uplift": {
+    "risk_area": "Cross-cutting / future capability",
+    "family": "Capability watch",
+    "description": "Emerging agentic systems, tool-use agents and autonomous workflows that may change offender capability, scale or operational response needs.",
+    "what_counts": [
+      "AI agents, autonomous AI, computer-use agents or tool-use systems relevant to crime, public safety or national security",
+      "Evidence of agents improving task completion, automation, social engineering, cyber activity or fraud workflows",
+      "Safety, standards, monitoring or policy responses to agentic AI"
+    ],
+    "what_does_not_count": [
+      "Generic productivity agent announcements with no misuse, safety, governance or public sector relevance",
+      "Routine automation tools with no AI or autonomous capability signal"
+    ],
+    "query": "(AI agent OR agentic AI OR autonomous AI OR autonomous agent OR computer use agent OR browser agent OR tool use OR agentic workflow) (crime OR fraud OR scam OR cybercrime OR misuse OR safety OR security OR vulnerability OR autonomous attack OR prompt injection OR public safety)",
+    "semantic_profile": "AI agents, agentic AI, autonomous agents, computer-use agents, browser agents, tool use, agentic workflows, criminal misuse, cybercrime, fraud automation, autonomous attack and public safety risk.",
     "ai_terms": [
       "ai agent",
       "agentic ai",
       "autonomous ai",
+      "autonomous agent",
       "computer use agent",
-      "ai browser",
-      "llm agent"
+      "browser agent",
+      "tool use",
+      "agentic workflow"
     ],
     "core_terms": [
-      "cybercrime",
+      "crime",
       "fraud",
       "scam",
+      "cybercrime",
       "misuse",
       "safety",
       "security",
       "vulnerability",
       "autonomous attack",
       "prompt injection",
-      "jailbreak"
+      "public safety"
     ],
     "support_terms": [
-      "agent",
-      "tool use",
+      "automation",
+      "workflow",
       "browser",
       "computer use",
-      "automation",
-      "misuse"
+      "tool use",
+      "capability",
+      "evaluation",
+      "monitoring",
+      "guardrails"
     ],
     "uk_terms": [
       "uk",
       "britain",
       "british",
-      "ncsc",
-      "aisi",
-      "dsit",
+      "england",
+      "wales",
+      "scotland",
       "home office",
-      "ofcom"
+      "nca",
+      "police",
+      "ofcom",
+      "ncsc",
+      "fca",
+      "hmrc",
+      "cps",
+      "dsit",
+      "aisi"
+    ],
+    "policy_implications": [
+      "future capability",
+      "testing",
+      "standards",
+      "operational readiness",
+      "industry engagement"
     ]
   },
   "Use of AI to tackle crime and public safety": {
-    "description": "Examples of AI being used by law enforcement, regulators, platforms or public bodies to prevent, detect or respond to crime and harm.",
-    "query": "(AI OR artificial intelligence OR machine learning OR generative AI) (police OR law enforcement OR regulator OR public safety OR crime detection OR fraud detection OR safeguarding tool OR investigation tool OR victim support OR content moderation)",
+    "risk_area": "AI as mitigation / operational capability",
+    "family": "AI as mitigation / response",
+    "description": "Examples of AI being used by law enforcement, regulators, platforms or public bodies to prevent, detect, investigate or respond to crime and harm.",
+    "what_counts": [
+      "AI tools used to detect, prevent, investigate or respond to crime or public safety harms",
+      "AI used by police, regulators, platforms, financial institutions or public bodies in crime/safety contexts",
+      "Operational pilots, assurance, ethics, safeguards, governance or deployment evidence"
+    ],
+    "what_does_not_count": [
+      "Generic public sector AI productivity stories with no crime, public safety or harm relevance",
+      "Commercial AI product announcements with no operational, regulatory or public safety signal"
+    ],
+    "query": "(AI OR artificial intelligence OR machine learning OR generative AI OR algorithmic tool OR analytics) (police OR law enforcement OR regulator OR public safety OR crime detection OR fraud detection OR safeguarding tool OR investigation tool OR victim support OR content moderation OR digital forensics)",
+    "semantic_profile": "Use of AI by police, law enforcement, regulators, platforms, financial institutions or public bodies to detect crime, prevent crime, support safeguarding, investigate harm, improve public safety or support victims.",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "machine learning",
       "generative ai",
-      "algorithm",
+      "algorithmic tool",
+      "analytics",
       "automation"
     ],
     "core_terms": [
@@ -376,6 +751,7 @@
       "investigation tool",
       "victim support",
       "content moderation",
+      "digital forensics",
       "detect crime",
       "prevent crime"
     ],
@@ -389,7 +765,9 @@
       "risk assessment",
       "safeguarding",
       "operational",
-      "public sector"
+      "public sector",
+      "ethics",
+      "assurance"
     ],
     "uk_terms": [
       "uk",
@@ -399,13 +777,23 @@
       "wales",
       "scotland",
       "home office",
-      "police",
       "nca",
-      "ncsc",
+      "police",
       "ofcom",
+      "ncsc",
       "fca",
       "hmrc",
-      "cps"
+      "cps",
+      "dsit",
+      "aisi",
+      "college of policing"
+    ],
+    "policy_implications": [
+      "operational capability",
+      "innovation",
+      "ethics and assurance",
+      "law enforcement readiness",
+      "public safety response"
     ]
   }
 }
