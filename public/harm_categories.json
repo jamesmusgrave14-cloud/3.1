@@ -1,5 +1,6 @@
 {
   "Fraud, scams and financial crime": {
+    "description": "Misuse of AI to increase the scale, realism or targeting of fraud and financial exploitation.",
     "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR voice cloning OR chatbot OR LLM) (fraud OR scam OR phishing OR impersonation OR mule account OR romance scam OR synthetic identity OR payment fraud OR financial crime)",
     "ai_terms": [
       "ai",
@@ -50,6 +51,7 @@
     ]
   },
   "Deepfake NCII and intimate image abuse": {
+    "description": "Synthetic intimate image abuse, nudification tools and non-consensual intimate image harms.",
     "query": "(AI OR deepfake OR synthetic media OR generative AI OR nudify OR image generator) (non-consensual intimate OR intimate image abuse OR image-based abuse OR deepfake abuse OR explicit deepfake)",
     "ai_terms": [
       "ai",
@@ -90,6 +92,7 @@
     ]
   },
   "Other AI-enabled VAWG behaviours": {
+    "description": "AI-enabled stalking, harassment, coercive behaviour, sextortion and wider technology-facilitated abuse.",
     "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR voice cloning OR deepfake) (VAWG OR violence against women OR stalking OR harassment OR coercion OR sextortion OR digital abuse OR technology-facilitated abuse)",
     "ai_terms": [
       "ai",
@@ -132,34 +135,36 @@
       "online safety"
     ]
   },
-  "Child safety and exploitation risks": {
-    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR LoRA OR chatbot) (child safety OR child exploitation OR grooming OR IWF OR NSPCC OR online child abuse)",
+  "Child safeguarding and online protection risks": {
+    "description": "Signals about child safeguarding, online protection, platform safety and AI-related safeguarding risks.",
+    "query": "(AI OR artificial intelligence OR generative AI OR deepfake OR image generator OR chatbot) (child safety OR child safeguarding OR online child protection OR IWF OR NSPCC OR Ofcom online safety OR child protection technology)",
     "ai_terms": [
       "ai",
       "artificial intelligence",
       "generative ai",
       "deepfake",
       "image generator",
-      "lora",
       "chatbot",
       "synthetic"
     ],
     "core_terms": [
       "child safety",
-      "child exploitation",
-      "grooming",
+      "child safeguarding",
+      "online child protection",
+      "child protection technology",
       "iwf",
       "nspcc",
-      "online child abuse",
-      "child protection",
-      "safeguarding children"
+      "ofcom online safety"
     ],
     "support_terms": [
-      "platform",
-      "safeguard",
+      "safeguarding",
       "online safety",
-      "victim",
-      "law enforcement"
+      "platform",
+      "law enforcement",
+      "protection",
+      "reporting",
+      "detection",
+      "prevention"
     ],
     "uk_terms": [
       "uk",
@@ -172,9 +177,13 @@
       "police",
       "home office",
       "online safety"
-    ]
+    ],
+    "sensitive_key": "child_safeguarding",
+    "sensitive": true,
+    "display_reason": "Child safeguarding signal"
   },
   "Terrorism, extremism and radicalisation": {
+    "description": "AI-enabled extremist propaganda, radicalisation, recruitment, synthetic media or attack-planning capability.",
     "query": "(AI OR artificial intelligence OR chatbot OR LLM OR generative AI OR deepfake) (terrorism OR terrorist OR extremism OR extremist OR radicalisation OR radicalization OR terrorist propaganda OR extremist recruitment OR attack planning)",
     "ai_terms": [
       "ai",
@@ -217,6 +226,7 @@
     ]
   },
   "Cyber, malware and illegal items": {
+    "description": "AI-enabled cyber misuse, malware, exploit development, prompt injection, and facilitation of illegal items.",
     "query": "(AI OR artificial intelligence OR LLM OR generative AI OR agentic AI OR AI agent) (malware OR ransomware OR exploit OR jailbreak OR prompt injection OR weapons OR drugs OR dark web OR cybercrime OR vulnerability)",
     "ai_terms": [
       "ai",
@@ -260,6 +270,7 @@
     ]
   },
   "Realistic fakes, evidence and identity abuse": {
+    "description": "AI-generated realistic fakes affecting identity, public trust, evidential integrity, borders or justice processes.",
     "query": "(AI OR deepfake OR synthetic media OR generative AI OR voice cloning OR image generator) (false evidence OR fake document OR fake identity OR identity abuse OR border OR immigration OR misinformation OR impersonation)",
     "ai_terms": [
       "ai",
@@ -302,6 +313,7 @@
     ]
   },
   "AI agents and capability uplift watchlist": {
+    "description": "Emerging agentic systems or capability uplift signals that may change offender workflows or defensive requirements.",
     "query": "(AI agent OR agentic AI OR autonomous AI OR computer use agent OR AI browser) (cybercrime OR fraud OR scam OR misuse OR safety OR security OR vulnerability OR autonomous attack OR prompt injection)",
     "ai_terms": [
       "ai agent",
@@ -340,6 +352,60 @@
       "dsit",
       "home office",
       "ofcom"
+    ]
+  },
+  "Use of AI to tackle crime and public safety": {
+    "description": "Examples of AI being used by law enforcement, regulators, platforms or public bodies to prevent, detect or respond to crime and harm.",
+    "query": "(AI OR artificial intelligence OR machine learning OR generative AI) (police OR law enforcement OR regulator OR public safety OR crime detection OR fraud detection OR safeguarding tool OR investigation tool OR victim support OR content moderation)",
+    "ai_terms": [
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "generative ai",
+      "algorithm",
+      "automation"
+    ],
+    "core_terms": [
+      "police",
+      "law enforcement",
+      "regulator",
+      "public safety",
+      "crime detection",
+      "fraud detection",
+      "safeguarding tool",
+      "investigation tool",
+      "victim support",
+      "content moderation",
+      "detect crime",
+      "prevent crime"
+    ],
+    "support_terms": [
+      "tool",
+      "pilot",
+      "trial",
+      "deployment",
+      "casework",
+      "investigation",
+      "risk assessment",
+      "safeguarding",
+      "operational",
+      "public sector"
+    ],
+    "uk_terms": [
+      "uk",
+      "britain",
+      "british",
+      "england",
+      "wales",
+      "scotland",
+      "home office",
+      "police",
+      "nca",
+      "ncsc",
+      "ofcom",
+      "fca",
+      "hmrc",
+      "cps"
     ]
   }
 }
