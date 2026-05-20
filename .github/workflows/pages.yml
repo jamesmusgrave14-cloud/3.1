@@ -26,8 +26,8 @@ jobs:
         run: python scripts/update_news.py
         env:
           MIN_SCORE: "5"
-          SCAN_WINDOW: "60d"
-          MAX_PER_CATEGORY: "35"
+          SCAN_WINDOW: "90d"
+          MAX_PER_CATEGORY: "40"
           SENSITIVE_TERMS_JSON: ${{ secrets.SENSITIVE_TERMS_JSON }}
       - uses: actions/setup-node@v4
         with:
