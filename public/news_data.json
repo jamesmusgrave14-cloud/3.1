@@ -1,56 +1,57 @@
 {
   "meta": {
     "ok": true,
-    "generatedAt": "2026-06-15T14:33:28+00:00",
+    "generatedAt": "2026-06-15T19:55:32+00:00",
     "mode": "broad-live-monitoring-v1",
-    "total": 88,
+    "total": 93,
     "categoryCount": 10,
     "sourceCount": 23,
     "scanWindow": "90d",
     "minScore": 5,
     "maxTotal": 900,
     "byCategory": {
-      "Cybercrime, malware and model abuse": 32,
-      "RA11 – Child safeguarding and online protection risks": 3,
-      "RA09 – AI-enabled fraud, financial crime and exploitation": 24,
-      "Open-source and open-weight model risk": 12,
+      "Cybercrime, malware and model abuse": 35,
+      "RA11 – Child safeguarding and online protection risks": 4,
+      "RA09 – AI-enabled fraud, financial crime and exploitation": 23,
+      "Open-source and open-weight model risk": 13,
       "AI agents and autonomous capability uplift": 8,
-      "RA14 – Illegal item creation, acquisition and criminal capability uplift": 3,
+      "RA14 – Illegal item creation, acquisition and criminal capability uplift": 2,
       "RA13 – Terrorism, extremism and radicalisation": 2,
       "Use of AI to tackle crime and public safety": 2,
-      "RA11 – Image-based abuse, VAWG and interpersonal harms": 2
+      "RA11 – Image-based abuse, VAWG and interpersonal harms": 3,
+      "Realistic fakes, evidence, identity and public trust": 1
     },
     "byPriority": {
-      "High": 5,
-      "Medium": 80,
+      "High": 4,
+      "Medium": 86,
       "Watch": 3
     },
     "rejectCounts": {
-      "outside_window": 639,
+      "outside_window": 641,
       "no_ai_signal": 35,
-      "no_harm_signal": 85,
-      "blocked_generic_business": 2,
-      "no_matching_category": 343,
-      "duplicate": 2
+      "no_harm_signal": 83,
+      "blocked_generic_business": 1,
+      "no_matching_category": 403,
+      "duplicate": 3
     },
     "errors": {},
     "semanticMode": "local_hash_similarity"
   },
   "briefing": {
-    "generatedAt": "2026-06-15T14:33:28+00:00",
-    "headline": "88 items retained; 5 high priority; 5 UK-relevant.",
+    "generatedAt": "2026-06-15T19:55:32+00:00",
+    "headline": "93 items retained; 4 high priority; 4 UK-relevant.",
     "top_categories": [
       [
         "Cybercrime, malware and model abuse",
-        32
+        35
       ],
       [
         "RA09 – AI-enabled fraud, financial crime and exploitation",
-        24
+        23
       ],
       [
         "Open-source and open-weight model risk",
-        12
+        13
       ],
       [
         "AI agents and autonomous capability uplift",
@@ -58,25 +59,25 @@
       ],
       [
         "RA11 – Child safeguarding and online protection risks",
+        4
+      ],
+      [
+        "RA11 – Image-based abuse, VAWG and interpersonal harms",
         3
       ],
       [
         "RA14 – Illegal item creation, acquisition and criminal capability uplift",
-        3
-      ],
-      [
-        "RA13 – Terrorism, extremism and radicalisation",
         2
       ],
       [
-        "Use of AI to tackle crime and public safety",
+        "RA13 – Terrorism, extremism and radicalisation",
         2
       ]
     ],
     "top_watchlist_hits": [
       [
         "Open-source / open-weight models",
-        16
+        18
       ],
       [
         "AI agents",
@@ -84,24 +85,25 @@
       ],
       [
         "Deepfake tools",
-        11
+        10
       ],
       [
         "Grok",
-        4
+        6
       ]
     ],
     "top_clusters": [
       {
         "id": "cc7d9b1d325425b6",
         "title": "Watchlist: Open-source / open-weight models",
-        "count": 14,
-        "category": "Open-source and open-weight model risk",
-        "latest": "2026-06-15T09:45:38+00:00",
+        "count": 15,
+        "category": "Cybercrime, malware and model abuse",
+        "latest": "2026-06-15T22:09:01+05:30",
         "first_seen": "2026-03-24T07:00:00+00:00",
         "uk_count": 1,
         "highest_score": 12,
         "item_ids": [
+          "7593b829aca77dca",
           "d7513bf33a0ae84f",
           "840b6ce99d806dcf",
           "540f2362a224d57f",
@@ -118,12 +120,12 @@
           "0b370a9f04d3f4b9"
         ],
         "top_titles": [
+          "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
           "Box CEO Aaron Levie Says AI Restrictions Could Accelerate Global Shift To Open-Weight Models",
           "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
           "Google DeepMind is worried about what happens when millions of agents start to interact",
           "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
-          "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
-          "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models"
+          "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards"
         ]
       },
       {
@@ -131,7 +133,7 @@
         "title": "Watchlist: AI agents",
         "count": 12,
         "category": "AI agents and autonomous capability uplift",
-        "latest": "2026-06-15T13:01:30+00:00",
+        "latest": "2026-06-15T13:38:37+00:00",
         "first_seen": "2026-03-23T07:00:00+00:00",
         "uk_count": 0,
         "highest_score": 10,
@@ -161,50 +163,52 @@
       {
         "id": "8b5dc9c80dead8a5",
         "title": "Watchlist: Deepfake tools",
-        "count": 11,
+        "count": 9,
         "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-        "latest": "2026-06-11T12:38:12+00:00",
+        "latest": "2026-05-29T07:00:00+00:00",
         "first_seen": "2026-03-25T07:00:00+00:00",
         "uk_count": 0,
         "highest_score": 10,
         "item_ids": [
-          "d24aa42ec307fa94",
-          "ffa37fcc678911d9",
-          "4980865e34bd5c77",
           "f8d0928015841d5a",
           "69cc563fec21db6f",
           "20bfeab91b00020b",
           "271bf3f4185e2010",
           "7cffc1b972d6140b",
           "ee20f866bb87ed79",
+          "bb7a61c55a3d95f1",
           "0d9ac58de19d74c8",
           "d56273509a88b202"
         ],
         "top_titles": [
-          "MHA warns of rising AI-driven deepfake frauds targeting financial, digital systems",
-          "From scams to deepfakes, AI use in Asia creates new cyberthreats",
-          "I4C Warns of AI-Driven Authentication Bypass Threat as Deepfake Fraud Targets India’s Financial Infrastructure",
           "AI ‘voice cloning’ scams are on the rise. Here’s how to protect yourself",
           "AI ‘voice cloning’ scams are on the rise. Here’s how to protect yourself",
-          "AMA unveils policy framework to combat AI deepfake physician impersonation"
+          "AMA unveils policy framework to combat AI deepfake physician impersonation",
+          "Deepfakes, Voice Cloning, and AI Impersonation: The Global Rules Are Already Here, and They Don't Agree",
+          "Real-time deepfakes are rewriting the rules of child safety",
+          "Global deepfake fraud reaches $2.19B — US leads in losses"
         ]
       },
       {
         "id": "018da3b98d84fbc4",
         "title": "Watchlist: Grok",
-        "count": 4,
-        "category": "Open-source and open-weight model risk",
-        "latest": "2026-06-10T17:09:31+00:00",
+        "count": 6,
+        "category": "RA11 – Child safeguarding and online protection risks",
+        "latest": "2026-06-11T19:24:47+00:00",
         "first_seen": "2026-04-17T07:00:00+00:00",
         "uk_count": 0,
         "highest_score": 10,
         "item_ids": [
+          "4b79acfc9073313c",
           "bd4ffd5ec7ade8f7",
+          "36e01a5cb6c8f2db",
           "63a722d42ca284bf",
           "98ce2cab27fde6e5",
           "245e602d0bdaa932"
         ],
         "top_titles": [
+          "Canadian Privacy Commissioner Findings on X.ai/Grok CSAM Deepfake Violations",
+          "Musk's xAI accused of illegally firing engineer who raised safety concerns",
           "Musk's xAI accused of illegally firing engineer who raised safety concerns",
           "Center for AI Safety Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute in Major Expansion of Leadership and Reach",
           "Content moderation alone cannot reverse sexism by design: AI-enabled abuse and the Grok case",
@@ -225,22 +229,6 @@
         ],
         "top_titles": [
           "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine"
-        ]
-      },
-      {
-        "id": "d1b4e170d4c3692a",
-        "title": "Cybercrime, malware and model abuse: ukrainian national pleads",
-        "count": 1,
-        "category": "Cybercrime, malware and model abuse",
-        "latest": "2026-06-12T13:54:28-04:00",
-        "first_seen": "2026-06-12T13:54:28-04:00",
-        "uk_count": 1,
-        "highest_score": 13,
-        "item_ids": [
-          "843fe38729ff1644"
-        ],
-        "top_titles": [
-          "Ukrainian national pleads guilty to role in Conti ransomware operation"
         ]
       },
       {
@@ -274,6 +262,22 @@
         "top_titles": [
           "‘Dangerous’ AI child sexual abuse reaches record high as public backs clampdown on ‘uncensored’ tools"
         ]
+      },
+      {
+        "id": "536f16aa2f38e6ac",
+        "title": "Cybercrime, malware and model abuse: north korean hackers",
+        "count": 1,
+        "category": "Cybercrime, malware and model abuse",
+        "latest": "2026-06-16T01:02:52+05:30",
+        "first_seen": "2026-06-16T01:02:52+05:30",
+        "uk_count": 0,
+        "highest_score": 12,
+        "item_ids": [
+          "9144d68f106f07e4"
+        ],
+        "top_titles": [
+          "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels"
+        ]
       }
     ],
     "highest_priority_items": [
@@ -283,13 +287,6 @@
         "priority": "High",
         "score": 15,
         "url": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html"
-      },
-      {
-        "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
-        "category": "Cybercrime, malware and model abuse",
-        "priority": "High",
-        "score": 13,
-        "url": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/"
       },
       {
         "title": "Software supply chain attacks: check your dependencies",
@@ -311,6 +308,27 @@
         "priority": "High",
         "score": 10,
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWDU5ZlZfeWYtVTNKNVJlSlVXaFVFT2xSblE0d2xHRjcyQTZoZHF0UDlLRExXWGlyaml2UWw1Sk9aMGlKOUpnSEZLU2tVdnQ5WFVOSlRGQ2hLb0d4LTBwN2VKTS1nUTNXcGpzVkF6YWVKMGJuanpMZG10Y2RFR3BfdC15anl3YkVqQkNxWWUtaGZQTGRBMjlwSWZXcUYwMkh5TzFoU1BpRjJEUG02dlh6QzdxbmdOeGFvLXVxaEF1UGFGVmVHYjV0SVlDaV9uTTEyUWVz?oc=5"
+      },
+      {
+        "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+        "category": "Cybercrime, malware and model abuse",
+        "priority": "Medium",
+        "score": 12,
+        "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html"
+      },
+      {
+        "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
+        "category": "Cybercrime, malware and model abuse",
+        "priority": "Medium",
+        "score": 12,
+        "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html"
+      },
+      {
+        "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
+        "category": "Cybercrime, malware and model abuse",
+        "priority": "Medium",
+        "score": 12,
+        "url": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html"
       },
       {
         "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
@@ -346,20 +364,6 @@
         "priority": "Medium",
         "score": 12,
         "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html"
-      },
-      {
-        "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-        "category": "Cybercrime, malware and model abuse",
-        "priority": "Medium",
-        "score": 12,
-        "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html"
-      },
-      {
-        "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
-        "category": "Cybercrime, malware and model abuse",
-        "priority": "Medium",
-        "score": 12,
-        "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html"
       }
     ],
     "suggested_use": "Use as a triage aid. Verify sources before using in advice, briefings or commissions."
@@ -368,13 +372,14 @@
     {
       "id": "cc7d9b1d325425b6",
       "title": "Watchlist: Open-source / open-weight models",
-      "count": 14,
-      "category": "Open-source and open-weight model risk",
-      "latest": "2026-06-15T09:45:38+00:00",
+      "count": 15,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-06-15T22:09:01+05:30",
       "first_seen": "2026-03-24T07:00:00+00:00",
       "uk_count": 1,
       "highest_score": 12,
       "item_ids": [
+        "7593b829aca77dca",
         "d7513bf33a0ae84f",
         "840b6ce99d806dcf",
         "540f2362a224d57f",
@@ -391,12 +396,12 @@
         "0b370a9f04d3f4b9"
       ],
       "top_titles": [
+        "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
         "Box CEO Aaron Levie Says AI Restrictions Could Accelerate Global Shift To Open-Weight Models",
         "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
         "Google DeepMind is worried about what happens when millions of agents start to interact",
         "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
-        "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
-        "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models"
+        "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards"
       ]
     },
     {
@@ -404,7 +409,7 @@
       "title": "Watchlist: AI agents",
       "count": 12,
       "category": "AI agents and autonomous capability uplift",
-      "latest": "2026-06-15T13:01:30+00:00",
+      "latest": "2026-06-15T13:38:37+00:00",
       "first_seen": "2026-03-23T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 10,
@@ -434,50 +439,52 @@
     {
       "id": "8b5dc9c80dead8a5",
       "title": "Watchlist: Deepfake tools",
-      "count": 11,
+      "count": 9,
       "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "latest": "2026-06-11T12:38:12+00:00",
+      "latest": "2026-05-29T07:00:00+00:00",
       "first_seen": "2026-03-25T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 10,
       "item_ids": [
-        "d24aa42ec307fa94",
-        "ffa37fcc678911d9",
-        "4980865e34bd5c77",
         "f8d0928015841d5a",
         "69cc563fec21db6f",
         "20bfeab91b00020b",
         "271bf3f4185e2010",
         "7cffc1b972d6140b",
         "ee20f866bb87ed79",
+        "bb7a61c55a3d95f1",
         "0d9ac58de19d74c8",
         "d56273509a88b202"
       ],
       "top_titles": [
-        "MHA warns of rising AI-driven deepfake frauds targeting financial, digital systems",
-        "From scams to deepfakes, AI use in Asia creates new cyberthreats",
-        "I4C Warns of AI-Driven Authentication Bypass Threat as Deepfake Fraud Targets India’s Financial Infrastructure",
         "AI ‘voice cloning’ scams are on the rise. Here’s how to protect yourself",
         "AI ‘voice cloning’ scams are on the rise. Here’s how to protect yourself",
-        "AMA unveils policy framework to combat AI deepfake physician impersonation"
+        "AMA unveils policy framework to combat AI deepfake physician impersonation",
+        "Deepfakes, Voice Cloning, and AI Impersonation: The Global Rules Are Already Here, and They Don't Agree",
+        "Real-time deepfakes are rewriting the rules of child safety",
+        "Global deepfake fraud reaches $2.19B — US leads in losses"
       ]
     },
     {
       "id": "018da3b98d84fbc4",
       "title": "Watchlist: Grok",
-      "count": 4,
-      "category": "Open-source and open-weight model risk",
-      "latest": "2026-06-10T17:09:31+00:00",
+      "count": 6,
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "latest": "2026-06-11T19:24:47+00:00",
       "first_seen": "2026-04-17T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 10,
       "item_ids": [
+        "4b79acfc9073313c",
         "bd4ffd5ec7ade8f7",
+        "36e01a5cb6c8f2db",
         "63a722d42ca284bf",
         "98ce2cab27fde6e5",
         "245e602d0bdaa932"
       ],
       "top_titles": [
+        "Canadian Privacy Commissioner Findings on X.ai/Grok CSAM Deepfake Violations",
+        "Musk's xAI accused of illegally firing engineer who raised safety concerns",
         "Musk's xAI accused of illegally firing engineer who raised safety concerns",
         "Center for AI Safety Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute in Major Expansion of Leadership and Reach",
         "Content moderation alone cannot reverse sexism by design: AI-enabled abuse and the Grok case",
@@ -498,22 +505,6 @@
       ],
       "top_titles": [
         "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine"
-      ]
-    },
-    {
-      "id": "d1b4e170d4c3692a",
-      "title": "Cybercrime, malware and model abuse: ukrainian national pleads",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-06-12T13:54:28-04:00",
-      "first_seen": "2026-06-12T13:54:28-04:00",
-      "uk_count": 1,
-      "highest_score": 13,
-      "item_ids": [
-        "843fe38729ff1644"
-      ],
-      "top_titles": [
-        "Ukrainian national pleads guilty to role in Conti ransomware operation"
       ]
     },
     {
@@ -546,6 +537,38 @@
       ],
       "top_titles": [
         "‘Dangerous’ AI child sexual abuse reaches record high as public backs clampdown on ‘uncensored’ tools"
+      ]
+    },
+    {
+      "id": "536f16aa2f38e6ac",
+      "title": "Cybercrime, malware and model abuse: north korean hackers",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-06-16T01:02:52+05:30",
+      "first_seen": "2026-06-16T01:02:52+05:30",
+      "uk_count": 0,
+      "highest_score": 12,
+      "item_ids": [
+        "9144d68f106f07e4"
+      ],
+      "top_titles": [
+        "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels"
+      ]
+    },
+    {
+      "id": "00b729b62e78cf8a",
+      "title": "Cybercrime, malware and model abuse: weekly recap chrome",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-06-15T19:19:29+05:30",
+      "first_seen": "2026-06-15T19:19:29+05:30",
+      "uk_count": 0,
+      "highest_score": 12,
+      "item_ids": [
+        "c788cc8cee1be985"
+      ],
+      "top_titles": [
+        "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More"
       ]
     },
     {
@@ -642,6 +665,22 @@
       ],
       "top_titles": [
         "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public"
+      ]
+    },
+    {
+      "id": "f877f9ed4440936b",
+      "title": "RA09 – AI-enabled fraud, financial crime and exploitation: fraudsters couriers steal",
+      "count": 1,
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "latest": "2026-06-15T11:30:23-04:00",
+      "first_seen": "2026-06-15T11:30:23-04:00",
+      "uk_count": 0,
+      "highest_score": 11,
+      "item_ids": [
+        "bd1b46898487b163"
+      ],
+      "top_titles": [
+        "FBI: Fraudsters use couriers to steal money in crypto scams"
       ]
     },
     {
@@ -789,19 +828,19 @@
       ]
     },
     {
-      "id": "aacbae0d8d237581",
-      "title": "RA14 – Illegal item creation, acquisition and criminal capability uplift: early warning signs",
+      "id": "dc187552454639df",
+      "title": "Cybercrime, malware and model abuse: malware campaign tricks",
       "count": 1,
-      "category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
-      "latest": "2026-06-12T10:01:11-04:00",
-      "first_seen": "2026-06-12T10:01:11-04:00",
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-06-12T11:48:39+00:00",
+      "first_seen": "2026-06-12T11:48:39+00:00",
       "uk_count": 0,
       "highest_score": 10,
       "item_ids": [
-        "4781d878f3d394f5"
+        "3f8d99f23e057f8d"
       ],
       "top_titles": [
-        "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web"
+        "New malware campaign tricks AI scanners with fake nuclear weapon prompts — malicious code triggers safety failsafes so scanners skip the payload"
       ]
     },
     {
@@ -882,38 +921,6 @@
       ],
       "top_titles": [
         "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order"
-      ]
-    },
-    {
-      "id": "56ffa64ad45f4f81",
-      "title": "RA09 – AI-enabled fraud, financial crime and exploitation: phishing crushing alert",
-      "count": 1,
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "latest": "2026-06-08T18:49:13+05:30",
-      "first_seen": "2026-06-08T18:49:13+05:30",
-      "uk_count": 0,
-      "highest_score": 10,
-      "item_ids": [
-        "446a726385d8fb4b"
-      ],
-      "top_titles": [
-        "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload"
-      ]
-    },
-    {
-      "id": "cc41184d7f82b207",
-      "title": "Cybercrime, malware and model abuse: weekly recap instagram",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-06-08T18:48:57+05:30",
-      "first_seen": "2026-06-08T18:48:57+05:30",
-      "uk_count": 0,
-      "highest_score": 10,
-      "item_ids": [
-        "37488cef8244cc22"
-      ],
-      "top_titles": [
-        "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More"
       ]
     },
     {
@@ -1109,6 +1116,22 @@
       ]
     },
     {
+      "id": "ab8af7a98cedb1b9",
+      "title": "Cybercrime, malware and model abuse: linkedin hides prompt",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-05-17T07:00:00+00:00",
+      "first_seen": "2026-05-17T07:00:00+00:00",
+      "uk_count": 0,
+      "highest_score": 9,
+      "item_ids": [
+        "8f99a401a603eb20"
+      ],
+      "top_titles": [
+        "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also manipulated to address user as ‘My Lord’"
+      ]
+    },
+    {
       "id": "b561960327fef446",
       "title": "Cybercrime, malware and model abuse: google blocked zero-day",
       "count": 1,
@@ -1186,6 +1209,54 @@
       ],
       "top_titles": [
         "How Does AI Accelerate Crypto Crime Detection While Human Judgment Defines Legal Outcomes?"
+      ]
+    },
+    {
+      "id": "873d8fd880e8624d",
+      "title": "RA09 – AI-enabled fraud, financial crime and exploitation: one-click microsoft copilot",
+      "count": 1,
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "latest": "2026-06-15T20:39:05+05:30",
+      "first_seen": "2026-06-15T20:39:05+05:30",
+      "uk_count": 0,
+      "highest_score": 8,
+      "item_ids": [
+        "2544d27ed8c66fe6"
+      ],
+      "top_titles": [
+        "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes"
+      ]
+    },
+    {
+      "id": "f34c0d38f8fd3c1d",
+      "title": "Realistic fakes, evidence, identity and public trust: south koreans",
+      "count": 1,
+      "category": "Realistic fakes, evidence, identity and public trust",
+      "latest": "2026-06-15T18:46:08+00:00",
+      "first_seen": "2026-06-15T18:46:08+00:00",
+      "uk_count": 0,
+      "highest_score": 8,
+      "item_ids": [
+        "6a08d7beba7ed8cb"
+      ],
+      "top_titles": [
+        "Why do South Koreans love AI so much?"
+      ]
+    },
+    {
+      "id": "bd684943504b5b23",
+      "title": "RA11 – Image-based abuse, VAWG and interpersonal harms: council europe investigates",
+      "count": 1,
+      "category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
+      "latest": "2026-06-15T12:37:11-04:00",
+      "first_seen": "2026-06-15T12:37:11-04:00",
+      "uk_count": 0,
+      "highest_score": 8,
+      "item_ids": [
+        "e05583a9754a4af1"
+      ],
+      "top_titles": [
+        "Council of Europe investigates ShinyHunters data breach claims"
       ]
     },
     {
@@ -1331,41 +1402,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
-      "summary": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware operation. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
-      "domain": "bleepingcomputer.com",
-      "source": "BleepingComputer",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-06-12T13:54:28-04:00",
-      "id": "843fe38729ff1644",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 13,
-      "why": [
-        "AI-related",
-        "ransomware",
-        "UK signal",
-        "higher-trust source"
-      ],
-      "uk_relevant": true,
-      "priority": "High",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "BleepingComputer",
-      "watchlist_hits": [],
-      "semantic_category": "Realistic fakes, evidence, identity and public trust",
-      "semantic_score": 0.1754,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "Software supply chain attacks: check your dependencies",
       "summary": "Attackers are compromising open-source packages to spread malware. Cyber defenders are asked to review dependencies to reduce risks",
       "url": "https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies",
@@ -1474,6 +1510,115 @@
       "watchlist_hits": [],
       "semantic_category": "RA11 – Child safeguarding and online protection risks",
       "semantic_score": 0.3308,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+      "summary": "Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima, HexagonalRodent, and Void Dokkaebi). According to a report published by Proofpoint, the threat actor has been found orchestrating phishing campaigns using developer role recruitment or code review themes",
+      "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-06-16T01:02:52+05:30",
+      "id": "9144d68f106f07e4",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 12,
+      "why": [
+        "AI-related",
+        "malware",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.2175,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
+      "summary": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that",
+      "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-06-15T22:09:01+05:30",
+      "id": "7593b829aca77dca",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 12,
+      "why": [
+        "AI-related",
+        "vulnerability",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.21,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
+      "summary": "Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod. This week is the same lesson in a new form: phishing kits are easier to rent, AI names are useful bait, old login paths still fail, and forgotten software keeps becoming someone else's entry point. Scroll through the full Monday Cybersecurity",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-06-15T19:19:29+05:30",
+      "id": "c788cc8cee1be985",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 12,
+      "why": [
+        "AI-related",
+        "exploit",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.2744,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -1723,6 +1868,41 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) warned that criminals are using couriers to collect money from victims of cryptocurrency investment scams, also known as pig butchering or romance baiting. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
+      "domain": "bleepingcomputer.com",
+      "source": "BleepingComputer",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-06-15T11:30:23-04:00",
+      "id": "bd1b46898487b163",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 11,
+      "why": [
+        "AI-related",
+        "fraud",
+        "scam",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "BleepingComputer",
+      "watchlist_hits": [],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.1396,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Webinar: How behavioral AI stops phishing and account takeovers",
       "summary": "Modern phishing, BEC, and account takeover attacks increasingly bypass traditional email defenses and create operational strain for security teams. This webinar explores how behavioral AI can help automate detection, investigation, and remediation to reduce alert fatigue and accelerate response times. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
@@ -1906,7 +2086,7 @@
       "domain": "news.google.com",
       "source": "Google News category: AI agents and autonomous capability uplift",
       "source_type": "google_news",
-      "publishedAt": "2026-06-15T13:01:30+00:00",
+      "publishedAt": "2026-06-15T13:38:37+00:00",
       "id": "c981dbe42834a761",
       "category": "AI agents and autonomous capability uplift",
       "risk_area": "Cross-cutting / future capability",
@@ -2281,37 +2461,37 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
-      "summary": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expose early signals tied to software supply-chain risk. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
-      "domain": "bleepingcomputer.com",
-      "source": "BleepingComputer",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-06-12T10:01:11-04:00",
-      "id": "4781d878f3d394f5",
-      "category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
-      "risk_area": "RA14",
+      "title": "New malware campaign tricks AI scanners with fake nuclear weapon prompts — malicious code triggers safety failsafes so scanners skip the payload",
+      "summary": "New malware campaign tricks AI scanners with fake nuclear weapon prompts — malicious code triggers safety failsafes so scanners skip the payload Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQWDZGS3hIUlR1WVV6elJlR2V2cnJ5MTJhdEVhSmFzQjN2OUd6SVl0XzFxWXNEa1lEa1I4dks1VjRybGdBR2dGSmdUODJFZVFzWTVFMU1CMlg3NmxwWDU0c3hLYXpMSGhOUU9JOGxFckNldVFEeDZOSnp1WGNRVjBGT00zS0VkM2ctU2x1OERNZTA1eFhlb1hNaXU5QlRRZ1I5RzB5b1g1R19uZlctYkZuS1RWLW9UeF94LWdSRnA0MVl1T2hsTjBqamlRaWU0cTlaeG9weDBzR0FtR2RmemNJQjBiQ1RJNXA2RDNvSklRNXN0WXNhMTlWNXVsbWlRdVV4bmF4Y01IN2NFeDlqN3NSSXgyOHlZS0VNd2tnNHlfNUZONWNSaVlmLXFTUUJScHIwNVdGRXk0Z3B6dThIcXpYaFU2aDlPeDRJYW9NalBDQkhEX0VrbEhzUi1YcmZLYXFyR1dsOVhnMGw?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: Cybercrime, malware and model abuse",
+      "source_type": "google_news",
+      "publishedAt": "2026-06-12T11:48:39+00:00",
+      "id": "3f8d99f23e057f8d",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
       "category_family": "AI misuse / harms",
       "relevance_score": 10,
       "why": [
         "AI-related",
-        "dark web",
+        "malware",
         "higher-trust source"
       ],
       "uk_relevant": false,
       "priority": "Medium",
       "sensitive": false,
       "policy_implications": [
-        "illegal item control",
-        "border security",
-        "platform safety",
-        "law enforcement readiness",
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
         "regulatory response"
       ],
-      "discoveredVia": "BleepingComputer",
+      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
       "watchlist_hits": [],
-      "semantic_category": "Open-source and open-weight model risk",
-      "semantic_score": 0.2893,
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.0964,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2353,129 +2533,6 @@
       ],
       "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
       "semantic_score": 0.241,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "MHA warns of rising AI-driven deepfake frauds targeting financial, digital systems",
-      "summary": "MHA warns of rising AI-driven deepfake frauds targeting financial, digital systems Telangana Today",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORkVadjBOdGRpaWgwbFVFaGVHdVhrNmVDUm1CZ0xMYWVEbm5iX1JDQ29aVGpXTi1fdVUyUzVZVnFhcUszM0dEM2xYcUVFYW1nV19ncXNzV0ZKaHVnRGNFYVNXcm5zb1l2SV9XdEhGc2N5SzB5d054dWdBNFNpb1ljWks2R2pNZTBFSmVvU1Y4Y19xa2d6UEFLVHNwcFFjSmFjcExuOGpTRFVleENW?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-11T12:38:12+00:00",
-      "id": "d24aa42ec307fa94",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "fraud",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "Open-source and open-weight model risk",
-      "semantic_score": 0.2381,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "From scams to deepfakes, AI use in Asia creates new cyberthreats",
-      "summary": "From scams to deepfakes, AI use in Asia creates new cyberthreats Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZXRDWkV5dkFXRTlGQTlreW5KTFJybTVVNGtTODRaNF9UUXFTeUlkaUxYMTBBQndydkp2NVdrMTVDUDZTM2lsMHJyTXhyZzVmYzZxN2NYV1Y3a2VzM2NUQmZVZndiaGhmdXBOR3J4MS1TSWt0N2RUNWxPWHF2aWIxU3JxRjJsbENVSllYRDJ4LWFKbjZaSGktUWdXb3Q2YzhUb1JfNmFjOUZpb3duQWpCNUw1dDNLVFlzTVVnTWRCUGtqbmRSTjIya2hWLThIXy1nNXc?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-11T09:53:00+00:00",
-      "id": "ffa37fcc678911d9",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "scam",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "Use of AI to tackle crime and public safety",
-      "semantic_score": 0.1431,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "I4C Warns of AI-Driven Authentication Bypass Threat as Deepfake Fraud Targets India’s Financial Infrastructure",
-      "summary": "I4C Warns of AI-Driven Authentication Bypass Threat as Deepfake Fraud Targets India’s Financial Infrastructure Sarkaritel.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GVmNjSW80VzNsaTl2VU8tdHdmbTFXcUtONUNlLXhrX1p2TDJpUGVZZmdpYnBGc3ZyQVV0YWdJX29HcnVqUlMwemIyNTB4TkY2ODI4ck5ZX0hkd1psQnRQNE5jeW9kSmVlbTJiRVZ6UUVVeUlsRW1paXY1MnZ5UU0?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-11T07:31:11+00:00",
-      "id": "4980865e34bd5c77",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "fraud",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.2717,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2557,6 +2614,53 @@
       ],
       "semantic_category": "Use of AI to tackle crime and public safety",
       "semantic_score": 0.1574,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Musk's xAI accused of illegally firing engineer who raised safety concerns",
+      "summary": "Article URL: https://www.reuters.com/legal/legalindustry/musks-xai-accused-illegally-firing-engineer-who-raised-safety-concerns-2026-06-10/ Comments URL: https://news.ycombinator.com/item?id=48479378 Points: 7 # Comments: 1",
+      "url": "https://www.reuters.com/legal/legalindustry/musks-xai-accused-illegally-firing-engineer-who-raised-safety-concerns-2026-06-10/",
+      "domain": "reuters.com",
+      "source": "Hacker News: Grok / xAI",
+      "source_type": "early_signal",
+      "publishedAt": "2026-06-10T17:07:29+00:00",
+      "id": "36e01a5cb6c8f2db",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "safety",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Hacker News: Grok / xAI",
+      "watchlist_hits": [
+        {
+          "name": "Grok",
+          "type": "tool/model",
+          "reason": "Track public reporting and evidence relating to Grok capability, safeguards, misuse and policy relevance.",
+          "owner_hint": "AIHM / online harms / DSIT engagement"
+        },
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "Use of AI to tackle crime and public safety",
+      "semantic_score": 0.1584,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2775,74 +2879,6 @@
       "watchlist_hits": [],
       "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
       "semantic_score": 0.2725,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
-      "summary": "Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance. As the queue grows, a credential theft attempt or malware delivery can easily",
-      "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
-      "domain": "thehackernews.com",
-      "source": "The Hacker News",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-06-08T18:49:13+05:30",
-      "id": "446a726385d8fb4b",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "phishing",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "The Hacker News",
-      "watchlist_hits": [],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.1835,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
-      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and",
-      "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
-      "domain": "thehackernews.com",
-      "source": "The Hacker News",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-06-08T18:48:57+05:30",
-      "id": "37488cef8244cc22",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "malware",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "The Hacker News",
-      "watchlist_hits": [],
-      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
-      "semantic_score": 0.2521,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3108,6 +3144,47 @@
       "watchlist_hits": [],
       "semantic_category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
       "semantic_score": 0.1487,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Philippines launches broad crackdown on deepfakes as AI drives identity fraud surge",
+      "summary": "Philippines launches broad crackdown on deepfakes as AI drives identity fraud surge Biometric Update",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdktPZ25CeVlzdS1rSmxheEczZ29nRUltN2dqdUdYcDdKTjZOTno2a01fVm8yQzNEemZ4UXA3R296d3F4NXdoWDMwaW5RUUdBU1NvaHRtU3pLdzlUcENSd2tZZFpiVmUzeUxmWVdBLWZBaEhwOXRIVVUyeHVaSjhrLWU5RG9icFVZZmJkeGR5NkZROUEtcXJRVXR2WjFQUG12LVpING5zZ3V1QmZKNTlNQ0R1SDJWUEU4STBIOHo5cw?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-04-14T07:00:00+00:00",
+      "id": "bb7a61c55a3d95f1",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "fraud",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "semantic_score": 0.2598,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3587,6 +3664,40 @@
       "watchlist_hits": [],
       "semantic_category": "Realistic fakes, evidence, identity and public trust",
       "semantic_score": 0.0946,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also manipulated to address user as ‘My Lord’",
+      "summary": "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also manipulated to address user as ‘My Lord’ Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNQ25JU2NJQkQtSnJxZkh6REtWV3pQWWxDWUtPbnpJY1lmcEJ0dXY1Qm14WWx6RzhsR0FkcjVKTG9ZS2dIZEw2ampTWXJLem0teWV4a3BQWlNGeF96emZKdk4xVDJia2lxclpKMC0xaUZfSVVCVEQzOHlabmpKR2I3SGhKZEJHQ3h3b3BuUWVhRGxOSzNwajdySmhqaVZ4cVk1YmkxQ2pBdHBBNDdEM2gyZmFPN0dRR3ZkWVc2bFVJa2stUlk4UEVvaTNFQ09DVVRyNFF0OVJzWlpxeGlsS20yakNQWVozVV9saXA4SVFmc2xzMGpYa2szMVRjSzhxRDdmT3drRGViUmFaQzlOdXZRTnVsUUc2VXZxek9aVlp0cldraGZNcWljWkVpeWVoMUhtdXQ1QlJvUFZGOXpiRkE?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: Cybercrime, malware and model abuse",
+      "source_type": "google_news",
+      "publishedAt": "2026-05-17T07:00:00+00:00",
+      "id": "8f99a401a603eb20",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "prompt injection",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
+      "watchlist_hits": [],
+      "semantic_category": "Use of AI to tackle crime and public safety",
+      "semantic_score": 0.1359,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -4296,6 +4407,107 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+      "summary": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search. Researchers at Varonis Threat Labs chained three bugs into a one-click exfiltration path they call SearchLeak. Because the link pointed to a real microsoft.com domain, traditional anti-phishing and URL filtering tools were",
+      "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-06-15T20:39:05+05:30",
+      "id": "2544d27ed8c66fe6",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 8,
+      "why": [
+        "AI-related",
+        "phishing",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [],
+      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
+      "semantic_score": 0.2975,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Why do South Koreans love AI so much?",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walked through an unmanned immigration checkpoint, where a machine scanned my face and passport. On the subway home,…",
+      "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
+      "domain": "technologyreview.com",
+      "source": "MIT Technology Review AI",
+      "source_type": "ai_analysis",
+      "publishedAt": "2026-06-15T18:46:08+00:00",
+      "id": "6a08d7beba7ed8cb",
+      "category": "Realistic fakes, evidence, identity and public trust",
+      "risk_area": "Cross-cutting / identity and evidence integrity",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 8,
+      "why": [
+        "AI-related",
+        "immigration",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "criminal justice",
+        "identity assurance",
+        "border security",
+        "public trust",
+        "detection and provenance"
+      ],
+      "discoveredVia": "MIT Technology Review AI",
+      "watchlist_hits": [],
+      "semantic_category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
+      "semantic_score": 0.1997,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Council of Europe investigates ShinyHunters data breach claims",
+      "summary": "The Council of Europe, the continent's oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over the weekend. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
+      "domain": "bleepingcomputer.com",
+      "source": "BleepingComputer",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-06-15T12:37:11-04:00",
+      "id": "e05583a9754a4af1",
+      "category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
+      "risk_area": "RA11",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 8,
+      "why": [
+        "Image-based abuse / interpersonal harm signal",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": true,
+      "policy_implications": [
+        "VAWG policy",
+        "victim support",
+        "online safety",
+        "platform safety",
+        "law enforcement readiness"
+      ],
+      "discoveredVia": "BleepingComputer",
+      "watchlist_hits": [],
+      "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
+      "semantic_score": 0.0921,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Belarus-linked hackers target Gmail accounts of Polish public figures and their families",
       "summary": "Poland has warned that Ghostwriter, the Belarus-linked hacker group, has expanded its phishing operations to target personal Gmail accounts belonging to senior public figures and their relatives.",
       "url": "https://therecord.media/ghostwriter-targets-personal-gmail-accounts-in-poland",
@@ -4436,6 +4648,51 @@
       ],
       "semantic_category": "RA11 – Child safeguarding and online protection risks",
       "semantic_score": 0.2644,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Canadian Privacy Commissioner Findings on X.ai/Grok CSAM Deepfake Violations",
+      "summary": "Article URL: https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-004/ Comments URL: https://news.ycombinator.com/item?id=48495207 Points: 6 # Comments: 1",
+      "url": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-004/",
+      "domain": "priv.gc.ca",
+      "source": "Hacker News: Grok / xAI",
+      "source_type": "early_signal",
+      "publishedAt": "2026-06-11T19:24:47+00:00",
+      "id": "4b79acfc9073313c",
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "risk_area": "RA11",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 8,
+      "why": [
+        "Child safeguarding signal"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": true,
+      "policy_implications": [
+        "safeguarding",
+        "platform safety",
+        "law enforcement readiness",
+        "online safety",
+        "public resilience"
+      ],
+      "discoveredVia": "Hacker News: Grok / xAI",
+      "watchlist_hits": [
+        {
+          "name": "Grok",
+          "type": "tool/model",
+          "reason": "Track public reporting and evidence relating to Grok capability, safeguards, misuse and policy relevance.",
+          "owner_hint": "AIHM / online harms / DSIT engagement"
+        },
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "Use of AI to tackle crime and public safety",
+      "semantic_score": 0.2412,
       "semantic_mode": "local_hash_similarity"
     },
     {
