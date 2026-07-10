@@ -1,60 +1,64 @@
 {
   "meta": {
     "ok": true,
-    "generatedAt": "2026-07-10T04:12:11+00:00",
+    "generatedAt": "2026-07-10T07:50:22+00:00",
     "mode": "broad-live-monitoring-v1",
-    "total": 88,
+    "total": 94,
     "categoryCount": 10,
     "sourceCount": 23,
     "scanWindow": "90d",
     "minScore": 5,
     "maxTotal": 900,
     "byCategory": {
-      "Cybercrime, malware and model abuse": 33,
+      "Cybercrime, malware and model abuse": 35,
       "Use of AI to tackle crime and public safety": 3,
-      "RA09 – AI-enabled fraud, financial crime and exploitation": 22,
-      "Open-source and open-weight model risk": 13,
-      "AI agents and autonomous capability uplift": 7,
+      "RA09 – AI-enabled fraud, financial crime and exploitation": 21,
+      "Open-source and open-weight model risk": 15,
+      "AI agents and autonomous capability uplift": 8,
       "Realistic fakes, evidence, identity and public trust": 1,
-      "RA11 – Child safeguarding and online protection risks": 2,
+      "RA11 – Child safeguarding and online protection risks": 4,
       "RA11 – Image-based abuse, VAWG and interpersonal harms": 2,
       "RA13 – Terrorism, extremism and radicalisation": 4,
       "RA14 – Illegal item creation, acquisition and criminal capability uplift": 1
     },
     "byPriority": {
       "High": 5,
-      "Medium": 82,
-      "Watch": 1
+      "Medium": 87,
+      "Watch": 2
     },
     "rejectCounts": {
-      "outside_window": 640,
-      "no_ai_signal": 35,
-      "no_harm_signal": 93,
-      "no_matching_category": 401,
-      "duplicate": 2
+      "outside_window": 616,
+      "no_ai_signal": 37,
+      "no_harm_signal": 91,
+      "no_matching_category": 416,
+      "duplicate": 3
     },
     "errors": {},
     "semanticMode": "local_hash_similarity"
   },
   "briefing": {
-    "generatedAt": "2026-07-10T04:12:11+00:00",
-    "headline": "88 items retained; 5 high priority; 5 UK-relevant.",
+    "generatedAt": "2026-07-10T07:50:22+00:00",
+    "headline": "94 items retained; 5 high priority; 5 UK-relevant.",
     "top_categories": [
       [
         "Cybercrime, malware and model abuse",
-        33
+        35
       ],
       [
         "RA09 – AI-enabled fraud, financial crime and exploitation",
-        22
+        21
       ],
       [
         "Open-source and open-weight model risk",
-        13
+        15
       ],
       [
         "AI agents and autonomous capability uplift",
-        7
+        8
+      ],
+      [
+        "RA11 – Child safeguarding and online protection risks",
+        4
       ],
       [
         "RA13 – Terrorism, extremism and radicalisation",
@@ -65,10 +69,6 @@
         3
       ],
       [
-        "RA11 – Child safeguarding and online protection risks",
-        2
-      ],
-      [
         "RA11 – Image-based abuse, VAWG and interpersonal harms",
         2
       ]
@@ -76,15 +76,15 @@
     "top_watchlist_hits": [
       [
         "Deepfake tools",
-        17
+        18
       ],
       [
         "Open-source / open-weight models",
-        16
+        18
       ],
       [
         "AI agents",
-        15
+        16
       ],
       [
         "Grok",
@@ -93,46 +93,12 @@
     ],
     "top_clusters": [
       {
-        "id": "8b5dc9c80dead8a5",
-        "title": "Watchlist: Deepfake tools",
-        "count": 14,
-        "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-        "latest": "2026-07-09T06:06:13+00:00",
-        "first_seen": "2026-04-16T07:00:00+00:00",
-        "uk_count": 2,
-        "highest_score": 12,
-        "item_ids": [
-          "dec09200fbecea73",
-          "f4ca9981d6f489d0",
-          "2bf4b5ec19256b6e",
-          "85fb73c5159f3957",
-          "0d884c0fa9438d15",
-          "f2c3d5fa9f49c549",
-          "11a8c3f936d4f6b3",
-          "5158d1e54662b8cf",
-          "a915b235ee22a831",
-          "f8d0928015841d5a",
-          "e01c2907fd4bf57d",
-          "bec082007b6ffdbd",
-          "271bf3f4185e2010",
-          "ee20f866bb87ed79"
-        ],
-        "top_titles": [
-          "Deepfake AI Scams Cost Victims $893 Million in One Year",
-          "Govt implementing measures to curb AI-driven misinformation, deepfakes, minister tells parliament",
-          "South African workers struggle to spot AI scams as deepfake threats surge",
-          "Woman loses a year’s savings to AI deepfake scam on dating site, scammers impersonated Dubai’s crown prin",
-          "AI Deepfake Romance Scams Exploit UAE Royal Identity in Online Fraud Wave",
-          "Short training helps people spot AI faces in the battle against deepfake fraud"
-        ]
-      },
-      {
         "id": "9c161bc0de250b44",
         "title": "Watchlist: AI agents",
-        "count": 14,
+        "count": 15,
         "category": "AI agents and autonomous capability uplift",
         "latest": "2026-07-09T19:55:51+00:00",
-        "first_seen": "2026-05-15T07:00:00+00:00",
+        "first_seen": "2026-04-15T07:00:00+00:00",
         "uk_count": 1,
         "highest_score": 14,
         "item_ids": [
@@ -149,7 +115,8 @@
           "1d00d1855c960dd3",
           "c981dbe42834a761",
           "df64d9165484f116",
-          "651723eed9c1bac3"
+          "651723eed9c1bac3",
+          "eb4711a23a2f20ef"
         ],
         "top_titles": [
           "CyberProof launches agentic AI service to automate security investigations",
@@ -158,6 +125,70 @@
           "Agentic AI in financial services: Regulatory issues in consumer use | Inside FinTech | Global law firm",
           "Industry Alarmed as First Agentic AI Ransomware Attack Is Discovered, but There’s a Catch",
           "Top 10 Agentic AI Security Platforms for 2026"
+        ]
+      },
+      {
+        "id": "8b5dc9c80dead8a5",
+        "title": "Watchlist: Deepfake tools",
+        "count": 14,
+        "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+        "latest": "2026-07-09T06:06:13+00:00",
+        "first_seen": "2026-04-13T07:00:00+00:00",
+        "uk_count": 2,
+        "highest_score": 12,
+        "item_ids": [
+          "dec09200fbecea73",
+          "f4ca9981d6f489d0",
+          "0d884c0fa9438d15",
+          "8710c633a890f732",
+          "11a8c3f936d4f6b3",
+          "5158d1e54662b8cf",
+          "a915b235ee22a831",
+          "f8d0928015841d5a",
+          "e01c2907fd4bf57d",
+          "271bf3f4185e2010",
+          "4e7666c8516daf03",
+          "ee20f866bb87ed79",
+          "bb7a61c55a3d95f1",
+          "3e9aa4a8ad0a3393"
+        ],
+        "top_titles": [
+          "Deepfake AI Scams Cost Victims $893 Million in One Year",
+          "Govt implementing measures to curb AI-driven misinformation, deepfakes, minister tells parliament",
+          "AI Deepfake Romance Scams Exploit UAE Royal Identity in Online Fraud Wave",
+          "Australia pushes more AI nudify services offline over child safety",
+          "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
+          "Essex Police deepfake campaign could expand nationwide"
+        ]
+      },
+      {
+        "id": "cc7d9b1d325425b6",
+        "title": "Watchlist: Open-source / open-weight models",
+        "count": 10,
+        "category": "AI agents and autonomous capability uplift",
+        "latest": "2026-07-09T10:45:02+05:30",
+        "first_seen": "2026-04-17T07:00:00+00:00",
+        "uk_count": 1,
+        "highest_score": 12,
+        "item_ids": [
+          "8920b18498ef7fc5",
+          "7c887354dccdb519",
+          "a7adca39aae81885",
+          "0e8ff02b6bfeacdc",
+          "8c88610c6e340a2c",
+          "712c44bc4ec1ab88",
+          "904f55e7e7689110",
+          "3ca60961194728e6",
+          "9a6817ca3dc4b9a4",
+          "3d454d683501a3d7"
+        ],
+        "top_titles": [
+          "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+          "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+          "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+          "Aureka offers open-source AI module for drug discovery",
+          "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+          "Delhi High Court protects Ravi Kishan's personality rights, restrains AI and deepfake misuse"
         ]
       },
       {
@@ -188,34 +219,6 @@
           "Grok AI lacks safeguards against harmful deepfake generation, says watchdog",
           "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
           "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims"
-        ]
-      },
-      {
-        "id": "cc7d9b1d325425b6",
-        "title": "Watchlist: Open-source / open-weight models",
-        "count": 8,
-        "category": "AI agents and autonomous capability uplift",
-        "latest": "2026-07-09T10:45:02+05:30",
-        "first_seen": "2026-06-04T12:00:00+00:00",
-        "uk_count": 1,
-        "highest_score": 12,
-        "item_ids": [
-          "8920b18498ef7fc5",
-          "7c887354dccdb519",
-          "a7adca39aae81885",
-          "0e8ff02b6bfeacdc",
-          "8c88610c6e340a2c",
-          "904f55e7e7689110",
-          "3ca60961194728e6",
-          "9a6817ca3dc4b9a4"
-        ],
-        "top_titles": [
-          "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-          "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
-          "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
-          "Aureka offers open-source AI module for drug discovery",
-          "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-          "Building the foundation for an autonomous enterprise"
         ]
       },
       {
@@ -373,46 +376,12 @@
   },
   "clusters": [
     {
-      "id": "8b5dc9c80dead8a5",
-      "title": "Watchlist: Deepfake tools",
-      "count": 14,
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "latest": "2026-07-09T06:06:13+00:00",
-      "first_seen": "2026-04-16T07:00:00+00:00",
-      "uk_count": 2,
-      "highest_score": 12,
-      "item_ids": [
-        "dec09200fbecea73",
-        "f4ca9981d6f489d0",
-        "2bf4b5ec19256b6e",
-        "85fb73c5159f3957",
-        "0d884c0fa9438d15",
-        "f2c3d5fa9f49c549",
-        "11a8c3f936d4f6b3",
-        "5158d1e54662b8cf",
-        "a915b235ee22a831",
-        "f8d0928015841d5a",
-        "e01c2907fd4bf57d",
-        "bec082007b6ffdbd",
-        "271bf3f4185e2010",
-        "ee20f866bb87ed79"
-      ],
-      "top_titles": [
-        "Deepfake AI Scams Cost Victims $893 Million in One Year",
-        "Govt implementing measures to curb AI-driven misinformation, deepfakes, minister tells parliament",
-        "South African workers struggle to spot AI scams as deepfake threats surge",
-        "Woman loses a year’s savings to AI deepfake scam on dating site, scammers impersonated Dubai’s crown prin",
-        "AI Deepfake Romance Scams Exploit UAE Royal Identity in Online Fraud Wave",
-        "Short training helps people spot AI faces in the battle against deepfake fraud"
-      ]
-    },
-    {
       "id": "9c161bc0de250b44",
       "title": "Watchlist: AI agents",
-      "count": 14,
+      "count": 15,
       "category": "AI agents and autonomous capability uplift",
       "latest": "2026-07-09T19:55:51+00:00",
-      "first_seen": "2026-05-15T07:00:00+00:00",
+      "first_seen": "2026-04-15T07:00:00+00:00",
       "uk_count": 1,
       "highest_score": 14,
       "item_ids": [
@@ -429,7 +398,8 @@
         "1d00d1855c960dd3",
         "c981dbe42834a761",
         "df64d9165484f116",
-        "651723eed9c1bac3"
+        "651723eed9c1bac3",
+        "eb4711a23a2f20ef"
       ],
       "top_titles": [
         "CyberProof launches agentic AI service to automate security investigations",
@@ -438,6 +408,70 @@
         "Agentic AI in financial services: Regulatory issues in consumer use | Inside FinTech | Global law firm",
         "Industry Alarmed as First Agentic AI Ransomware Attack Is Discovered, but There’s a Catch",
         "Top 10 Agentic AI Security Platforms for 2026"
+      ]
+    },
+    {
+      "id": "8b5dc9c80dead8a5",
+      "title": "Watchlist: Deepfake tools",
+      "count": 14,
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "latest": "2026-07-09T06:06:13+00:00",
+      "first_seen": "2026-04-13T07:00:00+00:00",
+      "uk_count": 2,
+      "highest_score": 12,
+      "item_ids": [
+        "dec09200fbecea73",
+        "f4ca9981d6f489d0",
+        "0d884c0fa9438d15",
+        "8710c633a890f732",
+        "11a8c3f936d4f6b3",
+        "5158d1e54662b8cf",
+        "a915b235ee22a831",
+        "f8d0928015841d5a",
+        "e01c2907fd4bf57d",
+        "271bf3f4185e2010",
+        "4e7666c8516daf03",
+        "ee20f866bb87ed79",
+        "bb7a61c55a3d95f1",
+        "3e9aa4a8ad0a3393"
+      ],
+      "top_titles": [
+        "Deepfake AI Scams Cost Victims $893 Million in One Year",
+        "Govt implementing measures to curb AI-driven misinformation, deepfakes, minister tells parliament",
+        "AI Deepfake Romance Scams Exploit UAE Royal Identity in Online Fraud Wave",
+        "Australia pushes more AI nudify services offline over child safety",
+        "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
+        "Essex Police deepfake campaign could expand nationwide"
+      ]
+    },
+    {
+      "id": "cc7d9b1d325425b6",
+      "title": "Watchlist: Open-source / open-weight models",
+      "count": 10,
+      "category": "AI agents and autonomous capability uplift",
+      "latest": "2026-07-09T10:45:02+05:30",
+      "first_seen": "2026-04-17T07:00:00+00:00",
+      "uk_count": 1,
+      "highest_score": 12,
+      "item_ids": [
+        "8920b18498ef7fc5",
+        "7c887354dccdb519",
+        "a7adca39aae81885",
+        "0e8ff02b6bfeacdc",
+        "8c88610c6e340a2c",
+        "712c44bc4ec1ab88",
+        "904f55e7e7689110",
+        "3ca60961194728e6",
+        "9a6817ca3dc4b9a4",
+        "3d454d683501a3d7"
+      ],
+      "top_titles": [
+        "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+        "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+        "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+        "Aureka offers open-source AI module for drug discovery",
+        "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+        "Delhi High Court protects Ravi Kishan's personality rights, restrains AI and deepfake misuse"
       ]
     },
     {
@@ -468,34 +502,6 @@
         "Grok AI lacks safeguards against harmful deepfake generation, says watchdog",
         "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
         "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims"
-      ]
-    },
-    {
-      "id": "cc7d9b1d325425b6",
-      "title": "Watchlist: Open-source / open-weight models",
-      "count": 8,
-      "category": "AI agents and autonomous capability uplift",
-      "latest": "2026-07-09T10:45:02+05:30",
-      "first_seen": "2026-06-04T12:00:00+00:00",
-      "uk_count": 1,
-      "highest_score": 12,
-      "item_ids": [
-        "8920b18498ef7fc5",
-        "7c887354dccdb519",
-        "a7adca39aae81885",
-        "0e8ff02b6bfeacdc",
-        "8c88610c6e340a2c",
-        "904f55e7e7689110",
-        "3ca60961194728e6",
-        "9a6817ca3dc4b9a4"
-      ],
-      "top_titles": [
-        "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-        "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
-        "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
-        "Aureka offers open-source AI module for drug discovery",
-        "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-        "Building the foundation for an autonomous enterprise"
       ]
     },
     {
@@ -787,19 +793,19 @@
       ]
     },
     {
-      "id": "7f2c33b52bef2fc0",
-      "title": "Cybercrime, malware and model abuse: macos malware embeds",
+      "id": "6517da5c2591e908",
+      "title": "Cybercrime, malware and model abuse: interpol warns phishing",
       "count": 1,
       "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-06-25T07:00:00+00:00",
-      "first_seen": "2026-06-25T07:00:00+00:00",
+      "latest": "2026-06-22T07:00:00+00:00",
+      "first_seen": "2026-06-22T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 10,
       "item_ids": [
-        "8854e6ba38890946"
+        "3f902cf1d52fb44d"
       ],
       "top_titles": [
-        "New macOS malware embeds fake errors to confuse AI analysis tools"
+        "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific"
       ]
     },
     {
@@ -947,6 +953,22 @@
       ]
     },
     {
+      "id": "7f2c33b52bef2fc0",
+      "title": "Cybercrime, malware and model abuse: macos malware embeds",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-06-25T07:00:00+00:00",
+      "first_seen": "2026-06-25T07:00:00+00:00",
+      "uk_count": 0,
+      "highest_score": 9,
+      "item_ids": [
+        "8854e6ba38890946"
+      ],
+      "top_titles": [
+        "New macOS malware embeds fake errors to confuse AI analysis tools"
+      ]
+    },
+    {
       "id": "6e33baf11eb4ad3d",
       "title": "RA11 – Child safeguarding and online protection risks: canada moves regulate",
       "count": 1,
@@ -1040,6 +1062,22 @@
       ],
       "top_titles": [
         "Southeast Asia Scam Compounds Turn AI Into a Cybersecurity Threat"
+      ]
+    },
+    {
+      "id": "1e3059e0af214f99",
+      "title": "RA09 – AI-enabled fraud, financial crime and exploitation: warns voice-cloning mimics",
+      "count": 1,
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "latest": "2026-06-02T07:00:00+00:00",
+      "first_seen": "2026-06-02T07:00:00+00:00",
+      "uk_count": 0,
+      "highest_score": 9,
+      "item_ids": [
+        "e93c507ecab05e6d"
+      ],
+      "top_titles": [
+        "FBI warns of AI voice-cloning scam that mimics loved ones in distress"
       ]
     },
     {
@@ -1168,6 +1206,22 @@
       ],
       "top_titles": [
         "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT"
+      ]
+    },
+    {
+      "id": "a91e5812146adbf0",
+      "title": "Cybercrime, malware and model abuse: setting before someone",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-10T05:54:13+00:00",
+      "first_seen": "2026-07-10T05:54:13+00:00",
+      "uk_count": 0,
+      "highest_score": 6,
+      "item_ids": [
+        "9a5fb5b7becfc9d8"
+      ],
+      "top_titles": [
+        "Turn off this Meta setting before someone generates AI images of you"
       ]
     }
   ],
@@ -2435,6 +2489,53 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Delhi High Court protects Ravi Kishan's personality rights, restrains AI and deepfake misuse",
+      "summary": "Delhi High Court protects Ravi Kishan's personality rights, restrains AI and deepfake misuse Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRVF2Qjg2Z1pOSVVxTGYxVG5yQnB5T1BVMGh2SmJCdWJMUGRGOG5Fb1hHWEUtV0hFZXBvdXJyWG9kZm43bHIxaExVV2VZcGxMU0Z5b1d3Nm1HY0dQRXJrWHZHWlVjQ3RfVm9xRnVQeGhsMXFodGdZOUs5b3JLcGh0SjN1R0ZKOFV6aFVfbTJFaDRzQTA0dk1vSXRIcGZnelRUc3VPRjlKNzFmYks5ZkFuazJWd2NsZVNrX0lwRjRDVzUyTHpnUVBMU3pEZXhsOHdOYmRXZ1hOZi1nMTFfdDV5NkhTMHBwV3ZFd2pHTtIB8gFBVV95cUxPY3J2X01HMVp2eFBBQzlCZUNvQVZQWmhqSXBTQUxkdXF4LWE5YnFCZHgyZDE5c2l6eVlGS0oxNE5CSnRoc25WaUFaSkhuVjJjbUdGNFRCYVBsRmJCWmVrY3NrNlp1UzFQTVVpc3pjYk1qeDFoRkZnLXdRVk80aFRRR014b0wzZDRJd2hEaktibnFERzBBUGliMVIzRm9wc0VnSlR1SnNTNWIydzR5dkVCeXlwWGE4eFJhU0J0Y2xJZmNDNGtCRmlPcFZhM0tLRHpPcWtLWm9oU0ctakdvclpFZTBVbnVDcXRFTGpJeXJ4aVBuQQ?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-07-07T09:03:04+00:00",
+      "id": "712c44bc4ec1ab88",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "misuse",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        },
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "Cybercrime, malware and model abuse",
+      "semantic_score": 0.3098,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Top 10 Agentic AI Security Platforms for 2026",
       "summary": "Top 10 Agentic AI Security Platforms for 2026 Technology Org",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONlNwTFhYSjEyRktUR0dNLXp3Mnp2OHlhUjM3aUZHR3N2R2dON2Y5Zml4ZHZFOUVsTnBIWVVVWnk1VUo5NHFfaG5KS0FfTjNydVVMNndhS1lTeHNJazdBV0ZUbHBHS3o4RnFCRTdWbFd6dm5HMXBKbG9Cb1RsbzhUa2RVQlZmLVdyVjB3bA?oc=5",
@@ -2544,47 +2645,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "South African workers struggle to spot AI scams as deepfake threats surge",
-      "summary": "South African workers struggle to spot AI scams as deepfake threats surge businessreport.co.za",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZTlfd05WWUljTUlYVDNTbzYxTlZOV1llb2d0UXljY3JoWGhQUkRDei1jdkhjc1gtamVvR1R6RmRkcU1xLWJHeURLcFd0OXY4VVNoc1dhMllIRkotZmFjUTJHQTNUZzJCRW53TXVoQmNpSGFqd05sa1ZyNlhCOGdpMVFYY09oSWd1OUxHSy1vWVRVM2lJU3hqTVR3RDZYWjk2a3FDRVdKSzdSeVJQdjROTE1Pall3Y1d5QWgwNm41OA?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-07-06T13:05:01+00:00",
-      "id": "2bf4b5ec19256b6e",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "scam",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.0526,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "The Prince’s Trap: Inside the AI Romance Scam Impersonating Dubai Royalty",
       "summary": "The Prince’s Trap: Inside the AI Romance Scam Impersonating Dubai Royalty Brandsynario",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YTS11NmU2RFZGREhlcThJdjRsR3RfdXhvQk1oQjEtN1dGWk9aSGlZQ2l5bTF0SVdST1MxVkY1YXhHZ1h6VXlRUDNjTVNTeE96anNTTmFGWk4tTXBRR3RwMjFHRXVyWGkzNkE?oc=5",
@@ -2617,47 +2677,6 @@
       "watchlist_hits": [],
       "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
       "semantic_score": 0.0782,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Woman loses a year’s savings to AI deepfake scam on dating site, scammers impersonated Dubai’s crown prin",
-      "summary": "Woman loses a year’s savings to AI deepfake scam on dating site, scammers impersonated Dubai’s crown prin The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaWlKb3R1Z0l6REUtVGttQlAzQnV5YjNFZE1zbFYzZGI0cS05cHlKU0ptaVhISGF2enpHWjg1c3FOM2I2RTYzZFJ5eXZKamQ2STY2ZUtnM3A2Rll3MmVKM3hGUV9mU0lGVlkxX0dHSFN1Tjh0SnFTOFV3UUJOakpmb1JLLUxSY0d3alZnWmhZTzJkejBzZWtBNk15cFhpY3NqUnN0eUlkbHl6d1FkUXBhUVZZbGg3WEdCQjVwUENmVHJPeUQxVk5LSkgxTXZBbFlKMGZLb3VtRmFyT0pMcnBXaDZRZjJvRTJsOWtfMWUyRzJXNXprak4tM0NWOGFRaWY3QzJ0cVU1eHZZMy05V2xvWEZUZmZEUdIBmwJBVV95cUxPY2k3M0Y3Rm9RYXdMLXlTODdmX2lCRFlDbmx0OUVORVU1Qk4xVk1OTU1jUUtzTGEtVG1qdFNKZm0tNzJuUE52MHpORW5DNVd2V3FHUE9LWEhGUGl1MU1IaFBiWlNwMzMtdmoxY205M3dCcElxTFFsSE1rUWhkSWZXMFN5dXItVm41TjczeWFxOS1PZDVxS09OWFQ1Zkh4OVVGdlBhQUE5eEtsV29COW5PdUdDV25ES1JxM3pDNG1wYlVfaXhqdDRPYUliOXZPcnViUzM1UWtGZWI1eTR4S1BVRlQwdXkxNTJ0UDlQQmtLekxUMlRtQkRycjVTNzZ4QVVXMUgza0ZSdHZKelZkZEY1dkFLelRRY2dVTGpn?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-07-06T09:26:00+00:00",
-      "id": "85fb73c5159f3957",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "scam",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
-      "semantic_score": 0.2033,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2735,32 +2754,31 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Short training helps people spot AI faces in the battle against deepfake fraud",
-      "summary": "Short training helps people spot AI faces in the battle against deepfake fraud Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RUUZxSVN0QjhRVTA5aFZranNPNzB5S2lXb1p2S0lHMVdfVDIwR0I2c180MlZDV3V1QUU2cXZ3Vk05b0FHb3RrTC1nenZzaHlDQ01YQXptcjdDMFZJYTdVUmlzWVpLR3R5NFdBaFhDSl9aSDBOdXNyc3lkTQ?oc=5",
+      "title": "Australia pushes more AI nudify services offline over child safety",
+      "summary": "Australia pushes more AI nudify services offline over child safety Digital Watch Observatory",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YdnMzV3JZVUdWMU41TXB3clhkVl9BemEwMUVLYjhzaXpMcnJvME4wQnBDR3JSVWJ3VmlneXpLOE1lTjMwemtnZm5GMEk4c0g5SGJzZGlqZmxXam5qR2xfckoyMFpoOS1LRkxuckp4MDV0bF8xeWc?oc=5",
       "domain": "news.google.com",
       "source": "Google News watchlist: Deepfake tools",
       "source_type": "watchlist_news",
-      "publishedAt": "2026-06-29T19:00:12+00:00",
-      "id": "f2c3d5fa9f49c549",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
+      "publishedAt": "2026-06-29T08:44:01+00:00",
+      "id": "8710c633a890f732",
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "risk_area": "RA11",
       "category_family": "AI misuse / harms",
       "relevance_score": 10,
       "why": [
-        "AI-related",
-        "fraud",
+        "Child safeguarding signal",
         "higher-trust source"
       ],
       "uk_relevant": false,
       "priority": "Medium",
-      "sensitive": false,
+      "sensitive": true,
       "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
+        "safeguarding",
+        "platform safety",
         "law enforcement readiness",
-        "regulatory response"
+        "online safety",
+        "public resilience"
       ],
       "discoveredVia": "Google News watchlist: Deepfake tools",
       "watchlist_hits": [
@@ -2771,8 +2789,8 @@
           "owner_hint": "deepfake strategy / VAWG / fraud / CT"
         }
       ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.1889,
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.2387,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2851,21 +2869,21 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
-      "summary": "New macOS malware embeds fake errors to confuse AI analysis tools BleepingComputer",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbEQ4cEdpTEw2cGRIT1pycGlzd0FZQnJkWjUyTXMyTjhNM2FBdEwzN3BvNEg5a0twUV9GOUpuZUpNYVhTTVAxU2J1U3podnBJdHRadDQ3MnRJTjlLdFpaQ2tkUUdiODFuRWJCVFk1MS15LWJWM2FCaXlVejJHWUV2UDMwalBaT043a0NJdWRUdVdLeUFWRHhQelQ3Wkh6SlA0NGlwelVvejdIaVJQNFV0T2JEONIBuAFBVV95cUxNR2Rjd1otV3U0bUpTcXdFX2pCQ2ctalRicXVBZkpWeDRyNGY2SXdtOGVjOXQ4Q29GdkowcnNvcDRGV1FlY2ZXUjRQX2I5eTBfLXF5UTlNRmhRZnpfR00zQWFkQ25xMU5hQWE3NGZiQkh5RDdxTGl2OVBOMUpFTEpwQlNuRkV6MEZyNXBycXNQTkEtZDhQYzdzUXVVRG15VlhGNm9MeVJtck5YSEc1dWoyRks3TzVpNUlL?oc=5",
+      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+      "summary": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRElia19STEJHUE9aU0prY2cyY05ySktobnluZFlEWlNndnY5RVZHVFl0M2RfMW1oakNtSEZuVjdhcTVZNjFyOGlrNnNrZml6bTllWXYyZzJWWURTTjVORy1xb2F4RVp2VTlYZGNFU2RJaUZIV1ZRMVc5eFlpdmNocF9VZw?oc=5",
       "domain": "news.google.com",
-      "source": "Google News category: Cybercrime, malware and model abuse",
-      "source_type": "google_news",
-      "publishedAt": "2026-06-25T07:00:00+00:00",
-      "id": "8854e6ba38890946",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-22T07:00:00+00:00",
+      "id": "3f902cf1d52fb44d",
       "category": "Cybercrime, malware and model abuse",
       "risk_area": "Cross-cutting / cyber",
       "category_family": "AI misuse / harms",
       "relevance_score": 10,
       "why": [
         "AI-related",
-        "malware",
+        "ransomware",
         "higher-trust source"
       ],
       "uk_relevant": false,
@@ -2878,10 +2896,10 @@
         "operational readiness",
         "regulatory response"
       ],
-      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
+      "discoveredVia": "Google News watchlist: Deepfake tools",
       "watchlist_hits": [],
-      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
-      "semantic_score": 0.1201,
+      "semantic_category": "Cybercrime, malware and model abuse",
+      "semantic_score": 0.3341,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3131,6 +3149,47 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Philippines launches broad crackdown on deepfakes as AI drives identity fraud surge",
+      "summary": "Philippines launches broad crackdown on deepfakes as AI drives identity fraud surge Biometric Update",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdktPZ25CeVlzdS1rSmxheEczZ29nRUltN2dqdUdYcDdKTjZOTno2a01fVm8yQzNEemZ4UXA3R296d3F4NXdoWDMwaW5RUUdBU1NvaHRtU3pLdzlUcENSd2tZZFpiVmUzeUxmWVdBLWZBaEhwOXRIVVUyeHVaSjhrLWU5RG9icFVZZmJkeGR5NkZROUEtcXJRVXR2WjFQUG12LVpING5zZ3V1QmZKNTlNQ0R1SDJWUEU4STBIOHo5cw?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-04-14T07:00:00+00:00",
+      "id": "bb7a61c55a3d95f1",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "fraud",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "semantic_score": 0.2598,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
       "summary": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one harmless-looking file, but the write lands on a sensitive one instead. The affected tools are Amazon Q Developer, Anthropic's Claude Code, Augment, Cursor, Google Antigravity, and Windsurf.",
       "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
@@ -3353,6 +3412,40 @@
       ],
       "semantic_category": "AI agents and autonomous capability uplift",
       "semantic_score": 0.2482,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
+      "summary": "New macOS malware embeds fake errors to confuse AI analysis tools BleepingComputer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbEQ4cEdpTEw2cGRIT1pycGlzd0FZQnJkWjUyTXMyTjhNM2FBdEwzN3BvNEg5a0twUV9GOUpuZUpNYVhTTVAxU2J1U3podnBJdHRadDQ3MnRJTjlLdFpaQ2tkUUdiODFuRWJCVFk1MS15LWJWM2FCaXlVejJHWUV2UDMwalBaT043a0NJdWRUdVdLeUFWRHhQelQ3Wkh6SlA0NGlwelVvejdIaVJQNFV0T2JEONIBuAFBVV95cUxNR2Rjd1otV3U0bUpTcXdFX2pCQ2ctalRicXVBZkpWeDRyNGY2SXdtOGVjOXQ4Q29GdkowcnNvcDRGV1FlY2ZXUjRQX2I5eTBfLXF5UTlNRmhRZnpfR00zQWFkQ25xMU5hQWE3NGZiQkh5RDdxTGl2OVBOMUpFTEpwQlNuRkV6MEZyNXBycXNQTkEtZDhQYzdzUXVVRG15VlhGNm9MeVJtck5YSEc1dWoyRks3TzVpNUlL?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: Cybercrime, malware and model abuse",
+      "source_type": "google_news",
+      "publishedAt": "2026-06-25T07:00:00+00:00",
+      "id": "8854e6ba38890946",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "malware",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
+      "watchlist_hits": [],
+      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
+      "semantic_score": 0.1201,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3607,7 +3700,7 @@
     },
     {
       "title": "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
-      "summary": "Former xAI Staffer Says He Was Fired for Questioning Grok Safety Bloomberg.com",
+      "summary": "Former xAI Staffer Says He Was Fired for Questioning Grok Safety Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0hNWmpjX2lFM1pOaVExUDFUcDlleDA4SHBfZVIwM2E2NHZaNVZGbVFFVENxWF9nNldlRFhnWlB0M3pKdFJ0MGlIM1kwZ2hlbmRRQzVlMVRXZzdUc2VVNWZQaFJ1SVdRNFlHTlRsejhsTHRlTDVCS1JEX2JuWUlQM2xZaUozbjAtbEgteWV3WkFnRmJuUjM0SmFIRGRRa2ZFZWJXZmc2OGxHdnFBZklkbXVkdk5NZw?oc=5",
       "domain": "news.google.com",
       "source": "Google News watchlist: Grok",
@@ -3649,7 +3742,7 @@
         }
       ],
       "semantic_category": "Use of AI to tackle crime and public safety",
-      "semantic_score": 0.2333,
+      "semantic_score": 0.2361,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3930,6 +4023,40 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "FBI warns of AI voice-cloning scam that mimics loved ones in distress",
+      "summary": "FBI warns of AI voice-cloning scam that mimics loved ones in distress Click2Houston",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWTdqMU1zRFVIRUFsYlg0X3U5QkUyaldIcFFrZGtQTmNhckVZUUp4N29tbVdVUTdtR1RvODA4U3BrUjFKZHE3Qng3eW5NMVJBa0VLc0dod0FEd2xhNGhVU1hqOWNmVDlOY2MyV19iMjMxNHJ2dnczTFNSakZiSVJPU0gxRVM3Mmg2S29CRUJFVlVibWhMZjBCdmpoVnJBUGtScmpuYUUwc2pqQ0tqaEtxN3ZxZFozT2Y5b2hjLTFLNA?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-02T07:00:00+00:00",
+      "id": "e93c507ecab05e6d",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "scam",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [],
+      "semantic_category": "Use of AI to tackle crime and public safety",
+      "semantic_score": 0.0939,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "AI ‘voice cloning’ scams are on the rise. Here’s how to protect yourself",
       "summary": "AI ‘voice cloning’ scams are on the rise. Here’s how to protect yourself The Mercury News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVmdyLV9GazJIZGZCNUo1OEZoN2VQRFlSLXY1TGhsV1NuSlUzaml5NHhWUEw5ZjduaThTX3d1UDZoNFJySnNQXzQzeFBzdW1ZMjA4Qmc3aWdDVWJEcmYtQjJLblpIbl9SZ1phaGdnbEpkWHE0R2lOa2NjcFd3b3NfVUhzZ251TjFqNlRQajltUElmMjJ3N1l1RS14WXhhMkEzcm5KNUZWVmU4ZElO0gGyAUFVX3lxTE1SNXBkX1c2dFhuRU41SUdtVXRnaF9iaUtQMnlSQ0x3RkpkUmU5MGRWdUdueU1BbUdaT0dobDg0NHRibUZ3OTdVOXc5V2VoZkJLa0NrSFlJTnJtLTFEV3J4NE9aekE5WHEtckxGeFk1a2VJODBycnBNcW1lQzRnalo3U1NTa2w2b1dNbVoxX1laY3hQZmkzSDF6MGRxZUxwVGMxZmZGdk1maWs1bDI0bkxRZ2c?oc=5",
@@ -4158,47 +4285,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "How AI deepfakes are becoming the new frontier of pension fraud",
-      "summary": "How AI deepfakes are becoming the new frontier of pension fraud Professional Pensions",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT3hPZXdUQkZySURXNmVRcTdkNTI0S0pJV3BMazlfT1hzNUI3TWRpaHpzRE1KaHotVF9uck9GbWM4S1F3SHgxQmtjWmFFa0Z4QkltLUVBVUpFcmc3aFNxek5QOHlaZUVTUGNuMVVsQkhIVDZjcVZaYWZLN0tPU3BBRWRhdVlLSTc1amJGaXJnVkVKZw?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-05-15T07:00:00+00:00",
-      "id": "bec082007b6ffdbd",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 9,
-      "why": [
-        "AI-related",
-        "fraud",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.1559,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "Google Cloud Uncovers First AI-Made Zero-Day Exploit, Putting CX in the Crosshairs",
       "summary": "Google Cloud Uncovers First AI-Made Zero-Day Exploit, Putting CX in the Crosshairs CX Today",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYnYzRnZyVHF0Y3pJLUZpWW5MU2Jrc1pWcndOYm8tRER5T2dOZ1hBZ0FtVjVIdDR3ZjRCMGNZRlBIUTJYdE1JVHRQU0JGdVI3SXZablk3M0V4UEVUR0VRUTB6c0ZHdmNpMnZzUWUwNGN5WTVVMFVfWTVmUkV5MUZib1ppaTRSRlV0OG1VSFB1N1F4bm4wNTdRNllLVFVSY3pFSFhPaXFYY0RGazJqYVdVTG5xSUtQRWtpT1FLUWpxa3VPRjA4UHE2NDVPVEtZWlk?oc=5",
@@ -4341,6 +4427,46 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Real-time deepfakes are rewriting the rules of child safety",
+      "summary": "Real-time deepfakes are rewriting the rules of child safety The World Economic Forum",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRZE9KWmlMdUtZRkVkMk4xekI0SmJyZDQ5aUd2b09GQmRzWHBZXzFsWGcwNkxCZlhsRVk0Rm5fcDNHZFAxWEdBQ0gxU0dkZFV2UHZtVUs4MmtwbzNSNWdDQ1ZQZGxNZTZUTllYTEhLblZVOFZjSFlN?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-04-27T07:00:00+00:00",
+      "id": "4e7666c8516daf03",
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "risk_area": "RA11",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "Child safeguarding signal",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": true,
+      "policy_implications": [
+        "safeguarding",
+        "platform safety",
+        "law enforcement readiness",
+        "online safety",
+        "public resilience"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.1886,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "The Grok Scandal Forces Reckoning on AI, Consent and Gendered Harms",
       "summary": "The Grok Scandal Forces Reckoning on AI, Consent and Gendered Harms Centre for International Governance Innovation",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQalp0eXh5ZmdEeFlVa1VCRmRSVE12a1JNdUtzd1JqaDBFMEt2TFFFd0hyYUUyN0NLTWZ6cF9qRDFwX1E5RDZGenV1allwcEhNVGRWaTdPWjRsblVLUW90ZV9zbnMweEFEeHVGajBzSzY4UHdic2dqNVYyYVVZd1p6dDB1ME5IRDEwOGdkYWdlR3hnTXNIM0F0cThmU0VnYXMxbk5ZS2ln?oc=5",
@@ -4388,6 +4514,88 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Government to launch study panel for generative-AI misuse",
+      "summary": "Government to launch study panel for generative-AI misuse The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWU1NWkY0VUlaOUx0Y1hyM01oc21SV2xzV0p2VmEtaDk3cW5pZGJQMzdsN0pvVm1raEVwMkNvYUNzeHk4YjA5NzBXeXlXTGxqa05ncHV0VkR2d2w1dTNyWS1yTmxvWHc2UGZ0OFdyYmp2WXNSTDh4QnN0bmk3UHVWTDRR?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-04-17T07:00:00+00:00",
+      "id": "3d454d683501a3d7",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "misuse",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
+      "semantic_score": 0.1207,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
+      "summary": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game The GitHub Blog",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNclhVTl9Ibl9vR0Z2blFHX2NEWnlrYUFDTHp6VmYtaFBOWS1XZ1JDMFdoZW5yUmdKYmdrREpWVTZyTUhNWm9PZnN5ZlBLUjRhM2NFN3BhSTZmUk1CWDAwT2t5M0tGTFMyODBvT0hxTlBvWDFydEl2T2pnM0RSZFpHTWxMUjBEdldiUTZXUDl6Ny01TTV3OGJIV2ItVERWMWpSeFRabGZKbDk2NkZaWDZFV1pfSQ?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: AI agents and autonomous capability uplift",
+      "source_type": "google_news",
+      "publishedAt": "2026-04-15T07:00:00+00:00",
+      "id": "eb4711a23a2f20ef",
+      "category": "AI agents and autonomous capability uplift",
+      "risk_area": "Cross-cutting / future capability",
+      "category_family": "Capability watch",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "security",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "future capability",
+        "testing",
+        "standards",
+        "operational readiness",
+        "industry engagement"
+      ],
+      "discoveredVia": "Google News category: AI agents and autonomous capability uplift",
+      "watchlist_hits": [
+        {
+          "name": "AI agents",
+          "type": "capability",
+          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
+          "owner_hint": "AIHM research/testing"
+        }
+      ],
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.1636,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "AI Scams Are Rising In 2026 – Here’s How To Protect Yourself",
       "summary": "AI Scams Are Rising In 2026 – Here’s How To Protect Yourself Forbes",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DY2F6MjJwaDMyVk5mT202RnM3R3cyeU0xUFVhbHMyT2JTZmVYLUdnM2QtSVMtanZwV2diaXMyUFd4UTZhdlN5QlZpTkVDek5DTk1HMzZrb05TdTZwSjZlZEFzMjI1RF9GVEVhRG1rRjRmb29zRVE?oc=5",
@@ -4419,6 +4627,47 @@
       "watchlist_hits": [],
       "semantic_category": "Open-source and open-weight model risk",
       "semantic_score": 0.1074,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "What To Know About AI-Generated Scam Calls and Deepfakes",
+      "summary": "What To Know About AI-Generated Scam Calls and Deepfakes Investopedia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeGpTYkdESFlMbzBrdzV4aTBnaXNVTmNZcUVFWHRtczZISFZXTXM0bzh5ZUJ4ZTR6a2JxeGdPUjdjRUJtTHlQSnJJbzVfVVI2enhTZG5qVEZGMG9ZSUNkakxRSHU5M0dLVXVDODJiNzI5ZENka3Y3MjFpMzRlbE1rSEhkR2owVmpCOTM0Y2l2dUdzVGNua1J4enhB?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-04-13T07:00:00+00:00",
+      "id": "3e9aa4a8ad0a3393",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "scam",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
+      "semantic_score": 0.2624,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -4629,6 +4878,39 @@
       ],
       "semantic_category": "RA11 – Child safeguarding and online protection risks",
       "semantic_score": 0.1217,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Turn off this Meta setting before someone generates AI images of you",
+      "summary": "Article URL: https://www.malwarebytes.com/blog/ai/2026/07/turn-off-this-meta-setting-before-someone-generates-ai-images-of-you Comments URL: https://news.ycombinator.com/item?id=48856237 Points: 3 # Comments: 1",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/07/turn-off-this-meta-setting-before-someone-generates-ai-images-of-you",
+      "domain": "malwarebytes.com",
+      "source": "Hacker News: AI agents / prompt injection",
+      "source_type": "early_signal",
+      "publishedAt": "2026-07-10T05:54:13+00:00",
+      "id": "9a5fb5b7becfc9d8",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 6,
+      "why": [
+        "AI-related",
+        "malware"
+      ],
+      "uk_relevant": false,
+      "priority": "Watch",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Hacker News: AI agents / prompt injection",
+      "watchlist_hits": [],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.1826,
       "semantic_mode": "local_hash_similarity"
     }
   ]
