@@ -1,58 +1,57 @@
 {
   "meta": {
     "ok": true,
-    "generatedAt": "2026-07-14T06:23:35+00:00",
+    "generatedAt": "2026-07-14T10:08:38+00:00",
     "mode": "broad-live-monitoring-v1",
-    "total": 83,
+    "total": 84,
     "categoryCount": 10,
     "sourceCount": 23,
     "scanWindow": "90d",
     "minScore": 5,
     "maxTotal": 900,
     "byCategory": {
-      "Cybercrime, malware and model abuse": 39,
+      "Cybercrime, malware and model abuse": 38,
       "Use of AI to tackle crime and public safety": 2,
-      "RA09 – AI-enabled fraud, financial crime and exploitation": 15,
-      "Open-source and open-weight model risk": 11,
-      "RA11 – Child safeguarding and online protection risks": 3,
-      "AI agents and autonomous capability uplift": 8,
+      "RA09 – AI-enabled fraud, financial crime and exploitation": 16,
+      "Open-source and open-weight model risk": 13,
       "RA13 – Terrorism, extremism and radicalisation": 4,
+      "RA11 – Child safeguarding and online protection risks": 3,
+      "AI agents and autonomous capability uplift": 7,
       "RA11 – Image-based abuse, VAWG and interpersonal harms": 1
     },
     "byPriority": {
-      "High": 7,
+      "High": 8,
       "Medium": 75,
       "Watch": 1
     },
     "rejectCounts": {
-      "outside_window": 632,
-      "no_ai_signal": 38,
-      "no_harm_signal": 91,
-      "no_matching_category": 398,
-      "duplicate": 1
+      "no_ai_signal": 39,
+      "outside_window": 631,
+      "no_harm_signal": 87,
+      "no_matching_category": 404
     },
     "errors": {},
     "semanticMode": "local_hash_similarity"
   },
   "briefing": {
-    "generatedAt": "2026-07-14T06:23:35+00:00",
-    "headline": "83 items retained; 7 high priority; 7 UK-relevant.",
+    "generatedAt": "2026-07-14T10:08:38+00:00",
+    "headline": "84 items retained; 8 high priority; 8 UK-relevant.",
     "top_categories": [
       [
         "Cybercrime, malware and model abuse",
-        39
+        38
       ],
       [
         "RA09 – AI-enabled fraud, financial crime and exploitation",
-        15
+        16
       ],
       [
         "Open-source and open-weight model risk",
-        11
+        13
       ],
       [
         "AI agents and autonomous capability uplift",
-        8
+        7
       ],
       [
         "RA13 – Terrorism, extremism and radicalisation",
@@ -73,12 +72,12 @@
     ],
     "top_watchlist_hits": [
       [
-        "AI agents",
+        "Open-source / open-weight models",
         15
       ],
       [
-        "Open-source / open-weight models",
-        13
+        "AI agents",
+        14
       ],
       [
         "Deepfake tools",
@@ -86,42 +85,41 @@
       ],
       [
         "Grok",
-        8
+        9
       ]
     ],
     "top_clusters": [
       {
         "id": "9c161bc0de250b44",
         "title": "Watchlist: AI agents",
-        "count": 14,
+        "count": 13,
         "category": "AI agents and autonomous capability uplift",
         "latest": "2026-07-13T17:07:05+05:30",
-        "first_seen": "2026-04-15T07:00:00+00:00",
+        "first_seen": "2026-05-15T07:00:00+00:00",
         "uk_count": 1,
         "highest_score": 14,
         "item_ids": [
           "5f50d1ade517ff94",
           "52539fbd3c691ad0",
           "ef84ba798108c5c6",
-          "9a4a4d27633a0775",
-          "dd50f3c44bff0325",
           "ba7814fb47a5b488",
           "f529c61408f48e7e",
           "1d00d1855c960dd3",
+          "29fd30c1c8625c58",
+          "b214066dc0917477",
           "d3f103eada5f52f6",
           "c981dbe42834a761",
           "df64d9165484f116",
           "8509ddf740f18168",
-          "651723eed9c1bac3",
-          "eb4711a23a2f20ef"
+          "651723eed9c1bac3"
         ],
         "top_titles": [
           "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
           "It’s a First: An AI Agent Carries Out a Ransomware Attack on AI App Builder",
           "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-          "Industry Alarmed as First Agentic AI Ransomware Attack Is Discovered, but There’s a Catch",
-          "Top 10 Agentic AI Security Platforms for 2026",
-          "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More"
+          "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+          "AI agent completes full ransomware attack chain",
+          "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack"
         ]
       },
       {
@@ -157,7 +155,7 @@
       {
         "id": "018da3b98d84fbc4",
         "title": "Watchlist: Grok",
-        "count": 8,
+        "count": 9,
         "category": "RA11 – Child safeguarding and online protection risks",
         "latest": "2026-07-07T20:19:00+00:00",
         "first_seen": "2026-04-21T07:00:00+00:00",
@@ -165,6 +163,7 @@
         "highest_score": 12,
         "item_ids": [
           "2690f9c4c64cf035",
+          "e37cddb9826c13e3",
           "7ff200881a62870e",
           "d8ad222eb5178dca",
           "b52e4d8f022f277c",
@@ -175,23 +174,24 @@
         ],
         "top_titles": [
           "Deepfake CSAM lawsuit against xAI, Grok expands",
+          "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
           "Whistleblower Sues Elon Musk's xAI, Claiming He Was Fired After Raising Grok Safety Concerns",
           "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns",
           "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
-          "Former XAI Engineer Says He Was Fired Over Safety Warnings",
-          "Center for AI Safety Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute in Major Expansion of Leadership and Reach"
+          "Former XAI Engineer Says He Was Fired Over Safety Warnings"
         ]
       },
       {
         "id": "cc7d9b1d325425b6",
         "title": "Watchlist: Open-source / open-weight models",
-        "count": 7,
-        "category": "AI agents and autonomous capability uplift",
-        "latest": "2026-07-09T10:45:02+05:30",
+        "count": 8,
+        "category": "Open-source and open-weight model risk",
+        "latest": "2026-07-14T08:50:13+00:00",
         "first_seen": "2026-06-04T12:00:00+00:00",
         "uk_count": 1,
         "highest_score": 11,
         "item_ids": [
+          "41e53c9c1d503be0",
           "8920b18498ef7fc5",
           "7c887354dccdb519",
           "a7adca39aae81885",
@@ -201,12 +201,12 @@
           "9a6817ca3dc4b9a4"
         ],
         "top_titles": [
+          "ModelDNA: Verifying the lineage of open-weight LLMs from weight fingerprints",
           "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
           "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
           "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
           "Building the foundation for an autonomous enterprise",
-          "Chinese Z.ai's latest model tops AI ranking charts amid Anthropic Fable 5 ban — blacklisted China firm's popular open-weight GLM-5.2 AI model powered by Huawei silicon",
-          "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models"
+          "Chinese Z.ai's latest model tops AI ranking charts amid Anthropic Fable 5 ban — blacklisted China firm's popular open-weight GLM-5.2 AI model powered by Huawei silicon"
         ]
       },
       {
@@ -225,6 +225,22 @@
         "top_titles": [
           "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
           "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More"
+        ]
+      },
+      {
+        "id": "faf32be85b56ddba",
+        "title": "Cybercrime, malware and model abuse: sanctions first service",
+        "count": 1,
+        "category": "Cybercrime, malware and model abuse",
+        "latest": "2026-07-14T13:32:33+05:30",
+        "first_seen": "2026-07-14T13:32:33+05:30",
+        "uk_count": 1,
+        "highest_score": 15,
+        "item_ids": [
+          "99deec8fbb9beaf9"
+        ],
+        "top_titles": [
+          "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support"
         ]
       },
       {
@@ -258,25 +274,16 @@
         "top_titles": [
           "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns"
         ]
-      },
-      {
-        "id": "9d400ec3e9a9c921",
-        "title": "Cybercrime, malware and model abuse: allies critical sectors",
-        "count": 1,
-        "category": "Cybercrime, malware and model abuse",
-        "latest": "2026-07-13T12:00:00+00:00",
-        "first_seen": "2026-07-13T12:00:00+00:00",
-        "uk_count": 1,
-        "highest_score": 11,
-        "item_ids": [
-          "3251c04daa08a1ea"
-        ],
-        "top_titles": [
-          "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting"
-        ]
       }
     ],
     "highest_priority_items": [
+      {
+        "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+        "category": "Cybercrime, malware and model abuse",
+        "priority": "High",
+        "score": 15,
+        "url": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html"
+      },
       {
         "title": "AI agent completes full ransomware attack chain",
         "category": "Cybercrime, malware and model abuse",
@@ -353,13 +360,6 @@
         "priority": "Medium",
         "score": 12,
         "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html"
-      },
-      {
-        "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
-        "category": "Cybercrime, malware and model abuse",
-        "priority": "Medium",
-        "score": 12,
-        "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html"
       }
     ],
     "suggested_use": "Use as a triage aid. Verify sources before using in advice, briefings or commissions."
@@ -368,35 +368,34 @@
     {
       "id": "9c161bc0de250b44",
       "title": "Watchlist: AI agents",
-      "count": 14,
+      "count": 13,
       "category": "AI agents and autonomous capability uplift",
       "latest": "2026-07-13T17:07:05+05:30",
-      "first_seen": "2026-04-15T07:00:00+00:00",
+      "first_seen": "2026-05-15T07:00:00+00:00",
       "uk_count": 1,
       "highest_score": 14,
       "item_ids": [
         "5f50d1ade517ff94",
         "52539fbd3c691ad0",
         "ef84ba798108c5c6",
-        "9a4a4d27633a0775",
-        "dd50f3c44bff0325",
         "ba7814fb47a5b488",
         "f529c61408f48e7e",
         "1d00d1855c960dd3",
+        "29fd30c1c8625c58",
+        "b214066dc0917477",
         "d3f103eada5f52f6",
         "c981dbe42834a761",
         "df64d9165484f116",
         "8509ddf740f18168",
-        "651723eed9c1bac3",
-        "eb4711a23a2f20ef"
+        "651723eed9c1bac3"
       ],
       "top_titles": [
         "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
         "It’s a First: An AI Agent Carries Out a Ransomware Attack on AI App Builder",
         "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-        "Industry Alarmed as First Agentic AI Ransomware Attack Is Discovered, but There’s a Catch",
-        "Top 10 Agentic AI Security Platforms for 2026",
-        "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More"
+        "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+        "AI agent completes full ransomware attack chain",
+        "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack"
       ]
     },
     {
@@ -432,7 +431,7 @@
     {
       "id": "018da3b98d84fbc4",
       "title": "Watchlist: Grok",
-      "count": 8,
+      "count": 9,
       "category": "RA11 – Child safeguarding and online protection risks",
       "latest": "2026-07-07T20:19:00+00:00",
       "first_seen": "2026-04-21T07:00:00+00:00",
@@ -440,6 +439,7 @@
       "highest_score": 12,
       "item_ids": [
         "2690f9c4c64cf035",
+        "e37cddb9826c13e3",
         "7ff200881a62870e",
         "d8ad222eb5178dca",
         "b52e4d8f022f277c",
@@ -450,23 +450,24 @@
       ],
       "top_titles": [
         "Deepfake CSAM lawsuit against xAI, Grok expands",
+        "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
         "Whistleblower Sues Elon Musk's xAI, Claiming He Was Fired After Raising Grok Safety Concerns",
         "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns",
         "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
-        "Former XAI Engineer Says He Was Fired Over Safety Warnings",
-        "Center for AI Safety Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute in Major Expansion of Leadership and Reach"
+        "Former XAI Engineer Says He Was Fired Over Safety Warnings"
       ]
     },
     {
       "id": "cc7d9b1d325425b6",
       "title": "Watchlist: Open-source / open-weight models",
-      "count": 7,
-      "category": "AI agents and autonomous capability uplift",
-      "latest": "2026-07-09T10:45:02+05:30",
+      "count": 8,
+      "category": "Open-source and open-weight model risk",
+      "latest": "2026-07-14T08:50:13+00:00",
       "first_seen": "2026-06-04T12:00:00+00:00",
       "uk_count": 1,
       "highest_score": 11,
       "item_ids": [
+        "41e53c9c1d503be0",
         "8920b18498ef7fc5",
         "7c887354dccdb519",
         "a7adca39aae81885",
@@ -476,12 +477,12 @@
         "9a6817ca3dc4b9a4"
       ],
       "top_titles": [
+        "ModelDNA: Verifying the lineage of open-weight LLMs from weight fingerprints",
         "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
         "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
         "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
         "Building the foundation for an autonomous enterprise",
-        "Chinese Z.ai's latest model tops AI ranking charts amid Anthropic Fable 5 ban — blacklisted China firm's popular open-weight GLM-5.2 AI model powered by Huawei silicon",
-        "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models"
+        "Chinese Z.ai's latest model tops AI ranking charts amid Anthropic Fable 5 ban — blacklisted China firm's popular open-weight GLM-5.2 AI model powered by Huawei silicon"
       ]
     },
     {
@@ -500,6 +501,22 @@
       "top_titles": [
         "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
         "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More"
+      ]
+    },
+    {
+      "id": "faf32be85b56ddba",
+      "title": "Cybercrime, malware and model abuse: sanctions first service",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-14T13:32:33+05:30",
+      "first_seen": "2026-07-14T13:32:33+05:30",
+      "uk_count": 1,
+      "highest_score": 15,
+      "item_ids": [
+        "99deec8fbb9beaf9"
+      ],
+      "top_titles": [
+        "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support"
       ]
     },
     {
@@ -615,6 +632,22 @@
       ]
     },
     {
+      "id": "a1523f3e311d92ae",
+      "title": "Cybercrime, malware and model abuse: sanctions malware providers",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-14T05:40:13-04:00",
+      "first_seen": "2026-07-14T05:40:13-04:00",
+      "uk_count": 0,
+      "highest_score": 11,
+      "item_ids": [
+        "92e2038bcc194031"
+      ],
+      "top_titles": [
+        "US sanctions VPN, malware providers for enabling ransomware attacks"
+      ]
+    },
+    {
       "id": "4b541f29dda23e4d",
       "title": "Cybercrime, malware and model abuse: redhook android malware",
       "count": 1,
@@ -644,22 +677,6 @@
       ],
       "top_titles": [
         "New Ghost Phishing Wave Is Breaking Traditional Email Security"
-      ]
-    },
-    {
-      "id": "6d19514ca4c30dff",
-      "title": "Cybercrime, malware and model abuse: langflow vulnerability exploited",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-07-04T05:57:58+00:00",
-      "first_seen": "2026-07-04T05:57:58+00:00",
-      "uk_count": 0,
-      "highest_score": 11,
-      "item_ids": [
-        "a56b2b7e55dd099e"
-      ],
-      "top_titles": [
-        "Langflow vulnerability exploited in AI-driven ransomware attack"
       ]
     },
     {
@@ -756,6 +773,22 @@
       ],
       "top_titles": [
         "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access"
+      ]
+    },
+    {
+      "id": "dba8a2ab0b133265",
+      "title": "RA13 – Terrorism, extremism and radicalisation: artificial intelligence future",
+      "count": 1,
+      "category": "RA13 – Terrorism, extremism and radicalisation",
+      "latest": "2026-07-10T13:20:22+00:00",
+      "first_seen": "2026-07-10T13:20:22+00:00",
+      "uk_count": 0,
+      "highest_score": 10,
+      "item_ids": [
+        "e30ec40620e214df"
+      ],
+      "top_titles": [
+        "Artificial Intelligence and the Future of Terrorism"
       ]
     },
     {
@@ -919,22 +952,6 @@
       ]
     },
     {
-      "id": "69d12e240594615e",
-      "title": "Cybercrime, malware and model abuse: ongoing changes android",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-07-14T03:53:45+00:00",
-      "first_seen": "2026-07-14T03:53:45+00:00",
-      "uk_count": 0,
-      "highest_score": 9,
-      "item_ids": [
-        "c78b4f6d91e45fdd"
-      ],
-      "top_titles": [
-        "Ongoing changes to Android security patches due to AI vulnerability discovery"
-      ]
-    },
-    {
       "id": "4378dfbd4aa898fa",
       "title": "Cybercrime, malware and model abuse: australia warns global",
       "count": 1,
@@ -1060,22 +1077,6 @@
       ],
       "top_titles": [
         "FuehrerLLM: When Extremists Build Their Own AI"
-      ]
-    },
-    {
-      "id": "19484aa202b87eec",
-      "title": "RA13 – Terrorism, extremism and radicalisation: enforcement warns anti-tech",
-      "count": 1,
-      "category": "RA13 – Terrorism, extremism and radicalisation",
-      "latest": "2026-05-26T07:00:00+00:00",
-      "first_seen": "2026-05-26T07:00:00+00:00",
-      "uk_count": 0,
-      "highest_score": 9,
-      "item_ids": [
-        "5536e789b0cda758"
-      ],
-      "top_titles": [
-        "US Law Enforcement Warns of ‘Anti-Tech Extremism’ as AI Hatred Grows"
       ]
     },
     {
@@ -1233,6 +1234,42 @@
     }
   ],
   "articles": [
+    {
+      "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+      "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks against Americans. The VPN, named First VPN Service (1VPNS), has been accused of offering its tools to ransomware groups, along with its 45-year-old Ukrainian",
+      "url": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-07-14T13:32:33+05:30",
+      "id": "99deec8fbb9beaf9",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 15,
+      "why": [
+        "AI-related",
+        "malware",
+        "ransomware",
+        "UK signal",
+        "higher-trust source"
+      ],
+      "uk_relevant": true,
+      "priority": "High",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [],
+      "semantic_category": "Cybercrime, malware and model abuse",
+      "semantic_score": 0.2656,
+      "semantic_mode": "local_hash_similarity"
+    },
     {
       "title": "AI agent completes full ransomware attack chain",
       "summary": "AI agent completes full ransomware attack chain Computing UK",
@@ -1760,6 +1797,41 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
+      "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+      "domain": "bleepingcomputer.com",
+      "source": "BleepingComputer",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-07-14T05:40:13-04:00",
+      "id": "92e2038bcc194031",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 11,
+      "why": [
+        "AI-related",
+        "malware",
+        "ransomware",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "BleepingComputer",
+      "watchlist_hits": [],
+      "semantic_category": "Cybercrime, malware and model abuse",
+      "semantic_score": 0.2202,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "It’s a First: An AI Agent Carries Out a Ransomware Attack on AI App Builder",
       "summary": "It’s a First: An AI Agent Carries Out a Ransomware Attack on AI App Builder CXOToday.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2oteHhoT0huN01hdGp0emp0Q09HTjd3YmNtTVk1VHduSGY3NTJzdmtLTEFqR2t2RVVkQ01BU0VwenlLT3h4Zk5UNm80WGdER3pTTC1NNUxEbllWb092OGRDR0NlM3pEb0pQaEZJVDlWbFh0QjNyQU1qQzRHaVFOQS1TUlQtV1RXaDhVMjhlS01weVU2SUx5bjZJbHRLbHJjd2JYZmFsV3VlS1lMVWc?oc=5",
@@ -1869,47 +1941,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Industry Alarmed as First Agentic AI Ransomware Attack Is Discovered, but There’s a Catch",
-      "summary": "Industry Alarmed as First Agentic AI Ransomware Attack Is Discovered, but There’s a Catch UC Today",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX285QS0wa196VUxsUEFZY1A4blh6STFKR20wZkFMMmg1dnExMUIxMUdQRmNwZGpzRGk3dDZsRk5HM19xMHhtVnRKLTNRdFRRckplZHBNZUlmOUJMbVVEME9aVkNwQm1TOGZJUHFBYm5MVGZZQ1VZYzlQOUlPM0FhQ0FnUHU1NWkzNG1vY2FPT2MxcHRDanNOV01jVXU0WmYzUlhlM01Rb2NBZS1tWHdzZy16blBKUzZiVDNiWS1ZVVVoVUQteEZvYzVfRDFWTzFKaUFZ?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News category: Cybercrime, malware and model abuse",
-      "source_type": "google_news",
-      "publishedAt": "2026-07-07T13:27:25+00:00",
-      "id": "9a4a4d27633a0775",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 11,
-      "why": [
-        "AI-related",
-        "ransomware",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
-      "watchlist_hits": [
-        {
-          "name": "AI agents",
-          "type": "capability",
-          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
-          "owner_hint": "AIHM research/testing"
-        }
-      ],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.3422,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
       "summary": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More The Hacker News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jb0dQcUlGcXRmeUJxNWZTQUJEeENHQzdmRFFqdko5TnZ4LWFoaU5pM0swM0FGWTg4dk9UYkZOeGJMVk55TDlpQk9ia1BscmNXUlB2TElrN2ctTjdEblBaYXNsa0k1VExyWldJclZNczliRVpKaXZUVDhEOFpJQQ?oc=5",
@@ -1949,42 +1980,6 @@
       ],
       "semantic_category": "Cybercrime, malware and model abuse",
       "semantic_score": 0.2462,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Langflow vulnerability exploited in AI-driven ransomware attack",
-      "summary": "Langflow vulnerability exploited in AI-driven ransomware attack TechGig",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONTJMNlhKZTZPWDlMZ2pDa0l6Tjh2RjFYZkxxMDlPV25jcFlUaDZWLVh5Y0FjWUhOY01jWHJBelVIcFRRVC1jUDZpcUdrX3JxZnV2NXNvRnNHU29mZldOR0gwU2JnelVvTWMtMF9haV9FNFFuTXRtdnoyVW4tcXVxTmZVejA2UF9hemlvZmxtcVRQOTFQZ2t2TlU1YU5Wd3Y5cmVLX1VQX1BZUzVJTXN2dnBCVHQ0eEx3aDRJ0gHAAUFVX3lxTE1laEZFOU1PaEE3d3VrWnBiQ2t5aVZ6ajBjb2htV1Vxc0pMVFozNHRENTBobnNpd3Iwd2pwYkxSM3Y5ZU1TeTA4dEZEN1pmZ2VudmxFTmU3UWFscU9VaDJaZEJ4UGhIZmNxdVZWRVNTMzRIUDJsdmctbk5ZeWN4b29HNXg3bTNGbTZiODZQQk1henZHQkREdGVvSnNra2pWSVhLUjVDa2NLeGlRdkRVWWFIdkFXcXVQWE1QYXJXM2tIbg?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News category: Cybercrime, malware and model abuse",
-      "source_type": "google_news",
-      "publishedAt": "2026-07-04T05:57:58+00:00",
-      "id": "a56b2b7e55dd099e",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 11,
-      "why": [
-        "AI-related",
-        "ransomware",
-        "exploit",
-        "vulnerability",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
-      "watchlist_hits": [],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.1461,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2234,6 +2229,40 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Artificial Intelligence and the Future of Terrorism",
+      "summary": "Artificial Intelligence and the Future of Terrorism CSIS | Center for Strategic and International Studies",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJejV5MGFCRklWeFM5czREazZiMmswR3NkTzNNWEFGN3Z2d0xQc0dwaDBNN1JtbER2MERPZmhqVE9UeDAwa21yWGxTYTBwV0o5cTFSZVFwSTBUeVpDOU02NUs0bUdzOVB6SUdmWjNOeExfdkhaZElTdC01YnlJOVU?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: RA13 – Terrorism, extremism and radicalisation",
+      "source_type": "google_news",
+      "publishedAt": "2026-07-10T13:20:22+00:00",
+      "id": "e30ec40620e214df",
+      "category": "RA13 – Terrorism, extremism and radicalisation",
+      "risk_area": "RA13",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "terrorism",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "counter-terrorism",
+        "national security",
+        "platform safety",
+        "public safety",
+        "operational readiness"
+      ],
+      "discoveredVia": "Google News category: RA13 – Terrorism, extremism and radicalisation",
+      "watchlist_hits": [],
+      "semantic_category": "Cybercrime, malware and model abuse",
+      "semantic_score": 0.4093,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
       "summary": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global",
       "url": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
@@ -2390,47 +2419,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Top 10 Agentic AI Security Platforms for 2026",
-      "summary": "Top 10 Agentic AI Security Platforms for 2026 Technology Org",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONlNwTFhYSjEyRktUR0dNLXp3Mnp2OHlhUjM3aUZHR3N2R2dON2Y5Zml4ZHZFOUVsTnBIWVVVWnk1VUo5NHFfaG5KS0FfTjNydVVMNndhS1lTeHNJazdBV0ZUbHBHS3o4RnFCRTdWbFd6dm5HMXBKbG9Cb1RsbzhUa2RVQlZmLVdyVjB3bA?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News category: AI agents and autonomous capability uplift",
-      "source_type": "google_news",
-      "publishedAt": "2026-07-07T06:44:56+00:00",
-      "id": "dd50f3c44bff0325",
-      "category": "AI agents and autonomous capability uplift",
-      "risk_area": "Cross-cutting / future capability",
-      "category_family": "Capability watch",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "security",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "future capability",
-        "testing",
-        "standards",
-        "operational readiness",
-        "industry engagement"
-      ],
-      "discoveredVia": "Google News category: AI agents and autonomous capability uplift",
-      "watchlist_hits": [
-        {
-          "name": "AI agents",
-          "type": "capability",
-          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
-          "owner_hint": "AIHM research/testing"
-        }
-      ],
-      "semantic_category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
-      "semantic_score": 0.2365,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "The Prince’s Trap: Inside the AI Romance Scam Impersonating Dubai Royalty",
       "summary": "The Prince’s Trap: Inside the AI Romance Scam Impersonating Dubai Royalty Brandsynario",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YTS11NmU2RFZGREhlcThJdjRsR3RfdXhvQk1oQjEtN1dGWk9aSGlZQ2l5bTF0SVdST1MxVkY1YXhHZ1h6VXlRUDNjTVNTeE96anNTTmFGWk4tTXBRR3RwMjFHRXVyWGkzNkE?oc=5",
@@ -2504,88 +2492,6 @@
       ],
       "semantic_category": "Open-source and open-weight model risk",
       "semantic_score": 0.2806,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
-      "summary": "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZHhlNkRsSTdrTk8wdVF2M2Ixd3kzNGlzVm9fU3FDZEt3Qkt1Rkt3bXRRVTBCYkJONmMwWXZoTzEyUVljU0hPR2ZIQ3puSnUxcUd5NG5UN2diak1oZ3FHV1h6SGdTOXhiU1FjYmxBUWVBR0xjMDVhbTR6aFFXQ1F6dEJIdzE1emgwOGJyRkpXUEJ1Z1lQSDg3TmhLel90a2xuUkZXZ0F4R2RqUFhMMGsxdmdLemxWZU9h?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-29T07:00:00+00:00",
-      "id": "11a8c3f936d4f6b3",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "scam",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
-      "semantic_score": 0.1252,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026",
-      "summary": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026 AI News",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRzlqTFhWVHJKeEFkVEZnS1RVXzNEOFBuWEZCaFVnRl8wWGcySW5BaThrR2ROMzhZbG5aSlJucEgtRVVuV0hSdnU0TGhBUnB2Z3RHaFpUYkU0LUsxT1Q5RTlpRzJqU0x2enRfRUJBcGh1OV9WeWJyemFKN0RpQUpqWEFJNnB3YkprVXFVNXBpY0xkSFFEZWlrUTJFdGxkWVh2ZVEzdVpUVkdqcTdsczBRR0wydi1KYm9OdkRDd2N1aW00MlI0YUswN1dDVDYzZ2tKV2R4cGtxWjFIWkls?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-29T07:00:00+00:00",
-      "id": "01447604e2ac96d5",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "scam",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.1432,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2870,39 +2776,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Ongoing changes to Android security patches due to AI vulnerability discovery",
-      "summary": "Article URL: https://discuss.grapheneos.org/d/40286-ongoing-changes-to-android-security-patches-due-to-ai-vulnerability-discovery Comments URL: https://news.ycombinator.com/item?id=48902125 Points: 3 # Comments: 0",
-      "url": "https://discuss.grapheneos.org/d/40286-ongoing-changes-to-android-security-patches-due-to-ai-vulnerability-discovery",
-      "domain": "discuss.grapheneos.org",
-      "source": "Hacker News: AI agents / prompt injection",
-      "source_type": "early_signal",
-      "publishedAt": "2026-07-14T03:53:45+00:00",
-      "id": "c78b4f6d91e45fdd",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 9,
-      "why": [
-        "AI-related",
-        "vulnerability"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Hacker News: AI agents / prompt injection",
-      "watchlist_hits": [],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.0984,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
       "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
@@ -2975,6 +2848,88 @@
       ],
       "semantic_category": "AI agents and autonomous capability uplift",
       "semantic_score": 0.2021,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
+      "summary": "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZHhlNkRsSTdrTk8wdVF2M2Ixd3kzNGlzVm9fU3FDZEt3Qkt1Rkt3bXRRVTBCYkJONmMwWXZoTzEyUVljU0hPR2ZIQ3puSnUxcUd5NG5UN2diak1oZ3FHV1h6SGdTOXhiU1FjYmxBUWVBR0xjMDVhbTR6aFFXQ1F6dEJIdzE1emgwOGJyRkpXUEJ1Z1lQSDg3TmhLel90a2xuUkZXZ0F4R2RqUFhMMGsxdmdLemxWZU9h?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-29T07:00:00+00:00",
+      "id": "11a8c3f936d4f6b3",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "scam",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
+      "semantic_score": 0.1252,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026",
+      "summary": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026 AI News",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRzlqTFhWVHJKeEFkVEZnS1RVXzNEOFBuWEZCaFVnRl8wWGcySW5BaThrR2ROMzhZbG5aSlJucEgtRVVuV0hSdnU0TGhBUnB2Z3RHaFpUYkU0LUsxT1Q5RTlpRzJqU0x2enRfRUJBcGh1OV9WeWJyemFKN0RpQUpqWEFJNnB3YkprVXFVNXBpY0xkSFFEZWlrUTJFdGxkWVh2ZVEzdVpUVkdqcTdsczBRR0wydi1KYm9OdkRDd2N1aW00MlI0YUswN1dDVDYzZ2tKV2R4cGtxWjFIWkls?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Deepfake tools",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-29T07:00:00+00:00",
+      "id": "01447604e2ac96d5",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "scam",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: Deepfake tools",
+      "watchlist_hits": [
+        {
+          "name": "Deepfake tools",
+          "type": "tool/theme",
+          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
+          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
+        }
+      ],
+      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "semantic_score": 0.1432,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3084,6 +3039,88 @@
       ],
       "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
       "semantic_score": 0.2326,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Enterprise AI adoption drives surge in Agentic AI, cloud, and cybersecurity training",
+      "summary": "Enterprise AI adoption drives surge in Agentic AI, cloud, and cybersecurity training ET CIO",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeE5yenMxQ3BIelBGa25YX0xVSWY3bEh3U2Fya1kwaGZvWUtKV3RXcmJKeXpDWUw5dDQxNFRaMEw2TVBVZkljZVltUjNKWG43dThSX0xCZkw5V1hwMHNQa1c5TlM3c0ZfajBTbGU3SnVkQzFFLWVaZDJOV3l3YXdjQ2drSEQwdzdnSGVxQzBFbGJwNVcyNWZoRXY5MkNtTzMzb2p0OXQxUVlrZXlhTDFwNlNxN19IQkNuLTZ1MExicjU0OWlPazB4OHAzZ2w2R2kxQjViOGt0NXV0aWFrLUJtNFVyZmVlMGx5WlR1d3U3eG8wanJ00gH6AUFVX3lxTE5iNl9fRUNXWTZIajVIaW5HbTBBbktNSDJHay1SSTNIc19oMmVRUVV5QkVPcE1oX0h6TlJXc1hPR3pDOEhvTi1RbGo1SDlieXFWY0hWYUpqY0N4aHo3VU03dFhQRU9QQnREX0JranNRM0FrTHlMLUxKX3FmUGIzQnEtMlBTak41cFZpUVVWVUczWHlRUXFSZS1pOXFlNVhPT21jQ1BadHlBcmlRREIyX0VrbElDWEFQXy11dWlsY05zQmM2QjJQdjBWSW95Q3NUMnc1MTlxd1hmaDAxczhHOEcwTzFaYzR6TU1NNXdVeVphZnZJcVp6OGxhLUE?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: AI agents",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-23T07:00:00+00:00",
+      "id": "29fd30c1c8625c58",
+      "category": "AI agents and autonomous capability uplift",
+      "risk_area": "Cross-cutting / future capability",
+      "category_family": "Capability watch",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "security",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "future capability",
+        "testing",
+        "standards",
+        "operational readiness",
+        "industry engagement"
+      ],
+      "discoveredVia": "Google News watchlist: AI agents",
+      "watchlist_hits": [
+        {
+          "name": "AI agents",
+          "type": "capability",
+          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
+          "owner_hint": "AIHM research/testing"
+        }
+      ],
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.2696,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Wibmo Unveils Agentic Risk Intelligence Assistant - an AI Assistant for Financial Crime Operations",
+      "summary": "Wibmo Unveils Agentic Risk Intelligence Assistant - an AI Assistant for Financial Crime Operations pan african visions",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS3Z4NUJ6NUduekt3eUpXMlZFdVhHZEo0ckp1SlktdWpJQWc1WUtncVpZamtaNGNzNFRQYTlldV9rcHZ2dXlpRjhuT21hckxaTU8ya2JrZzhfa29zYmYyYWMxbUtIa004dGxYOFU3Rm5leHFVZ2hOZDYyUm9hLW51WUJwYjhrY2MwMzM4TWhWZW80VHJKN0llQTc4SUJmR3hteGt1dFZQUG1EcmdOVEExdG9OV0VkNDdmNzV3MjQ0RmhKWko1bDZ5MXRWTmcwaENj?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: AI agents",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-22T07:00:00+00:00",
+      "id": "b214066dc0917477",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "financial crime",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News watchlist: AI agents",
+      "watchlist_hits": [
+        {
+          "name": "AI agents",
+          "type": "capability",
+          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
+          "owner_hint": "AIHM research/testing"
+        }
+      ],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.175,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3233,6 +3270,53 @@
       "watchlist_hits": [],
       "semantic_category": "Open-source and open-weight model risk",
       "semantic_score": 0.2252,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
+      "summary": "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd3ExYWhlN09VSzdGcm80SndkbTdydVFXU0FIVkVTRXB5dkVGMmRlUGRicWhQZ0pkUkZKQ3M4TDRZaDg3WHFDSS1zQy1wby1ScjNnSEcxR09XMkRiZzZ6ZW1FSVprWmZuRHdFRDFHZ21ZNzcwcHlTaVRWb1lUcm8ya1c5ejJ2OFRhcUY3UDhhVk9MR1ZvTG95T0xSM3JRRGY2cFJtZUdRYWQzX1VrSjdQVUgxQ0JQTFRiTldiWEZSSEo3YjEzOE5VN0JYQ1JGeDNjM0FVLWxLc9IB3AFBVV95cUxPOFZLVThSd3NPWUV2UXFHT3VkMWhWdzhoclY2cWRMdEQ4LXp1YWZUODJDZFhzZzRUNXA0NGlsTkZJb1NrWUJhY2l4eTBwczRoXzVfRUlZVUduR1V3VFpQbWgyc2wyWFFaT1NtMlp0ZGthR05OV1VuS1VRc2Fyek12ZEtYOGdTMFl4aG5KY005RnlOUW9JUk9kT3FyT05hTGV4WnAzY1hXYkJGb2NSS0E4UXpsTDBQMkw3aFQ1QUpDNmw0cTJGdTZCYXd5WFdtTktPNTlqNWdlTWp1aTBC?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Grok",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-12T07:00:00+00:00",
+      "id": "e37cddb9826c13e3",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "safety",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Grok",
+      "watchlist_hits": [
+        {
+          "name": "Grok",
+          "type": "tool/model",
+          "reason": "Track public reporting and evidence relating to Grok capability, safeguards, misuse and policy relevance.",
+          "owner_hint": "AIHM / online harms / DSIT engagement"
+        },
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.2087,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3693,40 +3777,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "US Law Enforcement Warns of ‘Anti-Tech Extremism’ as AI Hatred Grows",
-      "summary": "US Law Enforcement Warns of ‘Anti-Tech Extremism’ as AI Hatred Grows WIRED",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSWRxazBPOGZGb0FLTy1SR25nbFR1azV4dkg2OUZGTGVib1lKdEdqTkVKSFF6WWtIMEk0UnBBeE9uSjVpTDU4N3dUb0dSTXhDNEotaWNNdG9GdHhuNkdvNW1KNzRFd3ViTjl5N043S1pBb2V1Nmw5eExmTXhtY3BWcWtR?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News category: RA13 – Terrorism, extremism and radicalisation",
-      "source_type": "google_news",
-      "publishedAt": "2026-05-26T07:00:00+00:00",
-      "id": "5536e789b0cda758",
-      "category": "RA13 – Terrorism, extremism and radicalisation",
-      "risk_area": "RA13",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 9,
-      "why": [
-        "AI-related",
-        "extremism",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "counter-terrorism",
-        "national security",
-        "platform safety",
-        "public safety",
-        "operational readiness"
-      ],
-      "discoveredVia": "Google News category: RA13 – Terrorism, extremism and radicalisation",
-      "watchlist_hits": [],
-      "semantic_category": "Use of AI to tackle crime and public safety",
-      "semantic_score": 0.234,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "Content moderation alone cannot reverse sexism by design: AI-enabled abuse and the Grok case",
       "summary": "Content moderation alone cannot reverse sexism by design: AI-enabled abuse and the Grok case ODI: Think change",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0FUU2l5aDFZcFpZUnJVdjNLaWlQVEtYUHRFLWNMY0hEZzZqdS1mR2RJMGJKd0NhMEJZQlRXZWtkT0VfcE5JaVBkZDlGazVIRkkxWVpPRkxBS2lhUEloSklnYU1wbVU2REtLanJldERJenItQm1iZ2JzbWg5SldlVnVKSS04aHYyWF9CREdwM3pDQ2VLMWNURi1MeDZuTUdVR3cyUEFnSDZOaWI0NmhRdGxJcFRoV3BUMW9TWA?oc=5",
@@ -4147,44 +4197,43 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
-      "summary": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game The GitHub Blog",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNclhVTl9Ibl9vR0Z2blFHX2NEWnlrYUFDTHp6VmYtaFBOWS1XZ1JDMFdoZW5yUmdKYmdrREpWVTZyTUhNWm9PZnN5ZlBLUjRhM2NFN3BhSTZmUk1CWDAwT2t5M0tGTFMyODBvT0hxTlBvWDFydEl2T2pnM0RSZFpHTWxMUjBEdldiUTZXUDl6Ny01TTV3OGJIV2ItVERWMWpSeFRabGZKbDk2NkZaWDZFV1pfSQ?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News category: AI agents and autonomous capability uplift",
-      "source_type": "google_news",
-      "publishedAt": "2026-04-15T07:00:00+00:00",
-      "id": "eb4711a23a2f20ef",
-      "category": "AI agents and autonomous capability uplift",
-      "risk_area": "Cross-cutting / future capability",
+      "title": "ModelDNA: Verifying the lineage of open-weight LLMs from weight fingerprints",
+      "summary": "Article URL: https://arxiv.org/abs/2607.10617 Comments URL: https://news.ycombinator.com/item?id=48903868 Points: 2 # Comments: 0",
+      "url": "https://arxiv.org/abs/2607.10617",
+      "domain": "arxiv.org",
+      "source": "Hacker News: open models",
+      "source_type": "early_signal",
+      "publishedAt": "2026-07-14T08:50:13+00:00",
+      "id": "41e53c9c1d503be0",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
       "category_family": "Capability watch",
-      "relevance_score": 9,
+      "relevance_score": 8,
       "why": [
         "AI-related",
-        "security",
-        "higher-trust source"
+        "open-weight"
       ],
       "uk_relevant": false,
       "priority": "Medium",
       "sensitive": false,
       "policy_implications": [
-        "future capability",
-        "testing",
-        "standards",
-        "operational readiness",
-        "industry engagement"
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
       ],
-      "discoveredVia": "Google News category: AI agents and autonomous capability uplift",
+      "discoveredVia": "Hacker News: open models",
       "watchlist_hits": [
         {
-          "name": "AI agents",
-          "type": "capability",
-          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
-          "owner_hint": "AIHM research/testing"
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
         }
       ],
-      "semantic_category": "RA11 – Child safeguarding and online protection risks",
-      "semantic_score": 0.1636,
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.1364,
       "semantic_mode": "local_hash_similarity"
     },
     {
