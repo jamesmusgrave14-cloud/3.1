@@ -1,53 +1,54 @@
 {
   "meta": {
     "ok": true,
-    "generatedAt": "2026-07-18T03:28:52+00:00",
+    "generatedAt": "2026-07-18T06:16:49+00:00",
     "mode": "broad-live-monitoring-v1",
-    "total": 87,
+    "total": 91,
     "categoryCount": 10,
     "sourceCount": 23,
     "scanWindow": "90d",
     "minScore": 5,
     "maxTotal": 900,
     "byCategory": {
-      "Cybercrime, malware and model abuse": 32,
-      "Open-source and open-weight model risk": 16,
+      "Cybercrime, malware and model abuse": 33,
+      "Open-source and open-weight model risk": 17,
       "RA13 – Terrorism, extremism and radicalisation": 4,
       "Use of AI to tackle crime and public safety": 3,
-      "RA09 – AI-enabled fraud, financial crime and exploitation": 18,
+      "RA09 – AI-enabled fraud, financial crime and exploitation": 19,
       "AI agents and autonomous capability uplift": 9,
       "RA11 – Image-based abuse, VAWG and interpersonal harms": 2,
-      "RA11 – Child safeguarding and online protection risks": 3
+      "RA11 – Child safeguarding and online protection risks": 4
     },
     "byPriority": {
       "High": 8,
-      "Medium": 77,
+      "Medium": 81,
       "Watch": 2
     },
     "rejectCounts": {
-      "no_ai_signal": 45,
-      "outside_window": 626,
+      "no_ai_signal": 47,
+      "outside_window": 619,
       "no_harm_signal": 80,
-      "no_matching_category": 347
+      "no_matching_category": 406,
+      "duplicate": 2
     },
     "errors": {},
     "semanticMode": "local_hash_similarity"
   },
   "briefing": {
-    "generatedAt": "2026-07-18T03:28:52+00:00",
-    "headline": "87 items retained; 8 high priority; 8 UK-relevant.",
+    "generatedAt": "2026-07-18T06:16:49+00:00",
+    "headline": "91 items retained; 8 high priority; 8 UK-relevant.",
     "top_categories": [
       [
         "Cybercrime, malware and model abuse",
-        32
+        33
       ],
       [
         "RA09 – AI-enabled fraud, financial crime and exploitation",
-        18
+        19
       ],
       [
         "Open-source and open-weight model risk",
-        16
+        17
       ],
       [
         "AI agents and autonomous capability uplift",
@@ -58,11 +59,11 @@
         4
       ],
       [
-        "Use of AI to tackle crime and public safety",
-        3
+        "RA11 – Child safeguarding and online protection risks",
+        4
       ],
       [
-        "RA11 – Child safeguarding and online protection risks",
+        "Use of AI to tackle crime and public safety",
         3
       ],
       [
@@ -73,7 +74,7 @@
     "top_watchlist_hits": [
       [
         "Open-source / open-weight models",
-        17
+        18
       ],
       [
         "Deepfake tools",
@@ -81,11 +82,11 @@
       ],
       [
         "AI agents",
-        13
+        14
       ],
       [
         "Grok",
-        7
+        9
       ]
     ],
     "top_clusters": [
@@ -127,13 +128,14 @@
       {
         "id": "9c161bc0de250b44",
         "title": "Watchlist: AI agents",
-        "count": 13,
-        "category": "AI agents and autonomous capability uplift",
-        "latest": "2026-07-17T12:11:22+00:00",
+        "count": 14,
+        "category": "Cybercrime, malware and model abuse",
+        "latest": "2026-07-17T21:01:33+00:00",
         "first_seen": "2026-05-15T07:00:00+00:00",
         "uk_count": 0,
         "highest_score": 12,
         "item_ids": [
+          "18ac564a190562e2",
           "7909f761145b99eb",
           "b4acea721c8a6873",
           "7a433cb65c7f08da",
@@ -149,12 +151,12 @@
           "651723eed9c1bac3"
         ],
         "top_titles": [
+          "Ransomware attack conducted by an AI agent raises alarm for companies.",
           "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
           "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance",
           "Agentic AI Is Untamable: Ask the Right Security Questions",
           "AI Agents Broke the Security Playbook. Here's What Replaces It.",
-          "AI Agent Pulls Off a Ransomware Attack Without Human Help",
-          "Agentic AI Used to Conduct Ransomware Attack via Langflow"
+          "AI Agent Pulls Off a Ransomware Attack Without Human Help"
         ]
       },
       {
@@ -190,15 +192,17 @@
       {
         "id": "018da3b98d84fbc4",
         "title": "Watchlist: Grok",
-        "count": 7,
-        "category": "Open-source and open-weight model risk",
-        "latest": "2026-07-16T12:00:17+00:00",
+        "count": 9,
+        "category": "RA11 – Child safeguarding and online protection risks",
+        "latest": "2026-07-17T19:03:16+00:00",
         "first_seen": "2026-04-21T07:00:00+00:00",
         "uk_count": 0,
         "highest_score": 10,
         "item_ids": [
+          "0dc756379570f53b",
           "e3c1c0d664046653",
           "1b9ebcce11924631",
+          "e37cddb9826c13e3",
           "4b78a52096dacd80",
           "d8ad222eb5178dca",
           "b52e4d8f022f277c",
@@ -206,12 +210,12 @@
           "dc88ce86e15ce135"
         ],
         "top_titles": [
+          "xAI can't deny Grok makes CSAM anymore. So it's suing users",
           "xAI sues user accused of bypassing Grok safeguards to generate sexualized images of minors",
           "X AI sues user over Grok misuse: Lawsuit alleges AI was used to create illegal content",
+          "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
           "Grok AI lacks safeguards against harmful deepfake generation, says watchdog",
-          "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns",
-          "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
-          "Center for AI Safety Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute in Major Expansion of Leadership and Reach"
+          "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns"
         ]
       },
       {
@@ -406,13 +410,14 @@
     {
       "id": "9c161bc0de250b44",
       "title": "Watchlist: AI agents",
-      "count": 13,
-      "category": "AI agents and autonomous capability uplift",
-      "latest": "2026-07-17T12:11:22+00:00",
+      "count": 14,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-17T21:01:33+00:00",
       "first_seen": "2026-05-15T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 12,
       "item_ids": [
+        "18ac564a190562e2",
         "7909f761145b99eb",
         "b4acea721c8a6873",
         "7a433cb65c7f08da",
@@ -428,12 +433,12 @@
         "651723eed9c1bac3"
       ],
       "top_titles": [
+        "Ransomware attack conducted by an AI agent raises alarm for companies.",
         "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
         "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance",
         "Agentic AI Is Untamable: Ask the Right Security Questions",
         "AI Agents Broke the Security Playbook. Here's What Replaces It.",
-        "AI Agent Pulls Off a Ransomware Attack Without Human Help",
-        "Agentic AI Used to Conduct Ransomware Attack via Langflow"
+        "AI Agent Pulls Off a Ransomware Attack Without Human Help"
       ]
     },
     {
@@ -469,15 +474,17 @@
     {
       "id": "018da3b98d84fbc4",
       "title": "Watchlist: Grok",
-      "count": 7,
-      "category": "Open-source and open-weight model risk",
-      "latest": "2026-07-16T12:00:17+00:00",
+      "count": 9,
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "latest": "2026-07-17T19:03:16+00:00",
       "first_seen": "2026-04-21T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 10,
       "item_ids": [
+        "0dc756379570f53b",
         "e3c1c0d664046653",
         "1b9ebcce11924631",
+        "e37cddb9826c13e3",
         "4b78a52096dacd80",
         "d8ad222eb5178dca",
         "b52e4d8f022f277c",
@@ -485,12 +492,12 @@
         "dc88ce86e15ce135"
       ],
       "top_titles": [
+        "xAI can't deny Grok makes CSAM anymore. So it's suing users",
         "xAI sues user accused of bypassing Grok safeguards to generate sexualized images of minors",
         "X AI sues user over Grok misuse: Lawsuit alleges AI was used to create illegal content",
+        "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
         "Grok AI lacks safeguards against harmful deepfake generation, says watchdog",
-        "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns",
-        "Former xAI Staffer Says He Was Fired for Questioning Grok Safety",
-        "Center for AI Safety Names Former xAI Leader Devin Kim President and Establishes Frontier Security Institute in Major Expansion of Leadership and Reach"
+        "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns"
       ]
     },
     {
@@ -891,6 +898,22 @@
       ],
       "top_titles": [
         "Fortinet warns ransomware victims rise 389% amid AI"
+      ]
+    },
+    {
+      "id": "5495c42f49013b49",
+      "title": "RA09 – AI-enabled fraud, financial crime and exploitation: value reshaping trust",
+      "count": 1,
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "latest": "2026-07-18T01:17:07+00:00",
+      "first_seen": "2026-07-18T01:17:07+00:00",
+      "uk_count": 0,
+      "highest_score": 9,
+      "item_ids": [
+        "8ab93c1245e0c543"
+      ],
+      "top_titles": [
+        "Face Value: How AI is reshaping trust, identity, and scams"
       ]
     },
     {
@@ -1821,6 +1844,47 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Ransomware attack conducted by an AI agent raises alarm for companies.",
+      "summary": "Ransomware attack conducted by an AI agent raises alarm for companies. TI INSIDE Online",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc3lBYWRYeUxIdDlWbDJMMmhZd3Fhc1BNVTVMN0daSnIzbzQzbmZReG54UTkxemxraDNpWWNsWlB0eFZ6dnR0bTZ5WFRZV1ZlUUl4YmgtWDlzYjhfMm05NGs3R3VXWWJjOTAxcjVSSURCYnplSlVxWmFtQVVDTkdWdURaSGZDU1NPbC1oSVVFZHZRQWhuTWNsZDFyODQ2WS16WVJIMTZCb1Ytenozbnc?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: Cybercrime, malware and model abuse",
+      "source_type": "google_news",
+      "publishedAt": "2026-07-17T21:01:33+00:00",
+      "id": "18ac564a190562e2",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 11,
+      "why": [
+        "AI-related",
+        "ransomware",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
+      "watchlist_hits": [
+        {
+          "name": "AI agents",
+          "type": "capability",
+          "reason": "Track evidence that agentic systems may change offender workflows, automation and operational response needs.",
+          "owner_hint": "AIHM research/testing"
+        }
+      ],
+      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "semantic_score": 0.1648,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
       "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
@@ -2225,7 +2289,7 @@
     },
     {
       "title": "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance",
-      "summary": "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance thestandard.com.hk",
+      "summary": "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance The Standard (HK)",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYWpiRkRLSUJEN0l1b0tuMm93QmNXVHh6RDJqMDAxbWE1Q3d3enN0d3NLbjE5cnhoVWludHVhLVd6UGQ0ZmdGc3RxUjQ5dVJwN3Y1a1ZOMWdUNXJKcElXX3hyanFTTmdrTEkwQ2UzRnBWWkVoeE1ndC1uLTc3Z3lNbnhCdThKdDBNd1pFY0RqQlFEc2RiSVVFazg3UUZEaXZjTHRqRjd0dXdfLXpzZUxfU2NNNXBKeGpQZnhjdjhDUEVrMkJVTF91aTdGbkZUWVR2czlaZEdKNWpCdXBzN1ZRdEtRbTF0RzZa?oc=5",
       "domain": "news.google.com",
       "source": "Google News watchlist: AI agents",
@@ -2919,6 +2983,39 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Face Value: How AI is reshaping trust, identity, and scams",
+      "summary": "Article URL: https://www.malwarebytes.com/ai-scams Comments URL: https://news.ycombinator.com/item?id=48954169 Points: 2 # Comments: 0",
+      "url": "https://www.malwarebytes.com/ai-scams",
+      "domain": "malwarebytes.com",
+      "source": "Hacker News: AI agents / prompt injection",
+      "source_type": "early_signal",
+      "publishedAt": "2026-07-18T01:17:07+00:00",
+      "id": "8ab93c1245e0c543",
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "risk_area": "RA09",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "scam"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "fraud prevention",
+        "public resilience",
+        "industry engagement",
+        "law enforcement readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Hacker News: AI agents / prompt injection",
+      "watchlist_hits": [],
+      "semantic_category": "Cybercrime, malware and model abuse",
+      "semantic_score": 0.2034,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
       "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yurova, told REN TV that border officers pulled him out of the departure hall at Yerevan's Zvartnots airport, held up a phone with a photo of him off his VKontakte page, and walked him into a side",
       "url": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
@@ -3480,6 +3577,53 @@
       "watchlist_hits": [],
       "semantic_category": "Open-source and open-weight model risk",
       "semantic_score": 0.2252,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
+      "summary": "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd3ExYWhlN09VSzdGcm80SndkbTdydVFXU0FIVkVTRXB5dkVGMmRlUGRicWhQZ0pkUkZKQ3M4TDRZaDg3WHFDSS1zQy1wby1ScjNnSEcxR09XMkRiZzZ6ZW1FSVprWmZuRHdFRDFHZ21ZNzcwcHlTaVRWb1lUcm8ya1c5ejJ2OFRhcUY3UDhhVk9MR1ZvTG95T0xSM3JRRGY2cFJtZUdRYWQzX1VrSjdQVUgxQ0JQTFRiTldiWEZSSEo3YjEzOE5VN0JYQ1JGeDNjM0FVLWxLc9IB3AFBVV95cUxPOFZLVThSd3NPWUV2UXFHT3VkMWhWdzhoclY2cWRMdEQ4LXp1YWZUODJDZFhzZzRUNXA0NGlsTkZJb1NrWUJhY2l4eTBwczRoXzVfRUlZVUduR1V3VFpQbWgyc2wyWFFaT1NtMlp0ZGthR05OV1VuS1VRc2Fyek12ZEtYOGdTMFl4aG5KY005RnlOUW9JUk9kT3FyT05hTGV4WnAzY1hXYkJGb2NSS0E4UXpsTDBQMkw3aFQ1QUpDNmw0cTJGdTZCYXd5WFdtTktPNTlqNWdlTWp1aTBC?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Grok",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-06-12T07:00:00+00:00",
+      "id": "e37cddb9826c13e3",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "safety",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Grok",
+      "watchlist_hits": [
+        {
+          "name": "Grok",
+          "type": "tool/model",
+          "reason": "Track public reporting and evidence relating to Grok capability, safeguards, misuse and policy relevance.",
+          "owner_hint": "AIHM / online harms / DSIT engagement"
+        },
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.2087,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -4398,6 +4542,45 @@
       ],
       "semantic_category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
       "semantic_score": 0.2697,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "xAI can't deny Grok makes CSAM anymore. So it's suing users",
+      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/ Comments URL: https://news.ycombinator.com/item?id=48951060 Points: 7 # Comments: 0",
+      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+      "domain": "arstechnica.com",
+      "source": "Hacker News: Grok / xAI",
+      "source_type": "early_signal",
+      "publishedAt": "2026-07-17T19:03:16+00:00",
+      "id": "0dc756379570f53b",
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "risk_area": "RA11",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 8,
+      "why": [
+        "Child safeguarding signal"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": true,
+      "policy_implications": [
+        "safeguarding",
+        "platform safety",
+        "law enforcement readiness",
+        "online safety",
+        "public resilience"
+      ],
+      "discoveredVia": "Hacker News: Grok / xAI",
+      "watchlist_hits": [
+        {
+          "name": "Grok",
+          "type": "tool/model",
+          "reason": "Track public reporting and evidence relating to Grok capability, safeguards, misuse and policy relevance.",
+          "owner_hint": "AIHM / online harms / DSIT engagement"
+        }
+      ],
+      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
+      "semantic_score": 0.1017,
       "semantic_mode": "local_hash_similarity"
     },
     {
