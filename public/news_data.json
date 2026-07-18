@@ -1,9 +1,9 @@
 {
   "meta": {
     "ok": true,
-    "generatedAt": "2026-07-18T13:46:21+00:00",
+    "generatedAt": "2026-07-18T17:13:25+00:00",
     "mode": "broad-live-monitoring-v1",
-    "total": 91,
+    "total": 92,
     "categoryCount": 10,
     "sourceCount": 23,
     "scanWindow": "90d",
@@ -11,43 +11,44 @@
     "maxTotal": 900,
     "byCategory": {
       "Cybercrime, malware and model abuse": 34,
-      "Open-source and open-weight model risk": 17,
+      "Open-source and open-weight model risk": 19,
       "RA13 – Terrorism, extremism and radicalisation": 4,
       "Use of AI to tackle crime and public safety": 4,
-      "RA09 – AI-enabled fraud, financial crime and exploitation": 18,
+      "RA09 – AI-enabled fraud, financial crime and exploitation": 16,
       "AI agents and autonomous capability uplift": 9,
       "RA11 – Image-based abuse, VAWG and interpersonal harms": 2,
-      "RA11 – Child safeguarding and online protection risks": 3
+      "RA11 – Child safeguarding and online protection risks": 4
     },
     "byPriority": {
       "High": 8,
       "Medium": 81,
-      "Watch": 2
+      "Watch": 3
     },
     "rejectCounts": {
       "no_ai_signal": 47,
-      "outside_window": 616,
-      "no_harm_signal": 83,
-      "no_matching_category": 353
+      "outside_window": 614,
+      "no_harm_signal": 81,
+      "no_matching_category": 410,
+      "duplicate": 2
     },
     "errors": {},
     "semanticMode": "local_hash_similarity"
   },
   "briefing": {
-    "generatedAt": "2026-07-18T13:46:21+00:00",
-    "headline": "91 items retained; 8 high priority; 8 UK-relevant.",
+    "generatedAt": "2026-07-18T17:13:25+00:00",
+    "headline": "92 items retained; 8 high priority; 8 UK-relevant.",
     "top_categories": [
       [
         "Cybercrime, malware and model abuse",
         34
       ],
       [
-        "RA09 – AI-enabled fraud, financial crime and exploitation",
-        18
+        "Open-source and open-weight model risk",
+        19
       ],
       [
-        "Open-source and open-weight model risk",
-        17
+        "RA09 – AI-enabled fraud, financial crime and exploitation",
+        16
       ],
       [
         "AI agents and autonomous capability uplift",
@@ -63,7 +64,7 @@
       ],
       [
         "RA11 – Child safeguarding and online protection risks",
-        3
+        4
       ],
       [
         "RA11 – Image-based abuse, VAWG and interpersonal harms",
@@ -73,11 +74,11 @@
     "top_watchlist_hits": [
       [
         "Open-source / open-weight models",
-        18
+        20
       ],
       [
         "Deepfake tools",
-        17
+        15
       ],
       [
         "AI agents",
@@ -85,45 +86,10 @@
       ],
       [
         "Grok",
-        8
+        9
       ]
     ],
     "top_clusters": [
-      {
-        "id": "8b5dc9c80dead8a5",
-        "title": "Watchlist: Deepfake tools",
-        "count": 15,
-        "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-        "latest": "2026-07-17T16:50:15+00:00",
-        "first_seen": "2026-04-27T07:00:00+00:00",
-        "uk_count": 2,
-        "highest_score": 12,
-        "item_ids": [
-          "9459ee5ef0b62ca5",
-          "f9b41a9c794ae67a",
-          "f2c3d5fa9f49c549",
-          "8710c633a890f732",
-          "11a8c3f936d4f6b3",
-          "01447604e2ac96d5",
-          "a254df4c545d5c4c",
-          "b9a6a70d07af5b2a",
-          "5158d1e54662b8cf",
-          "a915b235ee22a831",
-          "2edfa6136d8e81fe",
-          "f8d0928015841d5a",
-          "e01c2907fd4bf57d",
-          "271bf3f4185e2010",
-          "4e7666c8516daf03"
-        ],
-        "top_titles": [
-          "What AI Fraud and Deepfake Failure Costs the Business",
-          "AI scams in Georgia and South Florida: How scammers use deepfakes to steal millions",
-          "Short training helps people spot AI faces in the battle against deepfake fraud",
-          "Australia pushes more AI nudify services offline over child safety",
-          "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
-          "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026"
-        ]
-      },
       {
         "id": "9c161bc0de250b44",
         "title": "Watchlist: AI agents",
@@ -159,15 +125,50 @@
         ]
       },
       {
+        "id": "8b5dc9c80dead8a5",
+        "title": "Watchlist: Deepfake tools",
+        "count": 13,
+        "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+        "latest": "2026-07-17T16:50:15+00:00",
+        "first_seen": "2026-04-27T07:00:00+00:00",
+        "uk_count": 2,
+        "highest_score": 12,
+        "item_ids": [
+          "9459ee5ef0b62ca5",
+          "f9b41a9c794ae67a",
+          "8710c633a890f732",
+          "11a8c3f936d4f6b3",
+          "a254df4c545d5c4c",
+          "b9a6a70d07af5b2a",
+          "5158d1e54662b8cf",
+          "a915b235ee22a831",
+          "2edfa6136d8e81fe",
+          "f8d0928015841d5a",
+          "e01c2907fd4bf57d",
+          "271bf3f4185e2010",
+          "4e7666c8516daf03"
+        ],
+        "top_titles": [
+          "What AI Fraud and Deepfake Failure Costs the Business",
+          "AI scams in Georgia and South Florida: How scammers use deepfakes to steal millions",
+          "Australia pushes more AI nudify services offline over child safety",
+          "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
+          "Be aware – AI deepfake scammers of women guitar influencers are on the rise",
+          "Deepfake Identity Fraud Poised to Increase Nearly 500 Percent in 2026"
+        ]
+      },
+      {
         "id": "cc7d9b1d325425b6",
         "title": "Watchlist: Open-source / open-weight models",
-        "count": 10,
+        "count": 12,
         "category": "Open-source and open-weight model risk",
-        "latest": "2026-07-17T13:00:00+00:00",
+        "latest": "2026-07-18T13:27:57+00:00",
         "first_seen": "2026-06-04T12:00:00+00:00",
         "uk_count": 2,
         "highest_score": 13,
         "item_ids": [
+          "9643c4bcbd8a4322",
+          "7b2f5344e73ea03a",
           "8ade6ebb156f16d5",
           "f5e5b2c6b472c151",
           "56350f8ededf3b32",
@@ -180,24 +181,25 @@
           "9a6817ca3dc4b9a4"
         ],
         "top_titles": [
+          "Show HN: Race to AGI – a simulation browser game about running a frontier AI lab",
+          "Moonshot Unveils ‘World’s Largest Open-Weight AI Model’ As China’s Challenge To U.S. AI Leaders Accelerates",
           "IntelliAM AI Launches Industrial Intelligence Platform",
           "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
           "China's open-weight Kimi model stuns AI world with frontier-level results",
-          "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms",
-          "Thinking Machines Lab offers enterprises a US alternative in open-weight AI",
-          "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development"
+          "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms"
         ]
       },
       {
         "id": "018da3b98d84fbc4",
         "title": "Watchlist: Grok",
-        "count": 8,
-        "category": "Open-source and open-weight model risk",
-        "latest": "2026-07-16T12:00:17+00:00",
+        "count": 9,
+        "category": "RA11 – Child safeguarding and online protection risks",
+        "latest": "2026-07-17T19:03:16+00:00",
         "first_seen": "2026-04-21T07:00:00+00:00",
         "uk_count": 0,
         "highest_score": 10,
         "item_ids": [
+          "0dc756379570f53b",
           "e3c1c0d664046653",
           "1b9ebcce11924631",
           "e37cddb9826c13e3",
@@ -208,12 +210,12 @@
           "dc88ce86e15ce135"
         ],
         "top_titles": [
+          "xAI can't deny Grok makes CSAM anymore. So it's suing users",
           "xAI sues user accused of bypassing Grok safeguards to generate sexualized images of minors",
           "X AI sues user over Grok misuse: Lawsuit alleges AI was used to create illegal content",
           "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
           "Grok AI lacks safeguards against harmful deepfake generation, says watchdog",
-          "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns",
-          "Former xAI Staffer Says He Was Fired for Questioning Grok Safety"
+          "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns"
         ]
       },
       {
@@ -371,41 +373,6 @@
   },
   "clusters": [
     {
-      "id": "8b5dc9c80dead8a5",
-      "title": "Watchlist: Deepfake tools",
-      "count": 15,
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "latest": "2026-07-17T16:50:15+00:00",
-      "first_seen": "2026-04-27T07:00:00+00:00",
-      "uk_count": 2,
-      "highest_score": 12,
-      "item_ids": [
-        "9459ee5ef0b62ca5",
-        "f9b41a9c794ae67a",
-        "f2c3d5fa9f49c549",
-        "8710c633a890f732",
-        "11a8c3f936d4f6b3",
-        "01447604e2ac96d5",
-        "a254df4c545d5c4c",
-        "b9a6a70d07af5b2a",
-        "5158d1e54662b8cf",
-        "a915b235ee22a831",
-        "2edfa6136d8e81fe",
-        "f8d0928015841d5a",
-        "e01c2907fd4bf57d",
-        "271bf3f4185e2010",
-        "4e7666c8516daf03"
-      ],
-      "top_titles": [
-        "What AI Fraud and Deepfake Failure Costs the Business",
-        "AI scams in Georgia and South Florida: How scammers use deepfakes to steal millions",
-        "Short training helps people spot AI faces in the battle against deepfake fraud",
-        "Australia pushes more AI nudify services offline over child safety",
-        "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
-        "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026"
-      ]
-    },
-    {
       "id": "9c161bc0de250b44",
       "title": "Watchlist: AI agents",
       "count": 14,
@@ -440,15 +407,50 @@
       ]
     },
     {
+      "id": "8b5dc9c80dead8a5",
+      "title": "Watchlist: Deepfake tools",
+      "count": 13,
+      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
+      "latest": "2026-07-17T16:50:15+00:00",
+      "first_seen": "2026-04-27T07:00:00+00:00",
+      "uk_count": 2,
+      "highest_score": 12,
+      "item_ids": [
+        "9459ee5ef0b62ca5",
+        "f9b41a9c794ae67a",
+        "8710c633a890f732",
+        "11a8c3f936d4f6b3",
+        "a254df4c545d5c4c",
+        "b9a6a70d07af5b2a",
+        "5158d1e54662b8cf",
+        "a915b235ee22a831",
+        "2edfa6136d8e81fe",
+        "f8d0928015841d5a",
+        "e01c2907fd4bf57d",
+        "271bf3f4185e2010",
+        "4e7666c8516daf03"
+      ],
+      "top_titles": [
+        "What AI Fraud and Deepfake Failure Costs the Business",
+        "AI scams in Georgia and South Florida: How scammers use deepfakes to steal millions",
+        "Australia pushes more AI nudify services offline over child safety",
+        "12% of successful scams in 2025 used AI or deepfakes, according to poll of U.S. adults",
+        "Be aware – AI deepfake scammers of women guitar influencers are on the rise",
+        "Deepfake Identity Fraud Poised to Increase Nearly 500 Percent in 2026"
+      ]
+    },
+    {
       "id": "cc7d9b1d325425b6",
       "title": "Watchlist: Open-source / open-weight models",
-      "count": 10,
+      "count": 12,
       "category": "Open-source and open-weight model risk",
-      "latest": "2026-07-17T13:00:00+00:00",
+      "latest": "2026-07-18T13:27:57+00:00",
       "first_seen": "2026-06-04T12:00:00+00:00",
       "uk_count": 2,
       "highest_score": 13,
       "item_ids": [
+        "9643c4bcbd8a4322",
+        "7b2f5344e73ea03a",
         "8ade6ebb156f16d5",
         "f5e5b2c6b472c151",
         "56350f8ededf3b32",
@@ -461,24 +463,25 @@
         "9a6817ca3dc4b9a4"
       ],
       "top_titles": [
+        "Show HN: Race to AGI – a simulation browser game about running a frontier AI lab",
+        "Moonshot Unveils ‘World’s Largest Open-Weight AI Model’ As China’s Challenge To U.S. AI Leaders Accelerates",
         "IntelliAM AI Launches Industrial Intelligence Platform",
         "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
         "China's open-weight Kimi model stuns AI world with frontier-level results",
-        "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms",
-        "Thinking Machines Lab offers enterprises a US alternative in open-weight AI",
-        "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development"
+        "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms"
       ]
     },
     {
       "id": "018da3b98d84fbc4",
       "title": "Watchlist: Grok",
-      "count": 8,
-      "category": "Open-source and open-weight model risk",
-      "latest": "2026-07-16T12:00:17+00:00",
+      "count": 9,
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "latest": "2026-07-17T19:03:16+00:00",
       "first_seen": "2026-04-21T07:00:00+00:00",
       "uk_count": 0,
       "highest_score": 10,
       "item_ids": [
+        "0dc756379570f53b",
         "e3c1c0d664046653",
         "1b9ebcce11924631",
         "e37cddb9826c13e3",
@@ -489,12 +492,12 @@
         "dc88ce86e15ce135"
       ],
       "top_titles": [
+        "xAI can't deny Grok makes CSAM anymore. So it's suing users",
         "xAI sues user accused of bypassing Grok safeguards to generate sexualized images of minors",
         "X AI sues user over Grok misuse: Lawsuit alleges AI was used to create illegal content",
         "Former xAI engineer sues company over AI safety concerns, claims he was laid off for speaking up",
         "Grok AI lacks safeguards against harmful deepfake generation, says watchdog",
-        "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns",
-        "Former xAI Staffer Says He Was Fired for Questioning Grok Safety"
+        "Elon Musk's XAI Accused Of Illegally Firing Engineer Who Raised Safety Concerns"
       ]
     },
     {
@@ -2083,6 +2086,47 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Moonshot Unveils ‘World’s Largest Open-Weight AI Model’ As China’s Challenge To U.S. AI Leaders Accelerates",
+      "summary": "Moonshot Unveils ‘World’s Largest Open-Weight AI Model’ As China’s Challenge To U.S. AI Leaders Accelerates Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPN0RIbE9teklqVi05aE9ONkVRZjJZRHdJYjlmM2NqbUJUeDJnRnZYeUh1S2lyTjBnX21DRmlZaktRNVZFWGRLQ0Ffam9xMm9vLTNGYmtna0w4YkxyWkQ3dmpveURBZnJJYTZDVk5lODdqQ0M3d0tpd19FQ2MwMUluTFF3OFhYektsWmpXSV9iSDByVnNHVEtDZlYyMmY1dTVZcEltWE1qc0JmMk9lMEhPZ0UzYjBJcHdpZGR1Tmd0MFNyNXg2Nnc?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Open-source / open-weight models",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-07-18T11:53:48+00:00",
+      "id": "7b2f5344e73ea03a",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "open-weight",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Open-source / open-weight models",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "Use of AI to tackle crime and public safety",
+      "semantic_score": 0.2361,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
       "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
       "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
@@ -2302,7 +2346,7 @@
     },
     {
       "title": "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance",
-      "summary": "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance thestandard.com.hk",
+      "summary": "Fueling AI entrepreneurship: Cyberport unveils OPC Hub and Web4.0 & Agentic AI Security Alliance The Standard (HK)",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYWpiRkRLSUJEN0l1b0tuMm93QmNXVHh6RDJqMDAxbWE1Q3d3enN0d3NLbjE5cnhoVWludHVhLVd6UGQ0ZmdGc3RxUjQ5dVJwN3Y1a1ZOMWdUNXJKcElXX3hyanFTTmdrTEkwQ2UzRnBWWkVoeE1ndC1uLTc3Z3lNbnhCdThKdDBNd1pFY0RqQlFEc2RiSVVFazg3UUZEaXZjTHRqRjd0dXdfLXpzZUxfU2NNNXBKeGpQZnhjdjhDUEVrMkJVTF91aTdGbkZUWVR2czlaZEdKNWpCdXBzN1ZRdEtRbTF0RzZa?oc=5",
       "domain": "news.google.com",
       "source": "Google News watchlist: AI agents",
@@ -3139,47 +3183,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "Short training helps people spot AI faces in the battle against deepfake fraud",
-      "summary": "Short training helps people spot AI faces in the battle against deepfake fraud Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RUUZxSVN0QjhRVTA5aFZranNPNzB5S2lXb1p2S0lHMVdfVDIwR0I2c180MlZDV3V1QUU2cXZ3Vk05b0FHb3RrTC1nenZzaHlDQ01YQXptcjdDMFZJYTdVUmlzWVpLR3R5NFdBaFhDSl9aSDBOdXNyc3lkTQ?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-29T19:00:12+00:00",
-      "id": "f2c3d5fa9f49c549",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 9,
-      "why": [
-        "AI-related",
-        "fraud",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.1889,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "Australia pushes more AI nudify services offline over child safety",
       "summary": "Australia pushes more AI nudify services offline over child safety Digital Watch Observatory",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YdnMzV3JZVUdWMU41TXB3clhkVl9BemEwMUVLYjhzaXpMcnJvME4wQnBDR3JSVWJ3VmlneXpLOE1lTjMwemtnZm5GMEk4c0g5SGJzZGlqZmxXam5qR2xfckoyMFpoOS1LRkxuckp4MDV0bF8xeWc?oc=5",
@@ -3258,47 +3261,6 @@
       ],
       "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
       "semantic_score": 0.1252,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026",
-      "summary": "Scam.ai Announces Qualcomm Partnership, Launches Halo Deepfake Detection Model at Computex 2026 AI News",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRzlqTFhWVHJKeEFkVEZnS1RVXzNEOFBuWEZCaFVnRl8wWGcySW5BaThrR2ROMzhZbG5aSlJucEgtRVVuV0hSdnU0TGhBUnB2Z3RHaFpUYkU0LUsxT1Q5RTlpRzJqU0x2enRfRUJBcGh1OV9WeWJyemFKN0RpQUpqWEFJNnB3YkprVXFVNXBpY0xkSFFEZWlrUTJFdGxkWVh2ZVEzdVpUVkdqcTdsczBRR0wydi1KYm9OdkRDd2N1aW00MlI0YUswN1dDVDYzZ2tKV2R4cGtxWjFIWkls?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-29T07:00:00+00:00",
-      "id": "01447604e2ac96d5",
-      "category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "risk_area": "RA09",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 9,
-      "why": [
-        "AI-related",
-        "scam",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "fraud prevention",
-        "public resilience",
-        "industry engagement",
-        "law enforcement readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [
-        {
-          "name": "Deepfake tools",
-          "type": "tool/theme",
-          "reason": "Track synthetic media misuse and detection/mitigation evidence.",
-          "owner_hint": "deepfake strategy / VAWG / fraud / CT"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.1432,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -4593,6 +4555,45 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "xAI can't deny Grok makes CSAM anymore. So it's suing users",
+      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/ Comments URL: https://news.ycombinator.com/item?id=48951060 Points: 7 # Comments: 0",
+      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+      "domain": "arstechnica.com",
+      "source": "Hacker News: Grok / xAI",
+      "source_type": "early_signal",
+      "publishedAt": "2026-07-17T19:03:16+00:00",
+      "id": "0dc756379570f53b",
+      "category": "RA11 – Child safeguarding and online protection risks",
+      "risk_area": "RA11",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 8,
+      "why": [
+        "Child safeguarding signal"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": true,
+      "policy_implications": [
+        "safeguarding",
+        "platform safety",
+        "law enforcement readiness",
+        "online safety",
+        "public resilience"
+      ],
+      "discoveredVia": "Hacker News: Grok / xAI",
+      "watchlist_hits": [
+        {
+          "name": "Grok",
+          "type": "tool/model",
+          "reason": "Track public reporting and evidence relating to Grok capability, safeguards, misuse and policy relevance.",
+          "owner_hint": "AIHM / online harms / DSIT engagement"
+        }
+      ],
+      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
+      "semantic_score": 0.1017,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive",
       "summary": "Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive SecurityWeek",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSEV3dnhzZXdqbzNSSjJ0Qy12YUI3R2JxdTh1WWRtVUwxakpKU0ZWVVIzU2NZa0d4TXVLMEJFRGNwWm9MZXhyYm9zVmJKWFRfRFU3c1hZNDA1R1pYX1lxR3ljMWdxd1dsWURoX1V5MnBlS1gyODBqaEE3OEx4S2p0ejNwaGstUEQ4X1ptaUN2WDE2bUFERDBIZExITElJX1Z4QWfSAacBQVVfeXFMTUVReXhsWHRPOWxqa3F5RFdJRlg2NG4tZzdSQm5xaVBsZ0tISURDcDJzWEN6d0xDbUZDc0UydXo5ZHJ1cWxFSjRaSVlSVmR5ZGgtd1VRYmtKZUVhR1gybmhOMS1DTW5VWHlrUTNNUnd4cVd4bFZkR0FtcVBEcEFWRFh1Yi12NllIMWtlSk82T1BVWG1BVVBXSjZCN0laZzQtYTBZMzRTY0U?oc=5",
@@ -4753,6 +4754,46 @@
       ],
       "semantic_category": "RA11 – Child safeguarding and online protection risks",
       "semantic_score": 0.1217,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Show HN: Race to AGI – a simulation browser game about running a frontier AI lab",
+      "summary": "If you like to be in Altman’s or Dario’s or even Musk’s shoes for a day to run an AI frontier lab, here is your chance. You need to beat your rivals to achieve AGI titan status. But there is a twist in getting to AGI - if you don’t do well with Safety, Ethics and Public confidence, you will be ending up with Dangerous AGI, which is not a good place to be in. Go through the easy mode to learn the game. I tried to be closer to realistic lines but did take my creative freedom for the gaming elements. This is a simulation game which will test your skills and make you learn about Frontier AI domain. I sourced the information for this via Podcasts, News, Blog posts and of course AI searches. I also want this to be a public awakening call for Safety on AI/AGI. Let me know your feedbacks and how the game is, I’ll be tuning the gears and updating the game weekly. Main motivation is to bring in cu",
+      "url": "https://rtagi.online",
+      "domain": "rtagi.online",
+      "source": "Hacker News: AI agents / prompt injection",
+      "source_type": "early_signal",
+      "publishedAt": "2026-07-18T13:27:57+00:00",
+      "id": "9643c4bcbd8a4322",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 6,
+      "why": [
+        "AI-related",
+        "safety"
+      ],
+      "uk_relevant": false,
+      "priority": "Watch",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Hacker News: AI agents / prompt injection",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.2136,
       "semantic_mode": "local_hash_similarity"
     }
   ]
