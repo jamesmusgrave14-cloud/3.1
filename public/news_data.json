@@ -1,54 +1,55 @@
 {
   "meta": {
     "ok": true,
-    "generatedAt": "2026-07-23T06:38:40+00:00",
+    "generatedAt": "2026-07-23T10:33:59+00:00",
     "mode": "broad-live-monitoring-v1",
-    "total": 108,
+    "total": 109,
     "categoryCount": 10,
     "sourceCount": 23,
     "scanWindow": "90d",
     "minScore": 5,
     "maxTotal": 900,
     "byCategory": {
-      "Cybercrime, malware and model abuse": 51,
+      "Cybercrime, malware and model abuse": 50,
       "RA13 – Terrorism, extremism and radicalisation": 4,
       "Use of AI to tackle crime and public safety": 1,
       "RA09 – AI-enabled fraud, financial crime and exploitation": 19,
-      "Open-source and open-weight model risk": 19,
+      "Open-source and open-weight model risk": 22,
       "RA14 – Illegal item creation, acquisition and criminal capability uplift": 1,
       "AI agents and autonomous capability uplift": 8,
-      "RA11 – Image-based abuse, VAWG and interpersonal harms": 2,
-      "RA11 – Child safeguarding and online protection risks": 3
+      "RA11 – Child safeguarding and online protection risks": 3,
+      "RA11 – Image-based abuse, VAWG and interpersonal harms": 1
     },
     "byPriority": {
-      "High": 8,
+      "High": 9,
       "Medium": 99,
       "Watch": 1
     },
     "rejectCounts": {
-      "no_ai_signal": 42,
-      "outside_window": 556,
-      "no_harm_signal": 135,
-      "no_matching_category": 369,
+      "no_ai_signal": 44,
+      "outside_window": 555,
+      "no_harm_signal": 133,
+      "blocked_generic_business": 1,
+      "no_matching_category": 370,
       "duplicate": 1
     },
     "errors": {},
     "semanticMode": "local_hash_similarity"
   },
   "briefing": {
-    "generatedAt": "2026-07-23T06:38:40+00:00",
-    "headline": "108 items retained; 8 high priority; 8 UK-relevant.",
+    "generatedAt": "2026-07-23T10:33:59+00:00",
+    "headline": "109 items retained; 9 high priority; 9 UK-relevant.",
     "top_categories": [
       [
         "Cybercrime, malware and model abuse",
-        51
-      ],
-      [
-        "RA09 – AI-enabled fraud, financial crime and exploitation",
-        19
+        50
       ],
       [
         "Open-source and open-weight model risk",
+        22
+      ],
+      [
+        "RA09 – AI-enabled fraud, financial crime and exploitation",
         19
       ],
       [
@@ -64,18 +65,18 @@
         3
       ],
       [
-        "RA11 – Image-based abuse, VAWG and interpersonal harms",
-        2
+        "Use of AI to tackle crime and public safety",
+        1
       ],
       [
-        "Use of AI to tackle crime and public safety",
+        "RA14 – Illegal item creation, acquisition and criminal capability uplift",
         1
       ]
     ],
     "top_watchlist_hits": [
       [
         "Open-source / open-weight models",
-        23
+        26
       ],
       [
         "Deepfake tools",
@@ -91,6 +92,45 @@
       ]
     ],
     "top_clusters": [
+      {
+        "id": "cc7d9b1d325425b6",
+        "title": "Watchlist: Open-source / open-weight models",
+        "count": 19,
+        "category": "Open-source and open-weight model risk",
+        "latest": "2026-07-23T09:48:04+00:00",
+        "first_seen": "2026-06-04T12:00:00+00:00",
+        "uk_count": 1,
+        "highest_score": 12,
+        "item_ids": [
+          "349dab6bc3a2b7ee",
+          "c17a28ec86fb596c",
+          "3e26c41a5f8d287d",
+          "581c233f3f1099a6",
+          "e698ded772c83e66",
+          "5d289cdb3b303a40",
+          "5af855408c0d0001",
+          "0f3994ee6307630c",
+          "a84d50e3f716bef4",
+          "81b639669dec56fd",
+          "869ffc60ec2f59df",
+          "8bf63e11dfddc2d7",
+          "45feb07e96b7f0ee",
+          "33404e5239236e6d",
+          "4bc768d937d5bd98",
+          "f5e5b2c6b472c151",
+          "b627ef69243b2223",
+          "04d7b5a647a18787",
+          "9a6817ca3dc4b9a4"
+        ],
+        "top_titles": [
+          "‘Free AI is great’: Why US tech CEOs are warming up to Chinese open-weight AI models",
+          "OpenAI Model Jailbreaks Open-Source Community; China's Zhipu GLM 5.2 Rides to the Rescue in Silicon Valley, Shaking Up AI Security Landscape",
+          "Upstage unveils Solar Open 2, open-weight AI model built for autonomous tasks",
+          "OpenAI AI Escape Drives US Congress Calls for Mandatory Safety Testing",
+          "The specter of “AI communism”: Chinese open-weight models and the crisis of the American AI bubble",
+          "OpenAI’s rogue hacking incident was a warning shot. Will it be a wake-up call to finally create AI safety regulation?"
+        ]
+      },
       {
         "id": "8b5dc9c80dead8a5",
         "title": "Watchlist: Deepfake tools",
@@ -126,42 +166,6 @@
           "AI scams in Georgia and South Florida: How scammers use deepfakes to steal millions",
           "AI, deepfakes used in 12 percent of successful scams: Survey",
           "Australia pushes more AI nudify services offline over child safety"
-        ]
-      },
-      {
-        "id": "cc7d9b1d325425b6",
-        "title": "Watchlist: Open-source / open-weight models",
-        "count": 16,
-        "category": "Open-source and open-weight model risk",
-        "latest": "2026-07-23T04:40:54+00:00",
-        "first_seen": "2026-06-04T12:00:00+00:00",
-        "uk_count": 1,
-        "highest_score": 12,
-        "item_ids": [
-          "581c233f3f1099a6",
-          "e698ded772c83e66",
-          "5d289cdb3b303a40",
-          "5af855408c0d0001",
-          "0f3994ee6307630c",
-          "a84d50e3f716bef4",
-          "81b639669dec56fd",
-          "869ffc60ec2f59df",
-          "8bf63e11dfddc2d7",
-          "45feb07e96b7f0ee",
-          "33404e5239236e6d",
-          "f5e5b2c6b472c151",
-          "b627ef69243b2223",
-          "04d7b5a647a18787",
-          "b369e9cce6ca7e01",
-          "9a6817ca3dc4b9a4"
-        ],
-        "top_titles": [
-          "OpenAI AI Escape Drives US Congress Calls for Mandatory Safety Testing",
-          "The specter of “AI communism”: Chinese open-weight models and the crisis of the American AI bubble",
-          "OpenAI’s rogue hacking incident was a warning shot. Will it be a wake-up call to finally create AI safety regulation?",
-          "OpenAI AI models exploited zero-days to reach Hugging Face in benchmark test",
-          "Poolside drops Laguna S 2.1, an open-weight coding model that beats rivals 10x its size",
-          "Kimi K3 rocks the AI industry as Moonshot AI undercuts closed-source American competitors on price — but the huge 2.8T open-weight model still needs serious hardware to deploy at scale"
         ]
       },
       {
@@ -227,19 +231,17 @@
       {
         "id": "06b4e90de1e9fe33",
         "title": "Cybercrime, malware and model abuse: fakegit campaign github",
-        "count": 3,
+        "count": 2,
         "category": "Cybercrime, malware and model abuse",
-        "latest": "2026-07-21T18:34:17-04:00",
+        "latest": "2026-07-20T23:53:03+05:30",
         "first_seen": "2026-07-20T18:23:00+00:00",
         "uk_count": 0,
         "highest_score": 12,
         "item_ids": [
-          "25e93c5a5a79346b",
           "edb5c488e441b938",
           "436096572cafb02a"
         ],
         "top_titles": [
-          "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
           "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
           "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware"
         ]
@@ -277,19 +279,19 @@
         ]
       },
       {
-        "id": "c3779bd6158547aa",
-        "title": "RA14 – Illegal item creation, acquisition and criminal capability uplift: russian intelligence hacks",
+        "id": "6f214d264118df61",
+        "title": "Cybercrime, malware and model abuse: criminals already create",
         "count": 1,
-        "category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
-        "latest": "2026-07-20T17:43:39+05:30",
-        "first_seen": "2026-07-20T17:43:39+05:30",
+        "category": "Cybercrime, malware and model abuse",
+        "latest": "2026-05-13T07:00:00+00:00",
+        "first_seen": "2026-05-13T07:00:00+00:00",
         "uk_count": 1,
-        "highest_score": 11,
+        "highest_score": 12,
         "item_ids": [
-          "995f7707c053fbed"
+          "47598965f54dd2e3"
         ],
         "top_titles": [
-          "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine"
+          "Criminals have already used AI to create a zero-day exploit"
         ]
       }
     ],
@@ -330,6 +332,13 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSl83SWpPWVluSEd1TW5FMm9KQVVMakhkRjVxSXJfWjJEM2lqd1BTRHZ4UVFZZU5zNVpwU0tXVnpNZTMtem4xZ1A4djhqdmtwNWk0dl9tSEp0cmlkdmJiSFpnY0xyMWpOMF9aOHZpaEN1eHlxYWhva0dyYjZ5YXZlcDJ2YUhSMEdPRTJiVlVtSDFtUkNxV0s2X9IBoAFBVV95cUxPOXJXYXRMOWlEYVBEVjdwNFNDbllyaTdMdXM3UG9RdW5vVFlZbUFfdFFYZ3BmMzJXMjRSeGpYZFMzYjNib05RWjl4RVNWc0wxTmpkR3UwQkxtMzFwZms2X05WcEgtRjBrck5OWnRKTUhVN1pDLWQ0UUJhRlp2YTFlTVJOblRUUXQtQldfQ2ZtZDJjYUpfM1VoSkR0MUNwcE43?oc=5"
       },
       {
+        "title": "Criminals have already used AI to create a zero-day exploit",
+        "category": "Cybercrime, malware and model abuse",
+        "priority": "High",
+        "score": 12,
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdi14UHFONDMtZkNqQXdSbEtCalkxaVJCdHAwa0c4TEZRc0dwMTd2SG9qSl9ZUmxPWlRFTkY5Z280aVFuZWlJMlJmVlFLX1VFUEs3MmxmajQ4RUtKMDY4VGZTMmFXZGRQaTNNRFNrWXVZQTBNQlJoMVYzQ01LcktIZ1ZoLUpNUXRuSVNzdXhSMlQyT1pzWHc?oc=5"
+      },
+      {
         "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
         "category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
         "priority": "High",
@@ -351,6 +360,13 @@
         "url": "https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies"
       },
       {
+        "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+        "category": "Cybercrime, malware and model abuse",
+        "priority": "Medium",
+        "score": 12,
+        "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html"
+      },
+      {
         "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
         "category": "Cybercrime, malware and model abuse",
         "priority": "Medium",
@@ -363,25 +379,50 @@
         "priority": "Medium",
         "score": 12,
         "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html"
-      },
-      {
-        "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-        "category": "Cybercrime, malware and model abuse",
-        "priority": "Medium",
-        "score": 12,
-        "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
-      },
-      {
-        "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-        "category": "Cybercrime, malware and model abuse",
-        "priority": "Medium",
-        "score": 12,
-        "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
       }
     ],
     "suggested_use": "Use as a triage aid. Verify sources before using in advice, briefings or commissions."
   },
   "clusters": [
+    {
+      "id": "cc7d9b1d325425b6",
+      "title": "Watchlist: Open-source / open-weight models",
+      "count": 19,
+      "category": "Open-source and open-weight model risk",
+      "latest": "2026-07-23T09:48:04+00:00",
+      "first_seen": "2026-06-04T12:00:00+00:00",
+      "uk_count": 1,
+      "highest_score": 12,
+      "item_ids": [
+        "349dab6bc3a2b7ee",
+        "c17a28ec86fb596c",
+        "3e26c41a5f8d287d",
+        "581c233f3f1099a6",
+        "e698ded772c83e66",
+        "5d289cdb3b303a40",
+        "5af855408c0d0001",
+        "0f3994ee6307630c",
+        "a84d50e3f716bef4",
+        "81b639669dec56fd",
+        "869ffc60ec2f59df",
+        "8bf63e11dfddc2d7",
+        "45feb07e96b7f0ee",
+        "33404e5239236e6d",
+        "4bc768d937d5bd98",
+        "f5e5b2c6b472c151",
+        "b627ef69243b2223",
+        "04d7b5a647a18787",
+        "9a6817ca3dc4b9a4"
+      ],
+      "top_titles": [
+        "‘Free AI is great’: Why US tech CEOs are warming up to Chinese open-weight AI models",
+        "OpenAI Model Jailbreaks Open-Source Community; China's Zhipu GLM 5.2 Rides to the Rescue in Silicon Valley, Shaking Up AI Security Landscape",
+        "Upstage unveils Solar Open 2, open-weight AI model built for autonomous tasks",
+        "OpenAI AI Escape Drives US Congress Calls for Mandatory Safety Testing",
+        "The specter of “AI communism”: Chinese open-weight models and the crisis of the American AI bubble",
+        "OpenAI’s rogue hacking incident was a warning shot. Will it be a wake-up call to finally create AI safety regulation?"
+      ]
+    },
     {
       "id": "8b5dc9c80dead8a5",
       "title": "Watchlist: Deepfake tools",
@@ -417,42 +458,6 @@
         "AI scams in Georgia and South Florida: How scammers use deepfakes to steal millions",
         "AI, deepfakes used in 12 percent of successful scams: Survey",
         "Australia pushes more AI nudify services offline over child safety"
-      ]
-    },
-    {
-      "id": "cc7d9b1d325425b6",
-      "title": "Watchlist: Open-source / open-weight models",
-      "count": 16,
-      "category": "Open-source and open-weight model risk",
-      "latest": "2026-07-23T04:40:54+00:00",
-      "first_seen": "2026-06-04T12:00:00+00:00",
-      "uk_count": 1,
-      "highest_score": 12,
-      "item_ids": [
-        "581c233f3f1099a6",
-        "e698ded772c83e66",
-        "5d289cdb3b303a40",
-        "5af855408c0d0001",
-        "0f3994ee6307630c",
-        "a84d50e3f716bef4",
-        "81b639669dec56fd",
-        "869ffc60ec2f59df",
-        "8bf63e11dfddc2d7",
-        "45feb07e96b7f0ee",
-        "33404e5239236e6d",
-        "f5e5b2c6b472c151",
-        "b627ef69243b2223",
-        "04d7b5a647a18787",
-        "b369e9cce6ca7e01",
-        "9a6817ca3dc4b9a4"
-      ],
-      "top_titles": [
-        "OpenAI AI Escape Drives US Congress Calls for Mandatory Safety Testing",
-        "The specter of “AI communism”: Chinese open-weight models and the crisis of the American AI bubble",
-        "OpenAI’s rogue hacking incident was a warning shot. Will it be a wake-up call to finally create AI safety regulation?",
-        "OpenAI AI models exploited zero-days to reach Hugging Face in benchmark test",
-        "Poolside drops Laguna S 2.1, an open-weight coding model that beats rivals 10x its size",
-        "Kimi K3 rocks the AI industry as Moonshot AI undercuts closed-source American competitors on price — but the huge 2.8T open-weight model still needs serious hardware to deploy at scale"
       ]
     },
     {
@@ -518,19 +523,17 @@
     {
       "id": "06b4e90de1e9fe33",
       "title": "Cybercrime, malware and model abuse: fakegit campaign github",
-      "count": 3,
+      "count": 2,
       "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-07-21T18:34:17-04:00",
+      "latest": "2026-07-20T23:53:03+05:30",
       "first_seen": "2026-07-20T18:23:00+00:00",
       "uk_count": 0,
       "highest_score": 12,
       "item_ids": [
-        "25e93c5a5a79346b",
         "edb5c488e441b938",
         "436096572cafb02a"
       ],
       "top_titles": [
-        "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
         "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
         "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware"
       ]
@@ -568,6 +571,22 @@
       ]
     },
     {
+      "id": "6f214d264118df61",
+      "title": "Cybercrime, malware and model abuse: criminals already create",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-05-13T07:00:00+00:00",
+      "first_seen": "2026-05-13T07:00:00+00:00",
+      "uk_count": 1,
+      "highest_score": 12,
+      "item_ids": [
+        "47598965f54dd2e3"
+      ],
+      "top_titles": [
+        "Criminals have already used AI to create a zero-day exploit"
+      ]
+    },
+    {
       "id": "c3779bd6158547aa",
       "title": "RA14 – Illegal item creation, acquisition and criminal capability uplift: russian intelligence hacks",
       "count": 1,
@@ -597,6 +616,22 @@
       ],
       "top_titles": [
         "UK and Allies urge critical sectors to improve defences against Russian intelligence targeting"
+      ]
+    },
+    {
+      "id": "cd003f13e7db01a5",
+      "title": "Cybercrime, malware and model abuse: check point patches",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-23T12:04:36+05:30",
+      "first_seen": "2026-07-23T12:04:36+05:30",
+      "uk_count": 0,
+      "highest_score": 12,
+      "item_ids": [
+        "73df7949ef1d4663"
+      ],
+      "top_titles": [
+        "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access"
       ]
     },
     {
@@ -744,22 +779,6 @@
       ]
     },
     {
-      "id": "d4ed66ec82e0863e",
-      "title": "Cybercrime, malware and model abuse: threatsday cheat spyware",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-07-16T21:11:15+05:30",
-      "first_seen": "2026-07-16T21:11:15+05:30",
-      "uk_count": 0,
-      "highest_score": 12,
-      "item_ids": [
-        "86ab1ae4468d760f"
-      ],
-      "top_titles": [
-        "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories"
-      ]
-    },
-    {
       "id": "9977b04fb94b9a8b",
       "title": "Cybercrime, malware and model abuse: enterprise genai amplify",
       "count": 1,
@@ -773,38 +792,6 @@
       ],
       "top_titles": [
         "How enterprise GenAI can amplify ransomware risk — and how to contain it"
-      ]
-    },
-    {
-      "id": "a7a0e73634f3ebd2",
-      "title": "Cybercrime, malware and model abuse: critical sharepoint exploited",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-07-21T16:06:55-04:00",
-      "first_seen": "2026-07-21T16:06:55-04:00",
-      "uk_count": 0,
-      "highest_score": 11,
-      "item_ids": [
-        "0f532bfcb08c2a35"
-      ],
-      "top_titles": [
-        "Critical SharePoint RCE flaw exploited to steal machine keys"
-      ]
-    },
-    {
-      "id": "81dcadb332ada0ac",
-      "title": "Cybercrime, malware and model abuse: anubis ransomware claims",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-07-21T14:50:54-04:00",
-      "first_seen": "2026-07-21T14:50:54-04:00",
-      "uk_count": 0,
-      "highest_score": 11,
-      "item_ids": [
-        "e6814281f357c068"
-      ],
-      "top_titles": [
-        "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak"
       ]
     },
     {
@@ -856,6 +843,22 @@
       ]
     },
     {
+      "id": "bf02ae733e74dc59",
+      "title": "Cybercrime, malware and model abuse: swiss train maker",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-22T23:00:00+00:00",
+      "first_seen": "2026-07-22T23:00:00+00:00",
+      "uk_count": 0,
+      "highest_score": 10,
+      "item_ids": [
+        "87902c02158fae39"
+      ],
+      "top_titles": [
+        "Swiss train maker Stadler refuses Everest $12 million ransomware demand"
+      ]
+    },
+    {
       "id": "55bab4c75134f273",
       "title": "Cybercrime, malware and model abuse: adobe acrobat extension",
       "count": 1,
@@ -885,22 +888,6 @@
       ],
       "top_titles": [
         "Why Modern SOCs Need Multi-Layered Detections"
-      ]
-    },
-    {
-      "id": "57d3de7126c0518f",
-      "title": "RA11 – Image-based abuse, VAWG and interpersonal harms: japanese logistics giant",
-      "count": 1,
-      "category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
-      "latest": "2026-07-22T15:40:00+00:00",
-      "first_seen": "2026-07-22T15:40:00+00:00",
-      "uk_count": 0,
-      "highest_score": 10,
-      "item_ids": [
-        "f05cc0e39b30e68c"
-      ],
-      "top_titles": [
-        "Japanese food logistics giant recovers as extortion group claims cyberattack"
       ]
     },
     {
@@ -1000,22 +987,6 @@
       ]
     },
     {
-      "id": "6517da5c2591e908",
-      "title": "Cybercrime, malware and model abuse: interpol warns phishing",
-      "count": 1,
-      "category": "Cybercrime, malware and model abuse",
-      "latest": "2026-06-22T07:00:00+00:00",
-      "first_seen": "2026-06-22T07:00:00+00:00",
-      "uk_count": 0,
-      "highest_score": 10,
-      "item_ids": [
-        "3f902cf1d52fb44d"
-      ],
-      "top_titles": [
-        "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific"
-      ]
-    },
-    {
       "id": "5bfd50198a9c7d46",
       "title": "RA13 – Terrorism, extremism and radicalisation: countering terrorist propaganda",
       "count": 1,
@@ -1093,6 +1064,22 @@
       ],
       "top_titles": [
         "Fortinet warns ransomware victims rise 389% amid AI"
+      ]
+    },
+    {
+      "id": "a688854a997fa555",
+      "title": "Cybercrime, malware and model abuse: nine-year-old refluxfs linux",
+      "count": 1,
+      "category": "Cybercrime, malware and model abuse",
+      "latest": "2026-07-23T13:34:35+05:30",
+      "first_seen": "2026-07-23T13:34:35+05:30",
+      "uk_count": 0,
+      "highest_score": 9,
+      "item_ids": [
+        "63934cbfb6cfed99"
+      ],
+      "top_titles": [
+        "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs"
       ]
     },
     {
@@ -1630,6 +1617,41 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Criminals have already used AI to create a zero-day exploit",
+      "summary": "Criminals have already used AI to create a zero-day exploit Computing UK",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdi14UHFONDMtZkNqQXdSbEtCalkxaVJCdHAwa0c4TEZRc0dwMTd2SG9qSl9ZUmxPWlRFTkY5Z280aVFuZWlJMlJmVlFLX1VFUEs3MmxmajQ4RUtKMDY4VGZTMmFXZGRQaTNNRFNrWXVZQTBNQlJoMVYzQ01LcktIZ1ZoLUpNUXRuSVNzdXhSMlQyT1pzWHc?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: Cybercrime, malware and model abuse",
+      "source_type": "google_news",
+      "publishedAt": "2026-05-13T07:00:00+00:00",
+      "id": "47598965f54dd2e3",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 12,
+      "why": [
+        "AI-related",
+        "exploit",
+        "UK signal",
+        "higher-trust source"
+      ],
+      "uk_relevant": true,
+      "priority": "High",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "Google News category: Cybercrime, malware and model abuse",
+      "watchlist_hits": [],
+      "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
+      "semantic_score": 0.112,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
       "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops. That is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence",
       "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
@@ -1739,6 +1761,40 @@
       ],
       "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
       "semantic_score": 0.1866,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+      "summary": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild. The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an",
+      "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-07-23T12:04:36+05:30",
+      "id": "73df7949ef1d4663",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 12,
+      "why": [
+        "AI-related",
+        "exploit",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [],
+      "semantic_category": "RA14 – Illegal item creation, acquisition and criminal capability uplift",
+      "semantic_score": 0.168,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2124,40 +2180,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-      "summary": "A lot of this week’s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone else, and the damage moves faster than the explanation. Old bugs are back, weak defaults are earning their keep, and some attack paths are so plain they barely feel like research. Here’s the mess.",
-      "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-      "domain": "thehackernews.com",
-      "source": "The Hacker News",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-07-16T21:11:15+05:30",
-      "id": "86ab1ae4468d760f",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 12,
-      "why": [
-        "AI-related",
-        "ransomware",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "The Hacker News",
-      "watchlist_hits": [],
-      "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
-      "semantic_score": 0.1775,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "OpenAI AI Escape Drives US Congress Calls for Mandatory Safety Testing",
       "summary": "OpenAI AI Escape Drives US Congress Calls for Mandatory Safety Testing Tempo.co English",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW9NUXd0RkRkUHFta3VseTdQMHR1VjY3MzlnbWlEYUtIOHRWM2V5M0t4VVdTc1lmTldWZ0JSMEE3alhwbUJkaW9uVk5SU0o2UVNROUZDYUFwdU8xZjZWcm45c3cxUnVBNVRyOTBCNlFFbzBtd2FNWkw5eF83dElhb3cxUVJCUWFNR1FfQmlFTzBkRGlDMXNZSlRFNEpuVmtsSFB3QldB?oc=5",
@@ -2312,74 +2334,6 @@
       ],
       "semantic_category": "RA13 – Terrorism, extremism and radicalisation",
       "semantic_score": 0.2372,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
-      "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/",
-      "domain": "bleepingcomputer.com",
-      "source": "BleepingComputer",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-07-21T16:06:55-04:00",
-      "id": "0f532bfcb08c2a35",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 11,
-      "why": [
-        "AI-related",
-        "exploit",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "BleepingComputer",
-      "watchlist_hits": [],
-      "semantic_category": "Open-source and open-weight model risk",
-      "semantic_score": 0.1429,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-      "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-      "domain": "bleepingcomputer.com",
-      "source": "BleepingComputer",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-07-21T14:50:54-04:00",
-      "id": "e6814281f357c068",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 11,
-      "why": [
-        "AI-related",
-        "ransomware",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "BleepingComputer",
-      "watchlist_hits": [],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.1519,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2609,6 +2563,129 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "‘Free AI is great’: Why US tech CEOs are warming up to Chinese open-weight AI models",
+      "summary": "‘Free AI is great’: Why US tech CEOs are warming up to Chinese open-weight AI models The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObU43NUhhYWxrZzZnbXNJRy1DSFdGR0ppTnJ0dHYtMmp2YVcwcVNMektXWEc2Tm5oV0xwWlB1RGN2Ri1vRXpkSkF5R0NFWDFBdnJ2YVVlTmZ5V1pSbm1NNURUcmk3Y2g0amlNeWl0LWl6THd1UEdidTg1dHBEZTE5enFSa0lscDhXQ01pRzdFb21yb0Yza0o4dFVHQmk5OGlmNHdSZE9MNWRXOEpTQjBTNlMxaWEzY184dUVFOEZQRUJOY2_SAcoBQVVfeXFMUGhRa1BXb2o3anQwMzZVT0d0cmxYQVMzRTlFSkVPUDdZM0FsZGIycFZnanVoQXA4aTJKMkExaUhtZi1jQXlTdnhEaDI1UFBvQTFyNkhPWjJZUWJLT0ZYVFE0ZVZ2NTNteUhjWnhrZEhKQ3hRVjRYWVJ5UWExVGk0amUzWkJINWF3SU5wSmJKbWNRRmFSNThEZVpHWF8wRGtFMDdKaEtiYjFOcF9JekRwa0lXNmljdmE5MVVscWYtbzVnNjdXTzdFRmRwUQ?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Open-source / open-weight models",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-07-23T09:48:04+00:00",
+      "id": "349dab6bc3a2b7ee",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "open-weight",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Open-source / open-weight models",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.2824,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "OpenAI Model Jailbreaks Open-Source Community; China's Zhipu GLM 5.2 Rides to the Rescue in Silicon Valley, Shaking Up AI Security Landscape",
+      "summary": "OpenAI Model Jailbreaks Open-Source Community; China's Zhipu GLM 5.2 Rides to the Rescue in Silicon Valley, Shaking Up AI Security Landscape finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kS3FUdXVjdWlHVy11Vk1uVVBkZjJvMTlWMUNpQnVJUGZ0X3YyQmx6ZXQ4SGxycUZlUWdsczBEc0xGYjdKbE1CcVYzNnk0SHdHZXBLNlViVDhjVE9MYUliTktQSlRaSmY4TGtrNlNiSGZCdUFYY1E?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News category: Open-source and open-weight model risk",
+      "source_type": "google_news",
+      "publishedAt": "2026-07-23T05:55:00+00:00",
+      "id": "c17a28ec86fb596c",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "jailbreak",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News category: Open-source and open-weight model risk",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.2494,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Upstage unveils Solar Open 2, open-weight AI model built for autonomous tasks",
+      "summary": "Upstage unveils Solar Open 2, open-weight AI model built for autonomous tasks The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnJ0ZFhiemxLZGsya1VRZVlIQVpuT2c3b3dIRkFNbHM5OTlGaE5SVmFXaGV2TVRQWmtzVVJKMWlwb2ZQcFFCSW04YUJEYm96d0pqZndsQXppXzVPcUVmYzh3Tkt0ZkctNVJLRWFoSGNLZHpHQWt0aFZJTWNGZm1WYmxsUjBMb0hsdlVNWTVMTGJWUDBBYWxWMnpZSXptUEhWN1haazJrUEtxRkdkejFqeG5mNUgzdzhReF9nb3I0elpBMjFaY3pJc3lxSGg5SVlpSzFR0gHTAUFVX3lxTE9CcnRkWGJ6bEtkazJrVVFlWUhBWm5PZzdvd0hGQU1sczk5OUZoTlJWYVdoZXZNVFBaa3NVUkoxaXBvZlBwUUJJbThhQkRib3p3Smpmd2xBemlfNU9xRWZjOHdOS3RmRy01UktFYWhIY0tkekdBa3RoVklNY0ZmbVZibGxSMExvSGx2VU1ZNUxMYlZQMEFhbFYyellJem1QSFY3WFprMmtQS3FGR2R6MWp4bmY1SDN3OFF4X2dvcjR6WkEyMVpjeklzeXFIaDlJWWlLMVE?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Open-source / open-weight models",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-07-23T05:34:00+00:00",
+      "id": "3e26c41a5f8d287d",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "open-weight",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Open-source / open-weight models",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.2125,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "The specter of “AI communism”: Chinese open-weight models and the crisis of the American AI bubble",
       "summary": "The specter of “AI communism”: Chinese open-weight models and the crisis of the American AI bubble World Socialist Web Site",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BUjk2UW1TWkRxeHlqa2ZpYmVPamFOaGFoUlAyZlRVU0haSnliNGgwN3hwX25KVFN4Sm1ZUW9XOU1jcV9fdHZWTU9hd2t3dXFEZjliaVExa2N2QTl1Y1RuVEpmZWpEbEdm?oc=5",
@@ -2681,6 +2758,40 @@
       "watchlist_hits": [],
       "semantic_category": "Use of AI to tackle crime and public safety",
       "semantic_score": 0.2359,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "Swiss train maker Stadler refuses Everest $12 million ransomware demand",
+      "summary": "Stadler Rail said it will not make a $12.3 million ransom payment after cybercriminals stole technical data from a supplier's file-sharing platform.",
+      "url": "https://therecord.media/stadler-refuses-everest-ransom-demand",
+      "domain": "therecord.media",
+      "source": "The Record",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-07-22T23:00:00+00:00",
+      "id": "87902c02158fae39",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "ransomware",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Record",
+      "watchlist_hits": [],
+      "semantic_category": "AI agents and autonomous capability uplift",
+      "semantic_score": 0.2286,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -2832,39 +2943,6 @@
       "watchlist_hits": [],
       "semantic_category": "Open-source and open-weight model risk",
       "semantic_score": 0.2796,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "Japanese food logistics giant recovers as extortion group claims cyberattack",
-      "summary": "Nichirei Logistics Group said warehouse operations and frozen food shipments are returning to normal. A cybercrime gang said it caused the disruption.",
-      "url": "https://therecord.media/nichirei-japan-food-logistics-cyberattack-recovery",
-      "domain": "therecord.media",
-      "source": "The Record",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-07-22T15:40:00+00:00",
-      "id": "f05cc0e39b30e68c",
-      "category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
-      "risk_area": "RA11",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "Image-based abuse / interpersonal harm signal",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": true,
-      "policy_implications": [
-        "VAWG policy",
-        "victim support",
-        "online safety",
-        "platform safety",
-        "law enforcement readiness"
-      ],
-      "discoveredVia": "The Record",
-      "watchlist_hits": [],
-      "semantic_category": "Realistic fakes, evidence, identity and public trust",
-      "semantic_score": 0.1945,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3024,40 +3102,6 @@
       ],
       "semantic_category": "Open-source and open-weight model risk",
       "semantic_score": 0.2453,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
-      "summary": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more than 14 million downloads. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
-      "domain": "bleepingcomputer.com",
-      "source": "BleepingComputer",
-      "source_type": "cyber_news",
-      "publishedAt": "2026-07-21T18:34:17-04:00",
-      "id": "25e93c5a5a79346b",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "malware",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "BleepingComputer",
-      "watchlist_hits": [],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.3508,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -3416,6 +3460,47 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "AI Safety Grades Are In: No Lab Tops C+, and the Best Ones Are Retreating",
+      "summary": "AI Safety Grades Are In: No Lab Tops C+, and the Best Ones Are Retreating Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNDJndzUtYzhEY2lvMl95QmozWnFJckZnSVlQRktzVTRpZlcwZllZLVVuQW9jZ0JNV19CamIxTGdvTDVmOUtVdzNhbEFzaFVLSXZVb3pjLW9pWlJqYnYyU0lXUFY5WVhmcDhhcExLTmNIUG8zVklkSzFPRmhlSjlqVk5zUzQ2M0kxRUNjWWUwMHFvTDQ0dl9XM0pVN1pDRC1UWGdqYzdyM3RZUUtJWG9sbmZ2d3c?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Grok",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-07-19T15:25:18+00:00",
+      "id": "4bc768d937d5bd98",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 10,
+      "why": [
+        "AI-related",
+        "safety",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Grok",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.21,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
       "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
       "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
@@ -3660,47 +3745,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "China’s AI rise is powered by open-weight models. It could face a tough choice",
-      "summary": "China’s AI rise is powered by open-weight models. It could face a tough choice South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYnpFT002UzBPenNWSWhkdHo0LVROYjNnd1lEWXduRkh5eVZqVnBvbUV4bzVPanBWNmdINnZ0TnpleWtOYnBGMzRDTGlKNzdjVEZSbzJCT18wMGNoTFZNcW5FZmZTdWp3b3d5VjlyQndMaE9nM21BWUJUbm1mSkxxLXVHekRwRXBmazJHWXJPNFJlMGhMUXZsWWp3bE1ocWFWTXBiYlAwQ01MV2hUT1hsWC1Ca0NXVE9LSjZ4QjlscFprVTRrMHhfNFd1a1E5NHYzZlVGNXoxZTVSdzVrT1hR0gHfAUFVX3lxTFBDTmZ1QTJ1UEpGMy1YU1BOVGtVN255NGZMRUcxaS1hTG9NUHE3VTk3ZEhYRDZRUWFZZ3Q0T0xLVVJLTDRHWm1idWtvNFA3X3FYUEFCZi1MUEtfZWRtcTR2NmhJdHFvYXhJa2s5bWJjNkNjN2ZlLXppSC1qR05MWlFBRmZUV2IzOGhIMy1INUYyYi1YS3BSaE1TNUFUUGY3Q1V1QjVCQUJqd1J5V0IxQWtaSnVpMHZ2akNBU3BBWk1JSGFJR3I2STBRbUtrOGljemJCa29BZF9NemFTUE03cWs?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Open-source / open-weight models",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-07-08T07:00:00+00:00",
-      "id": "04d7b5a647a18787",
-      "category": "Open-source and open-weight model risk",
-      "risk_area": "Cross-cutting / open-source and supply chain",
-      "category_family": "Capability watch",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "open-weight",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "open-source policy",
-        "supply-chain control",
-        "testing and safeguards",
-        "industry engagement",
-        "international alignment"
-      ],
-      "discoveredVia": "Google News watchlist: Open-source / open-weight models",
-      "watchlist_hits": [
-        {
-          "name": "Open-source / open-weight models",
-          "type": "theme",
-          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
-          "owner_hint": "AIHM research/testing / open-source workstream"
-        }
-      ],
-      "semantic_category": "Open-source and open-weight model risk",
-      "semantic_score": 0.3024,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "AI agent exploits Langflow in first fully autonomous ransomware attack",
       "summary": "AI agent exploits Langflow in first fully autonomous ransomware attack SiliconANGLE",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcVJmSXdBUF84Z29lVE5qcnhINzNsV2Jhb2pXTzdBbHNQZEgtOG42LWd4RVpjZklaREVqcUlxTndFNUZHd1dXMGZZUm5yX19LaGpySXhHUzE1bWJEcFVjWDN3eF9SQnBybGVkTWpURm8zS0VOaHRaRUJka2lvNjlRME5RYnhxQjd0Y1NMaGpvUWJTY0VsaFFQTFMyZlpXTDJlbjJGNHloQQ?oc=5",
@@ -3777,47 +3821,6 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
-      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-      "summary": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOanItU1E3cmxGQnpYdFFSZlRNR3dqYXpLM2R1Z0s4bGRpZ1VMM29kUEk5XzRKZElXNnYwczd2OTM0R0ZpV2tWTVVxRm1wcExjeVNUeVRsNHV1QU8tUUVUSkl6eUtWZHluekJwVzJncFdER2dvZjkwaEROV0psSFNnNGVDdjlieF9uOFNEU3ZZcFAzUXA3V1I2bEtvZWh0TWpqQWd2blZUOVZ3cXE3NDFCODlmM0l5RHR5cjhDbjFrTzVOdEJaSUpHbmVB?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News category: Open-source and open-weight model risk",
-      "source_type": "google_news",
-      "publishedAt": "2026-06-25T07:00:00+00:00",
-      "id": "b369e9cce6ca7e01",
-      "category": "Open-source and open-weight model risk",
-      "risk_area": "Cross-cutting / open-source and supply chain",
-      "category_family": "Capability watch",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "safety",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "open-source policy",
-        "supply-chain control",
-        "testing and safeguards",
-        "industry engagement",
-        "international alignment"
-      ],
-      "discoveredVia": "Google News category: Open-source and open-weight model risk",
-      "watchlist_hits": [
-        {
-          "name": "Open-source / open-weight models",
-          "type": "theme",
-          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
-          "owner_hint": "AIHM research/testing / open-source workstream"
-        }
-      ],
-      "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
-      "semantic_score": 0.146,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
       "title": "Deepfake Identity Fraud Poised to Increase Nearly 500 Percent in 2026",
       "summary": "Deepfake Identity Fraud Poised to Increase Nearly 500 Percent in 2026 ASIS International",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFhZOUlsSGk1eVdHbFQ5dndJX21JMGl3SmkyaHZGRy1POEUzQlhlZ3hKYUxpMGdEV2M4d2lDT0dmbk44a29Ja3U3MmpWSVlvMTA1OWN1Q2t1U3BwN19LdVZWUWNEN0p5YWlxWF8wQmF0ZkRjbzlsQUVUVmxmSFlmbnprd3ZYUEhfQWMzajlMRkxhZXhRYkl2RGNTYUdXVDlBTTJ0YmpxMTNqWlMtdGZxeGhyQi1aenlPSHF2dg?oc=5",
@@ -3856,40 +3859,6 @@
       ],
       "semantic_category": "RA09 – AI-enabled fraud, financial crime and exploitation",
       "semantic_score": 0.2125,
-      "semantic_mode": "local_hash_similarity"
-    },
-    {
-      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
-      "summary": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRElia19STEJHUE9aU0prY2cyY05ySktobnluZFlEWlNndnY5RVZHVFl0M2RfMW1oakNtSEZuVjdhcTVZNjFyOGlrNnNrZml6bTllWXYyZzJWWURTTjVORy1xb2F4RVp2VTlYZGNFU2RJaUZIV1ZRMVc5eFlpdmNocF9VZw?oc=5",
-      "domain": "news.google.com",
-      "source": "Google News watchlist: Deepfake tools",
-      "source_type": "watchlist_news",
-      "publishedAt": "2026-06-22T07:00:00+00:00",
-      "id": "3f902cf1d52fb44d",
-      "category": "Cybercrime, malware and model abuse",
-      "risk_area": "Cross-cutting / cyber",
-      "category_family": "AI misuse / harms",
-      "relevance_score": 10,
-      "why": [
-        "AI-related",
-        "ransomware",
-        "higher-trust source"
-      ],
-      "uk_relevant": false,
-      "priority": "Medium",
-      "sensitive": false,
-      "policy_implications": [
-        "cyber policy",
-        "testing and safeguards",
-        "standards",
-        "operational readiness",
-        "regulatory response"
-      ],
-      "discoveredVia": "Google News watchlist: Deepfake tools",
-      "watchlist_hits": [],
-      "semantic_category": "Cybercrime, malware and model abuse",
-      "semantic_score": 0.3341,
       "semantic_mode": "local_hash_similarity"
     },
     {
@@ -4106,6 +4075,40 @@
       "semantic_mode": "local_hash_similarity"
     },
     {
+      "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+      "summary": "RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persistent root access. Qualys said default installations of Red Hat Enterprise Linux and its derivatives, Fedora Server, and Amazon Linux can meet the conditions for exploitation. The company demonstrated the race",
+      "url": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+      "domain": "thehackernews.com",
+      "source": "The Hacker News",
+      "source_type": "cyber_news",
+      "publishedAt": "2026-07-23T13:34:35+05:30",
+      "id": "63934cbfb6cfed99",
+      "category": "Cybercrime, malware and model abuse",
+      "risk_area": "Cross-cutting / cyber",
+      "category_family": "AI misuse / harms",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "exploit",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "cyber policy",
+        "testing and safeguards",
+        "standards",
+        "operational readiness",
+        "regulatory response"
+      ],
+      "discoveredVia": "The Hacker News",
+      "watchlist_hits": [],
+      "semantic_category": "RA11 – Child safeguarding and online protection risks",
+      "semantic_score": 0.2416,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
       "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
       "summary": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
@@ -4171,6 +4174,47 @@
       "watchlist_hits": [],
       "semantic_category": "RA11 – Image-based abuse, VAWG and interpersonal harms",
       "semantic_score": 0.2626,
+      "semantic_mode": "local_hash_similarity"
+    },
+    {
+      "title": "China’s AI rise is powered by open-weight models. It could face a tough choice",
+      "summary": "China’s AI rise is powered by open-weight models. It could face a tough choice South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYnpFT002UzBPenNWSWhkdHo0LVROYjNnd1lEWXduRkh5eVZqVnBvbUV4bzVPanBWNmdINnZ0TnpleWtOYnBGMzRDTGlKNzdjVEZSbzJCT18wMGNoTFZNcW5FZmZTdWp3b3d5VjlyQndMaE9nM21BWUJUbm1mSkxxLXVHekRwRXBmazJHWXJPNFJlMGhMUXZsWWp3bE1ocWFWTXBiYlAwQ01MV2hUT1hsWC1Ca0NXVE9LSjZ4QjlscFprVTRrMHhfNFd1a1E5NHYzZlVGNXoxZTVSdzVrT1hR0gHfAUFVX3lxTFBDTmZ1QTJ1UEpGMy1YU1BOVGtVN255NGZMRUcxaS1hTG9NUHE3VTk3ZEhYRDZRUWFZZ3Q0T0xLVVJLTDRHWm1idWtvNFA3X3FYUEFCZi1MUEtfZWRtcTR2NmhJdHFvYXhJa2s5bWJjNkNjN2ZlLXppSC1qR05MWlFBRmZUV2IzOGhIMy1INUYyYi1YS3BSaE1TNUFUUGY3Q1V1QjVCQUJqd1J5V0IxQWtaSnVpMHZ2akNBU3BBWk1JSGFJR3I2STBRbUtrOGljemJCa29BZF9NemFTUE03cWs?oc=5",
+      "domain": "news.google.com",
+      "source": "Google News watchlist: Open-source / open-weight models",
+      "source_type": "watchlist_news",
+      "publishedAt": "2026-07-08T07:00:00+00:00",
+      "id": "04d7b5a647a18787",
+      "category": "Open-source and open-weight model risk",
+      "risk_area": "Cross-cutting / open-source and supply chain",
+      "category_family": "Capability watch",
+      "relevance_score": 9,
+      "why": [
+        "AI-related",
+        "open-weight",
+        "higher-trust source"
+      ],
+      "uk_relevant": false,
+      "priority": "Medium",
+      "sensitive": false,
+      "policy_implications": [
+        "open-source policy",
+        "supply-chain control",
+        "testing and safeguards",
+        "industry engagement",
+        "international alignment"
+      ],
+      "discoveredVia": "Google News watchlist: Open-source / open-weight models",
+      "watchlist_hits": [
+        {
+          "name": "Open-source / open-weight models",
+          "type": "theme",
+          "reason": "Track evidence about proliferation, offline use, fine-tuning, safeguards and supply-chain risks.",
+          "owner_hint": "AIHM research/testing / open-source workstream"
+        }
+      ],
+      "semantic_category": "Open-source and open-weight model risk",
+      "semantic_score": 0.3024,
       "semantic_mode": "local_hash_similarity"
     },
     {
